@@ -1,0 +1,9 @@
+[submodule "libraries/functional-bot"]
+	path = libraries/functional-bot
+	url = git@github.com:marcusrugger/functional-bot.git
+[submodule "libraries/functional-vlpp"]
+	path = libraries/functional-vlpp
+	url = git@github.com:marcusrugger/functional-vlpp.git
+[submodule "libraries/StandardCplusplus"]
+	path = libraries/StandardCplusplus
+	url = git@github.com:maniacbug/StandardCplusplus.git
