@@ -17,7 +17,7 @@ static void createWeatherStation(BuildFabricator &fabricator)
 {
     fabricator.buildDisplayPin();
     // fabricator.buildDisplayAnimator();
-    // fabricator.buildMatrixAnimator();
+    fabricator.buildMatrixAnimator();
 }
 
 
