@@ -16,10 +16,11 @@ public:
 
 protected:
 
-    void                    assembleDisplayButton(void);
-    Me4Button::PROCESSOR    assembleSegmentedDisplayButton(void);
-    Me4Button::PROCESSOR    assembleMatrixDisplayButton(void);
-    Runnable                assembleMe4Button(uint8_t pinNumber);
+    Me4Button::PROCESSOR    assembleDisplayButton(void);
+    SinkUint16              assembleSegmentedDisplayButton(void);
+    SinkUint16              assembleMatrixDisplayButton(void);
+    Runnable                assembleMe4ButtonPanel(uint8_t pinNumber, Me4Button::PROCESSOR observer);
+    void                    assembleMe4Buttons(void);
 
 
 private:
