@@ -2,10 +2,9 @@
 #define BUILD_GAMEFABRICATOR_H
 
 #include <build.robotfabricator.h>
+#include <subject.me4button.h>
 #include <task.notifier.h>
-
-class Me4ButtonSubject;
-class Me1ButtonSubject;
+#include <task.runner.h>
 
 
 class GameFabricator : public RobotFabricator
@@ -17,17 +16,38 @@ public:
 
 protected:
 
-    Runnable assembleMe4Button(uint8_t pinNumber);
+    void                    assembleDisplayButton(void);
+    Me4Button::PROCESSOR    assembleSegmentedDisplayButton(void);
+    Me4Button::PROCESSOR    assembleMatrixDisplayButton(void);
+    Runnable                assembleMe4Button(uint8_t pinNumber);
 
 
 private:
 
-    Notifier<Me4ButtonSubject *> _notice4Button;
-    Notifier<Me1ButtonSubject *> _noticeButtonNone;
-    Notifier<Me1ButtonSubject *> _noticeButton1;
-    Notifier<Me1ButtonSubject *> _noticeButton2;
-    Notifier<Me1ButtonSubject *> _noticeButton3;
-    Notifier<Me1ButtonSubject *> _noticeButton4;
+    class GameBot
+    {
+    public:
+
+        GameBot(void) {}
+
+        void operator()(void) { while (true) _runner(); }
+
+
+    public:
+
+        TaskRunner _runner;
+
+        Notifier<Me4Button::BUTTON> _notice4Button;
+
+        Notifier<BUTTON_STATE> _noticeButtonNone;
+        Notifier<BUTTON_STATE> _noticeButton1;
+        Notifier<BUTTON_STATE> _noticeButton2;
+        Notifier<BUTTON_STATE> _noticeButton3;
+        Notifier<BUTTON_STATE> _noticeButton4;
+
+    };
+
+    GameBot _bot;
 
 };
 

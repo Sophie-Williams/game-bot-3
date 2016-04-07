@@ -1,7 +1,7 @@
 #include <StandardCplusplus.h>
 #include <functional-vlpp.h>
 #include <functional-bot.h>
-#include "build.robotfabricator.h"
+#include "build.gamefabricator.h"
 
 
 static Idleloop idleloop;
@@ -25,7 +25,7 @@ void setup(void)
 {
     Serial.begin(9600);
 
-    RobotFabricator fabricator;
+    GameFabricator fabricator;
     createWeatherStation(fabricator);
     idleloop = fabricator.getIdleloop();
 
