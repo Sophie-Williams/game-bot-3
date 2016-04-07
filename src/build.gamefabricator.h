@@ -3,6 +3,7 @@
 
 #include <build.robotfabricator.h>
 #include <subject.me4button.h>
+#include <subject.me1button.h>
 #include <task.notifier.h>
 #include <task.runner.h>
 
@@ -13,14 +14,20 @@ public:
 
     GameFabricator(void);
 
+    Runnable buildButtonViewer(void);
 
 protected:
 
     Me4Button::PROCESSOR    assembleDisplayButton(void);
-    SinkUint16              assembleSegmentedDisplayButton(void);
-    SinkUint16              assembleMatrixDisplayButton(void);
+    SinkUint16              assembleSegmentedDisplayDecimal(uint8_t scl, uint8_t sda);
+    SinkUint16              assembleMatrixDisplayDecimal(uint8_t scl, uint8_t sda);
     Runnable                assembleMe4ButtonPanel(uint8_t pinNumber, Me4Button::PROCESSOR observer);
-    void                    assembleMe4Buttons(void);
+
+    Me4Button::PROCESSOR    assembleMe4Buttons(Me1ButtonSubject::OBSERVER obNone,
+                                               Me1ButtonSubject::OBSERVER ob1,
+                                               Me1ButtonSubject::OBSERVER ob2,
+                                               Me1ButtonSubject::OBSERVER ob3,
+                                               Me1ButtonSubject::OBSERVER ob4);
 
 
 private:

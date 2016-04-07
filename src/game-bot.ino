@@ -7,27 +7,11 @@
 static Idleloop idleloop;
 
 
-static void createAnimator(BuildFabricator &fabricator)
-{
-    fabricator.buildDisplayAnimator();
-}
-
-
-static void createWeatherStation(BuildFabricator &fabricator)
-{
-    fabricator.buildDisplayPin();
-    // fabricator.buildDisplayAnimator();
-    fabricator.buildMatrixAnimator();
-}
-
-
 void setup(void)
 {
     Serial.begin(9600);
 
-    GameFabricator fabricator;
-    createWeatherStation(fabricator);
-    idleloop = fabricator.getIdleloop();
+    idleloop = GameFabricator().buildButtonViewer();
 
     Serial.println("Setup complete");
 }

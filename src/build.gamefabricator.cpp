@@ -2,21 +2,36 @@
 #include <subject.me4button.h>
 #include <subject.me1button.h>
 #include <task.notifier.h>
+#include <task.timer.h>
 #include <hardware.me7segmentencoder.h>
 #include <hardware.meledmatrixencoder.h>
 #include <protocol.segmentdisplay.h>
 #include <protocol.meledmatrix.h>
 #include <util.encoders.h>
 
+static const uint8_t Me7SegmentScl  = 2;
+static const uint8_t Me7SegmentSda  = 8;
+static const uint8_t MeLEDMatrixScl = 12;
+static const uint8_t MeLEDMatrixSda = 13;
+
 
 GameFabricator::GameFabricator(void)
 {}
 
 
+Runnable GameFabricator::buildButtonViewer(void)
+{
+    auto fnDisplay = assembleDisplayButton();
+    auto fnPanel   = assembleMe4ButtonPanel(A0, fnDisplay);
+
+    return TaskTimer(100, fnPanel);
+}
+
+
 Me4Button::PROCESSOR GameFabricator::assembleDisplayButton(void)
 {
-    auto fnDisplay1 = assembleSegmentedDisplayButton();
-    auto fnDisplay2 = assembleMatrixDisplayButton();
+    auto fnDisplay1 = assembleSegmentedDisplayDecimal(Me7SegmentScl, Me7SegmentSda);
+    auto fnDisplay2 = assembleMatrixDisplayDecimal(MeLEDMatrixScl, MeLEDMatrixSda);
 
     return [fnDisplay1, fnDisplay2](Me4Button::BUTTON button) mutable -> void
     {
@@ -26,26 +41,26 @@ Me4Button::PROCESSOR GameFabricator::assembleDisplayButton(void)
 }
 
 
-SinkUint16 GameFabricator::assembleSegmentedDisplayButton(void)
+SinkUint16 GameFabricator::assembleSegmentedDisplayDecimal(uint8_t scl, uint8_t sda)
 {
-    SegmentDisplayProtocol serializer1(createSegmentDisplayProtocol(2, 8));
-    DecEncoder encoder1(Me7SegmentEncoder::encodeDec);
+    SegmentDisplayProtocol serialize(createSegmentDisplayProtocol(scl, sda));
+    DecEncoder encode(Me7SegmentEncoder::encodeDec);
 
-    return [serializer1, encoder1](uint16_t value) mutable -> void
+    return [serialize, encode](uint16_t value) mutable -> void
     {
-        serializer1(encoder1(value));
+        serialize(encode(value));
     };
 }
 
 
-SinkUint16 GameFabricator::assembleMatrixDisplayButton(void)
+SinkUint16 GameFabricator::assembleMatrixDisplayDecimal(uint8_t scl, uint8_t sda)
 {
-    MeLEDMatrixProtocol serializer2(createMeLEDMatrixProtocol(12, 13));
-    MatrixDecEncoder encoder2(MeLEDMatrixEncoder::encodeDec);
+    MeLEDMatrixProtocol serialize(createMeLEDMatrixProtocol(scl, sda));
+    MatrixDecEncoder encode(MeLEDMatrixEncoder::encodeDec);
 
-    return [serializer2, encoder2](uint16_t value) mutable -> void
+    return [serialize, encode](uint16_t value) mutable -> void
     {
-        serializer2(encoder2(value));
+        serialize(encode(value));
     };
 }
 
@@ -54,15 +69,27 @@ Runnable GameFabricator::assembleMe4ButtonPanel(uint8_t pinNumber, Me4Button::PR
 {
     ControllerPin pin(pinNumber);
     Me4ButtonSubject setButtonState(observer);
-    return [pin, setButtonState](void) mutable -> void { setButtonState(Me4Button::translatePin(pin.readPin())); };
+
+    return [pin, setButtonState](void) mutable -> void
+    {
+        setButtonState(Me4Button::translatePin(pin.readPin()));
+    };
 }
 
 
-void GameFabricator::assembleMe4Buttons(void)
+Me4Button::PROCESSOR GameFabricator::assembleMe4Buttons(Me1ButtonSubject::OBSERVER obNone,
+                                                        Me1ButtonSubject::OBSERVER ob1,
+                                                        Me1ButtonSubject::OBSERVER ob2,
+                                                        Me1ButtonSubject::OBSERVER ob3,
+                                                        Me1ButtonSubject::OBSERVER ob4)
 {
-    _bot._notice4Button.subscribe( Me1ButtonSubject( _bot._noticeButton1,    Me4Button::BUTTON_1)    );
-    _bot._notice4Button.subscribe( Me1ButtonSubject( _bot._noticeButton2,    Me4Button::BUTTON_2)    );
-    _bot._notice4Button.subscribe( Me1ButtonSubject( _bot._noticeButton3,    Me4Button::BUTTON_3)    );
-    _bot._notice4Button.subscribe( Me1ButtonSubject( _bot._noticeButton4,    Me4Button::BUTTON_4)    );
-    _bot._notice4Button.subscribe( Me1ButtonSubject( _bot._noticeButtonNone, Me4Button::BUTTON_NONE) );
+    Notifier<Me4Button::BUTTON> fnNoticePanel;
+
+    if (obNone) fnNoticePanel.subscribe( Me1ButtonSubject( obNone, Me4Button::BUTTON_NONE) );
+    if (ob1)    fnNoticePanel.subscribe( Me1ButtonSubject( ob1,    Me4Button::BUTTON_1)    );
+    if (ob2)    fnNoticePanel.subscribe( Me1ButtonSubject( ob2,    Me4Button::BUTTON_2)    );
+    if (ob3)    fnNoticePanel.subscribe( Me1ButtonSubject( ob3,    Me4Button::BUTTON_3)    );
+    if (ob4)    fnNoticePanel.subscribe( Me1ButtonSubject( ob4,    Me4Button::BUTTON_4)    );
+
+    return fnNoticePanel;
 }
