@@ -9,6 +9,7 @@
 #include <protocol.meledmatrix.h>
 #include <util.encoders.h>
 
+static const uint8_t Me4ButtonPin   = A0;
 static const uint8_t Me7SegmentScl  = 2;
 static const uint8_t Me7SegmentSda  = 8;
 static const uint8_t MeLEDMatrixScl = 12;
@@ -19,12 +20,13 @@ GameFabricator::GameFabricator(void)
 {}
 
 
-Runnable GameFabricator::buildButtonViewer(void)
+void GameFabricator::buildButtonViewer(void)
 {
-    auto fnDisplay = assembleDisplayButton();
-    auto fnPanel   = assembleMe4ButtonPanel(A0, fnDisplay);
+    auto fnSource   = AnalogPinReader(Me4ButtonPin);
+    auto fnSink     = assembleMatrixDisplayDecimal(MeLEDMatrixScl, MeLEDMatrixSda);
+    auto fnPanel    = assembleMe4ButtonPanel(fnSource, fnSink);
 
-    return TaskTimer(100, fnPanel);
+    subscribe(50, fnPanel);
 }
 
 
@@ -37,42 +39,6 @@ Me4Button::PROCESSOR GameFabricator::assembleDisplayButton(void)
     {
         fnDisplay1((uint16_t) button);
         fnDisplay2((uint16_t) button);
-    };
-}
-
-
-SinkUint16 GameFabricator::assembleSegmentedDisplayDecimal(uint8_t scl, uint8_t sda)
-{
-    SegmentDisplayProtocol serialize(createSegmentDisplayProtocol(scl, sda));
-    DecEncoder encode(Me7SegmentEncoder::encodeDec);
-
-    return [serialize, encode](uint16_t value) mutable -> void
-    {
-        serialize(encode(value));
-    };
-}
-
-
-SinkUint16 GameFabricator::assembleMatrixDisplayDecimal(uint8_t scl, uint8_t sda)
-{
-    MeLEDMatrixProtocol serialize(createMeLEDMatrixProtocol(scl, sda));
-    MatrixDecEncoder encode(MeLEDMatrixEncoder::encodeDec);
-
-    return [serialize, encode](uint16_t value) mutable -> void
-    {
-        serialize(encode(value));
-    };
-}
-
-
-Runnable GameFabricator::assembleMe4ButtonPanel(uint8_t pinNumber, Me4Button::PROCESSOR observer)
-{
-    ControllerPin pin(pinNumber);
-    Me4ButtonSubject setButtonState(observer);
-
-    return [pin, setButtonState](void) mutable -> void
-    {
-        setButtonState(Me4Button::translatePin(pin.readPin()));
     };
 }
 

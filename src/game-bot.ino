@@ -7,11 +7,20 @@
 static Idleloop idleloop;
 
 
+static void buildMachine(GameFabricator &fabricator)
+{
+    fabricator.buildDisplayAnimator();
+    fabricator.buildButtonViewer();
+}
+
+
 void setup(void)
 {
     Serial.begin(9600);
 
-    idleloop = GameFabricator().buildButtonViewer();
+    GameFabricator fabricator;
+    buildMachine(fabricator);
+    idleloop = fabricator.getIdleloop();
 
     Serial.println("Setup complete");
 }
