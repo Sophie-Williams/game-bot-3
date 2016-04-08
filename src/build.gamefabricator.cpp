@@ -17,29 +17,23 @@ static const uint8_t MeLEDMatrixSda = 13;
 
 
 GameFabricator::GameFabricator(void)
+:   _gamebot(new GameBot())
 {}
 
 
-void GameFabricator::buildButtonViewer(void)
+void GameFabricator::build4ButtonPanel(void)
 {
     auto fnSource   = AnalogPinReader(Me4ButtonPin);
-    auto fnSink     = assembleMatrixDisplayDecimal(MeLEDMatrixScl, MeLEDMatrixSda);
-    auto fnPanel    = assembleMe4ButtonPanel(fnSource, fnSink);
+    auto fnPanel    = assembleMe4ButtonPanel(fnSource, _gamebot->get4ButtonProc());
 
     subscribe(50, fnPanel);
 }
 
 
-Me4Button::PROCESSOR GameFabricator::assembleDisplayButton(void)
+void GameFabricator::build4ButtonPanelViewer(void)
 {
-    auto fnDisplay1 = assembleSegmentedDisplayDecimal(Me7SegmentScl, Me7SegmentSda);
-    auto fnDisplay2 = assembleMatrixDisplayDecimal(MeLEDMatrixScl, MeLEDMatrixSda);
-
-    return [fnDisplay1, fnDisplay2](Me4Button::BUTTON button) mutable -> void
-    {
-        fnDisplay1((uint16_t) button);
-        fnDisplay2((uint16_t) button);
-    };
+    auto fnObserver = assembleMatrixDisplayDecimal(MeLEDMatrixScl, MeLEDMatrixSda);
+    _gamebot->_me4ButtonPanel.subscribe(fnObserver);
 }
 
 
@@ -58,4 +52,16 @@ Me4Button::PROCESSOR GameFabricator::assembleMe4Buttons(Me1ButtonSubject::OBSERV
     if (ob4)    fnNoticePanel.subscribe( Me1ButtonSubject( ob4,    Me4Button::BUTTON_4)    );
 
     return fnNoticePanel;
+}
+
+
+void GameFabricator::subscribe(uint16_t time, Runnable task)
+{
+    _gamebot->_runner.subscribe( TaskTimer(time, task) );
+}
+
+
+Idleloop GameFabricator::getIdleloop(void)
+{
+    return _gamebot->getIdleloop();
 }

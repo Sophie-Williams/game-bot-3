@@ -10,7 +10,8 @@ static Idleloop idleloop;
 static void buildMachine(GameFabricator &fabricator)
 {
     fabricator.buildDisplayAnimator();
-    fabricator.buildButtonViewer();
+    fabricator.build4ButtonPanel();
+    fabricator.build4ButtonPanelViewer();
 }
 
 
