@@ -14,10 +14,10 @@ public:
     GameFabricator(void);
 
     void build4ButtonPanel(void);
-    void buildPanelButtons(void);
     void build4ButtonPanelViewer(void);
 
     void buildMockButtonPanel(void);
+    void buildDisplayFreeMemory(void);
 
     EventLoop getEventLoop(void);
 

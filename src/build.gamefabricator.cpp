@@ -50,20 +50,78 @@ void GameFabricator::buildMockButtonPanel(void)
 }
 
 
-void GameFabricator::buildPanelButtons(void)
-{
-    _gamebot._controlPanelNotices.subscribe( Me1ButtonSubject( _gamebot.ButtonNoneSink(), Me4Button::BUTTON_NONE ) );
-    _gamebot._controlPanelNotices.subscribe( Me1ButtonSubject( _gamebot.Button1Sink()   , Me4Button::BUTTON_1    ) );
-    _gamebot._controlPanelNotices.subscribe( Me1ButtonSubject( _gamebot.Button2Sink()   , Me4Button::BUTTON_2    ) );
-    _gamebot._controlPanelNotices.subscribe( Me1ButtonSubject( _gamebot.Button3Sink()   , Me4Button::BUTTON_3    ) );
-    _gamebot._controlPanelNotices.subscribe( Me1ButtonSubject( _gamebot.Button4Sink()   , Me4Button::BUTTON_4    ) );
-}
-
-
 void GameFabricator::build4ButtonPanelViewer(void)
 {
     auto fnObserver = assembleMatrixDisplayDecimal(MeLEDMatrixScl, MeLEDMatrixSda);
     _gamebot._controlPanelNotices.subscribe(fnObserver);
+}
+
+
+uint16_t freeMemory();
+class ButtonObserver
+{
+private:
+
+    SourceUint16    _source;
+    SinkUint16      _sink;
+
+public:
+
+    ButtonObserver(SourceUint16 source, SinkUint16 sink) : _source(source), _sink(sink) {}
+
+    void operator()(BUTTON_STATE button)
+    {
+        if (button == BUTTON_PRESSED) _sink(_source());
+    }
+};
+
+class Uint16
+{
+private:
+
+    uint16_t _value;
+
+public:
+
+    Uint16(uint16_t value) : _value(value) {}
+
+    uint16_t operator()(void)
+    { return _value; }
+};
+
+template<typename TYPE>
+class Constant
+{
+private:
+
+    TYPE _value;
+
+public:
+
+    Constant(TYPE value) : _value(value) {}
+
+    TYPE operator()(void)
+    { return _value; }
+};
+
+
+void GameFabricator::buildDisplayFreeMemory(void)
+{
+    auto fnMatrixDisplay         = assembleMatrixDisplayDecimal(MeLEDMatrixScl, MeLEDMatrixSda);
+    auto fnSegmentedDisplay      = assembleSegmentedDisplayDecimal(Me7SegmentScl, Me7SegmentSda);
+
+    auto fnObserverForMatrix     = ButtonObserver(freeMemory, fnMatrixDisplay);
+    auto fnObserverForSegmented  = ButtonObserver(freeMemory, fnSegmentedDisplay);
+
+    // auto fnObserverZeroMatrix    = ButtonObserver([](){return 0;}, fnMatrixDisplay);
+    // auto fnObserverZeroSegmented = ButtonObserver([](){return 0;}, fnSegmentedDisplay);
+    auto fnObserverZeroMatrix    = ButtonObserver(Constant<uint16_t>(0), fnMatrixDisplay);
+    auto fnObserverZeroSegmented = ButtonObserver(Constant<uint16_t>(0), fnSegmentedDisplay);
+
+    _gamebot._controlPanelNotices.subscribe( Me1ButtonSubject( fnObserverForMatrix    , Me4Button::BUTTON_2 ) );
+    _gamebot._controlPanelNotices.subscribe( Me1ButtonSubject( fnObserverForSegmented , Me4Button::BUTTON_4 ) );
+    _gamebot._controlPanelNotices.subscribe( Me1ButtonSubject( fnObserverZeroMatrix   , Me4Button::BUTTON_NONE ) );
+    _gamebot._controlPanelNotices.subscribe( Me1ButtonSubject( fnObserverZeroSegmented, Me4Button::BUTTON_NONE ) );
 }
 
 
