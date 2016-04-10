@@ -15,53 +15,65 @@ static const uint8_t Me7SegmentSda  = 8;
 static const uint8_t MeLEDMatrixScl = 12;
 static const uint8_t MeLEDMatrixSda = 13;
 
+GameBot _gamebot;
+
 
 GameFabricator::GameFabricator(void)
-:   _gamebot(new GameBot())
 {}
 
 
 void GameFabricator::build4ButtonPanel(void)
 {
     auto fnSource   = AnalogPinReader(Me4ButtonPin);
-    auto fnPanel    = assembleMe4ButtonPanel(fnSource, _gamebot->get4ButtonProc());
+    auto fnSink     = _gamebot.ControlPanelSink();
+    auto fnPanel    = assembleMe4ButtonPanel(fnSource, fnSink);
 
     subscribe(50, fnPanel);
+}
+
+
+void GameFabricator::buildMockButtonPanel(void)
+{
+    // GameBot *bot = _gamebot;
+    auto fnSink     = _gamebot.ControlPanelSink();
+    auto fnSource   = []() -> uint16_t
+    {
+        static uint16_t value = 950;
+        value = 950 - value;
+        return value;
+    };
+
+    subscribe(2000, [fnSource, fnSink]()
+    {
+        fnSink(Me4Button::translatePin(fnSource()));
+    });
+}
+
+
+void GameFabricator::buildPanelButtons(void)
+{
+    _gamebot._controlPanelNotices.subscribe( Me1ButtonSubject( _gamebot.ButtonNoneSink(), Me4Button::BUTTON_NONE ) );
+    _gamebot._controlPanelNotices.subscribe( Me1ButtonSubject( _gamebot.Button1Sink()   , Me4Button::BUTTON_1    ) );
+    _gamebot._controlPanelNotices.subscribe( Me1ButtonSubject( _gamebot.Button2Sink()   , Me4Button::BUTTON_2    ) );
+    _gamebot._controlPanelNotices.subscribe( Me1ButtonSubject( _gamebot.Button3Sink()   , Me4Button::BUTTON_3    ) );
+    _gamebot._controlPanelNotices.subscribe( Me1ButtonSubject( _gamebot.Button4Sink()   , Me4Button::BUTTON_4    ) );
 }
 
 
 void GameFabricator::build4ButtonPanelViewer(void)
 {
     auto fnObserver = assembleMatrixDisplayDecimal(MeLEDMatrixScl, MeLEDMatrixSda);
-    _gamebot->_me4ButtonPanel.subscribe(fnObserver);
-}
-
-
-Me4Button::PROCESSOR GameFabricator::assembleMe4Buttons(Me1ButtonSubject::OBSERVER obNone,
-                                                        Me1ButtonSubject::OBSERVER ob1,
-                                                        Me1ButtonSubject::OBSERVER ob2,
-                                                        Me1ButtonSubject::OBSERVER ob3,
-                                                        Me1ButtonSubject::OBSERVER ob4)
-{
-    Notifier<Me4Button::BUTTON> fnNoticePanel;
-
-    if (obNone) fnNoticePanel.subscribe( Me1ButtonSubject( obNone, Me4Button::BUTTON_NONE) );
-    if (ob1)    fnNoticePanel.subscribe( Me1ButtonSubject( ob1,    Me4Button::BUTTON_1)    );
-    if (ob2)    fnNoticePanel.subscribe( Me1ButtonSubject( ob2,    Me4Button::BUTTON_2)    );
-    if (ob3)    fnNoticePanel.subscribe( Me1ButtonSubject( ob3,    Me4Button::BUTTON_3)    );
-    if (ob4)    fnNoticePanel.subscribe( Me1ButtonSubject( ob4,    Me4Button::BUTTON_4)    );
-
-    return fnNoticePanel;
+    _gamebot._controlPanelNotices.subscribe(fnObserver);
 }
 
 
 void GameFabricator::subscribe(uint16_t time, Runnable task)
 {
-    _gamebot->_runner.subscribe( TaskTimer(time, task) );
+    _gamebot._eventLoop.subscribe( TaskTimer(time, task) );
 }
 
 
-Idleloop GameFabricator::getIdleloop(void)
+EventLoop GameFabricator::getEventLoop(void)
 {
-    return _gamebot->getIdleloop();
+    return _gamebot._eventLoop;//getEventLoop();
 }

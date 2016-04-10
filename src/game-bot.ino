@@ -4,14 +4,16 @@
 #include "build.gamefabricator.h"
 
 
-static Idleloop idleloop;
+static EventLoop eventloop;
 
 
 static void buildMachine(GameFabricator &fabricator)
 {
-    fabricator.buildDisplayAnimator();
     fabricator.build4ButtonPanel();
+    // fabricator.buildMockButtonPanel();
+    // fabricator.buildPanelButtons();
     fabricator.build4ButtonPanelViewer();
+    fabricator.buildDisplayAnimator();
 }
 
 
@@ -21,7 +23,7 @@ void setup(void)
 
     GameFabricator fabricator;
     buildMachine(fabricator);
-    idleloop = fabricator.getIdleloop();
+    eventloop = fabricator.getEventLoop();
 
     Serial.println("Setup complete");
 }
@@ -29,5 +31,5 @@ void setup(void)
 
 void loop(void)
 {
-    idleloop();
+    eventloop();
 }

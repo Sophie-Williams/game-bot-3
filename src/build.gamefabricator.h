@@ -14,21 +14,16 @@ public:
     GameFabricator(void);
 
     void build4ButtonPanel(void);
+    void buildPanelButtons(void);
     void build4ButtonPanelViewer(void);
 
-    Idleloop getIdleloop(void);
+    void buildMockButtonPanel(void);
+
+    EventLoop getEventLoop(void);
 
 protected:
 
     void subscribe(uint16_t time, Runnable task);
-
-    Me4Button::PROCESSOR    assembleMe4Buttons(Me1ButtonSubject::OBSERVER obNone,
-                                               Me1ButtonSubject::OBSERVER ob1,
-                                               Me1ButtonSubject::OBSERVER ob2,
-                                               Me1ButtonSubject::OBSERVER ob3,
-                                               Me1ButtonSubject::OBSERVER ob4);
-
-    GameBot *_gamebot;
 
 };
 
