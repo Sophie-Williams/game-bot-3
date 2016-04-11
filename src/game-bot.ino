@@ -4,6 +4,7 @@
 #include "build.gamefabricator.h"
 
 
+void serializeFreeMemory(const char *description);
 uint16_t freeMemory();
 
 
@@ -13,6 +14,7 @@ static EventLoop eventloop;
 static void buildMachine(GameFabricator &fabricator)
 {
     fabricator.build4ButtonPanel();
+    fabricator.buildSerializeFreeMemory();
     // fabricator.buildMockButtonPanel();
     // fabricator.buildPanelButtons();
     // fabricator.build4ButtonPanelViewer();
@@ -21,17 +23,22 @@ static void buildMachine(GameFabricator &fabricator)
 }
 
 
-void setup(void)
+static void buildMachine(void)
 {
-    Serial.begin(9600);
-
     GameFabricator fabricator;
     buildMachine(fabricator);
     eventloop = fabricator.getEventLoop();
+}
 
-    Serial.print("Free memory: ");
-    Serial.println(freeMemory());
 
+void setup(void)
+{
+    Serial.begin(9600);
+    serializeFreeMemory("setup enter: ");
+
+    buildMachine();
+
+    serializeFreeMemory("setup exit: ");
     Serial.println("Setup complete");
 }
 
@@ -89,6 +96,13 @@ uint16_t freeMemory() {
     free_memory += freeListSize();
   }
   return free_memory;
+}
+
+
+void serializeFreeMemory(const char *description)
+{
+    Serial.print(description);
+    Serial.println(freeMemory());
 }
 
 

@@ -57,36 +57,26 @@ void GameFabricator::build4ButtonPanelViewer(void)
 }
 
 
+void serializeFreeMemory(const char *);
 uint16_t freeMemory();
 class ButtonObserver
 {
 private:
 
-    SourceUint16    _source;
-    SinkUint16      _sink;
+    vl::Func<void(void)> _fn;
 
 public:
 
-    ButtonObserver(SourceUint16 source, SinkUint16 sink) : _source(source), _sink(sink) {}
+    ButtonObserver(vl::Func<void(void)> fn) : _fn(fn) {}
+
+    ButtonObserver(SourceUint16 source, SinkUint16 sink)
+    : _fn([source,sink](void) { sink(source()); })
+    {}
 
     void operator()(BUTTON_STATE button)
     {
-        if (button == BUTTON_PRESSED) _sink(_source());
+        if (button == BUTTON_PRESSED) _fn();
     }
-};
-
-class Uint16
-{
-private:
-
-    uint16_t _value;
-
-public:
-
-    Uint16(uint16_t value) : _value(value) {}
-
-    uint16_t operator()(void)
-    { return _value; }
 };
 
 template<typename TYPE>
@@ -105,23 +95,26 @@ public:
 };
 
 
+void GameFabricator::buildSerializeFreeMemory(void)
+{
+    auto fn = []() { serializeFreeMemory("Free memory: "); };
+    _gamebot._controlPanelNotices.subscribe( Me1ButtonSubject( ButtonObserver(fn), Me4Button::BUTTON_1 ) );
+}
+
+
 void GameFabricator::buildDisplayFreeMemory(void)
 {
-    auto fnMatrixDisplay         = assembleMatrixDisplayDecimal(MeLEDMatrixScl, MeLEDMatrixSda);
     auto fnSegmentedDisplay      = assembleSegmentedDisplayDecimal(Me7SegmentScl, Me7SegmentSda);
-
-    auto fnObserverForMatrix     = ButtonObserver(freeMemory, fnMatrixDisplay);
     auto fnObserverForSegmented  = ButtonObserver(freeMemory, fnSegmentedDisplay);
-
-    // auto fnObserverZeroMatrix    = ButtonObserver([](){return 0;}, fnMatrixDisplay);
-    // auto fnObserverZeroSegmented = ButtonObserver([](){return 0;}, fnSegmentedDisplay);
-    auto fnObserverZeroMatrix    = ButtonObserver(Constant<uint16_t>(0), fnMatrixDisplay);
     auto fnObserverZeroSegmented = ButtonObserver(Constant<uint16_t>(0), fnSegmentedDisplay);
-
-    _gamebot._controlPanelNotices.subscribe( Me1ButtonSubject( fnObserverForMatrix    , Me4Button::BUTTON_2 ) );
     _gamebot._controlPanelNotices.subscribe( Me1ButtonSubject( fnObserverForSegmented , Me4Button::BUTTON_4 ) );
-    _gamebot._controlPanelNotices.subscribe( Me1ButtonSubject( fnObserverZeroMatrix   , Me4Button::BUTTON_NONE ) );
     _gamebot._controlPanelNotices.subscribe( Me1ButtonSubject( fnObserverZeroSegmented, Me4Button::BUTTON_NONE ) );
+
+    // auto fnMatrixDisplay         = assembleMatrixDisplayDecimal(MeLEDMatrixScl, MeLEDMatrixSda);
+    // auto fnObserverForMatrix     = ButtonObserver(freeMemory, fnMatrixDisplay);
+    // auto fnObserverZeroMatrix    = ButtonObserver(Constant<uint16_t>(0), fnMatrixDisplay);
+    // _gamebot._controlPanelNotices.subscribe( Me1ButtonSubject( fnObserverForMatrix    , Me4Button::BUTTON_2 ) );
+    // _gamebot._controlPanelNotices.subscribe( Me1ButtonSubject( fnObserverZeroMatrix   , Me4Button::BUTTON_NONE ) );
 }
 
 

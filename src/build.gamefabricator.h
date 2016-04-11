@@ -17,6 +17,7 @@ public:
     void build4ButtonPanelViewer(void);
 
     void buildMockButtonPanel(void);
+    void buildSerializeFreeMemory(void);
     void buildDisplayFreeMemory(void);
 
     EventLoop getEventLoop(void);
