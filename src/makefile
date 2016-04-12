@@ -13,6 +13,8 @@ CFLAGS_STD		+= -Wno-unused-function
 CXXFLAGS_STD	+= -std=c++11
 CXXFLAGS_STD	+= -Wno-unused-function
 
+LDFLAGS	= -Wl,-Map,game-bot.map
+
 #ARDUINO_LIBS = SoftwareSerial
 
 include ../../Arduino.mk

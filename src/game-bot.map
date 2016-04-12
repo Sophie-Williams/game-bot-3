@@ -1,0 +1,2451 @@
+Archive member included to satisfy reference by file (symbol)
+
+build-uno/libcore.a(wiring_analog.c.o)
+                              build-uno/build.gamefabricator.cpp.o (analogRead)
+build-uno/libcore.a(wiring_digital.c.o)
+                              build-uno/libcore.a(wiring_analog.c.o) (pinMode)
+build-uno/libcore.a(abi.cpp.o)
+                              build-uno/build.gamefabricator.cpp.o (__cxa_pure_virtual)
+build-uno/libcore.a(HardwareSerial0.cpp.o)
+                              build-uno/game-bot.ino.o (Serial)
+build-uno/libcore.a(HardwareSerial.cpp.o)
+                              build-uno/libcore.a(HardwareSerial0.cpp.o) (_ZN14HardwareSerial9availableEv)
+build-uno/libcore.a(main.cpp.o)
+                              /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm328p.o (main)
+build-uno/libcore.a(new.cpp.o)
+                              build-uno/build.gamefabricator.cpp.o (_Znwj)
+build-uno/libcore.a(Print.cpp.o)
+                              build-uno/libcore.a(HardwareSerial.cpp.o) (_ZN5Print5writeEPKhj)
+build-uno/libcore.a(build.robotfabricator.cpp.o)
+                              build-uno/build.gamefabricator.cpp.o (_ZN15RobotFabricatorC2Ev)
+build-uno/libcore.a(hardware.me7segmentencoder.cpp.o)
+                              build-uno/libcore.a(build.robotfabricator.cpp.o) (_ZN17Me7SegmentEncoder9encodeHexEh)
+build-uno/libcore.a(hardware.meledmatrixencoder.cpp.o)
+                              build-uno/libcore.a(build.robotfabricator.cpp.o) (_ZN18MeLEDMatrixEncoder9encodeHexEh)
+build-uno/libcore.a(protocol.i2c.cpp.o)
+                              build-uno/libcore.a(build.robotfabricator.cpp.o) (_ZN11I2CProtocol5startEv)
+build-uno/libcore.a(protocol.meledmatrix.cpp.o)
+                              build-uno/libcore.a(build.robotfabricator.cpp.o) (_ZN19MeLEDMatrixProtocolC1EN2vl4FuncIFvbEEES3_)
+build-uno/libcore.a(protocol.segmentdisplay.cpp.o)
+                              build-uno/libcore.a(build.robotfabricator.cpp.o) (_ZN22SegmentDisplayProtocolC1E10DigitalPinS0_)
+build-uno/libcore.a(subject.me4button.cpp.o)
+                              build-uno/libcore.a(build.robotfabricator.cpp.o) (_ZN16Me4ButtonSubjectC1EN2vl4FuncIFvN9Me4Button6BUTTONEEEE)
+build-uno/libcore.a(task.displayanimator.cpp.o)
+                              build-uno/libcore.a(build.robotfabricator.cpp.o) (_ZN19DisplayAnimatorTaskC1Ev)
+build-uno/libcore.a(task.runner.cpp.o)
+                              build-uno/build.gamefabricator.cpp.o (_ZN10TaskRunnerC1Ev)
+build-uno/libcore.a(task.timer.cpp.o)
+                              build-uno/build.gamefabricator.cpp.o (_ZN9TaskTimerclEv)
+build-uno/libcore.a(util.encoders.cpp.o)
+                              build-uno/libcore.a(build.robotfabricator.cpp.o) (_ZN10HexEncoderC1EN2vl4FuncIFhhEEE)
+build-uno/libcore.a(wiring.c.o)
+                              build-uno/libcore.a(task.timer.cpp.o) (millis)
+build-uno/libcore.a(hooks.c.o)
+                              build-uno/libcore.a(wiring.c.o) (yield)
+/mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+                              build-uno/libcore.a(new.cpp.o) (malloc)
+/mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(abort.o)
+                              build-uno/libcore.a(abi.cpp.o) (abort)
+/mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(exit.o)
+                              /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm328p.o (exit)
+/mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(addsf3.o)
+                              build-uno/libcore.a(Print.cpp.o) (__subsf3)
+/mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(addsf3x.o)
+                              /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(addsf3.o) (__addsf3x)
+/mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(cmpsf2.o)
+                              build-uno/libcore.a(Print.cpp.o) (__ltsf2)
+/mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(divsf3.o)
+                              build-uno/libcore.a(Print.cpp.o) (__divsf3)
+/mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(divsf3x.o)
+                              /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(divsf3.o) (__divsf3x)
+/mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fixsfsi.o)
+                              build-uno/libcore.a(Print.cpp.o) (__fixsfsi)
+/mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fixunssfsi.o)
+                              build-uno/libcore.a(Print.cpp.o) (__fixunssfsi)
+/mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(floatsisf.o)
+                              build-uno/libcore.a(Print.cpp.o) (__floatunsisf)
+/mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fp_cmp.o)
+                              /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(cmpsf2.o) (__fp_cmp)
+/mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fp_inf.o)
+                              /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(addsf3x.o) (__fp_inf)
+/mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fp_nan.o)
+                              /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(addsf3x.o) (__fp_nan)
+/mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fp_pscA.o)
+                              /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(addsf3x.o) (__fp_pscA)
+/mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fp_pscB.o)
+                              /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(addsf3x.o) (__fp_pscB)
+/mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fp_round.o)
+                              /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(addsf3.o) (__fp_round)
+/mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fp_split3.o)
+                              /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(addsf3x.o) (__fp_split3)
+/mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fp_zero.o)
+                              /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(addsf3x.o) (__fp_zero)
+/mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(gesf2.o)
+                              build-uno/libcore.a(Print.cpp.o) (__gtsf2)
+/mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(mulsf3.o)
+                              build-uno/libcore.a(Print.cpp.o) (__mulsf3)
+/mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(mulsf3x.o)
+                              /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(mulsf3.o) (__mulsf3x)
+/mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(unordsf2.o)
+                              build-uno/libcore.a(Print.cpp.o) (__unordsf2)
+/mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodqi4.o)
+                              build-uno/libcore.a(hardware.me7segmentencoder.cpp.o) (__udivmodqi4)
+/mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodhi4.o)
+                              build-uno/build.gamefabricator.cpp.o (__udivmodhi4)
+/mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
+                              build-uno/libcore.a(HardwareSerial.cpp.o) (__udivmodsi4)
+/mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+                              /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(abort.o) (_exit)
+/mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+                              build-uno/build.gamefabricator.cpp.o (__do_copy_data)
+/mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+                              build-uno/build.gamefabricator.cpp.o (__do_clear_bss)
+/mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+                              build-uno/build.gamefabricator.cpp.o (__do_global_ctors)
+/mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_dtors.o)
+                              build-uno/build.gamefabricator.cpp.o (__do_global_dtors)
+/mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+                              /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o) (__tablejump__)
+
+Allocating common symbols
+Common symbol       size              file
+
+__brkval            0x2               /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+__flp               0x2               /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+
+Discarded input sections
+
+ .bss           0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm328p.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .text          0x0000000000000000        0x0 build-uno/build.gamefabricator.cpp.o
+ .bss           0x0000000000000000        0x0 build-uno/build.gamefabricator.cpp.o
+ .text._ZN2vl17internal_invokers7InvokerIvIEED2Ev
+                0x0000000000000000        0xc build-uno/build.gamefabricator.cpp.o
+ .text._ZN2vl17internal_invokers7InvokerIvIN9Me4Button6BUTTONEEED2Ev
+                0x0000000000000000        0xc build-uno/build.gamefabricator.cpp.o
+ .text._ZN2vl17internal_invokers7InvokerIjIEED2Ev
+                0x0000000000000000        0xc build-uno/build.gamefabricator.cpp.o
+ .text._ZN2vl17internal_invokers7InvokerIvI12BUTTON_STATEEED2Ev
+                0x0000000000000000        0xc build-uno/build.gamefabricator.cpp.o
+ .text._ZN2vl17internal_invokers7InvokerIvIEED0Ev
+                0x0000000000000000        0xe build-uno/build.gamefabricator.cpp.o
+ .text._ZN2vl17internal_invokers7InvokerIvIN9Me4Button6BUTTONEEED0Ev
+                0x0000000000000000        0xe build-uno/build.gamefabricator.cpp.o
+ .text._ZN2vl17internal_invokers7InvokerIjIEED0Ev
+                0x0000000000000000        0xe build-uno/build.gamefabricator.cpp.o
+ .text._ZN2vl17internal_invokers7InvokerIvI12BUTTON_STATEEED0Ev
+                0x0000000000000000        0xe build-uno/build.gamefabricator.cpp.o
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN14GameFabricator20buildMockButtonPanelEvEUlvE0_vIEE6InvokeEv
+                0x0000000000000000       0x42 build-uno/build.gamefabricator.cpp.o
+ .text._ZN2vl17internal_invokers13ObjectInvokerINS_4FuncIFvjEEEvIN9Me4Button6BUTTONEEE6InvokeEOS6_
+                0x0000000000000000        0xc build-uno/build.gamefabricator.cpp.o
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN14GameFabricator20buildMockButtonPanelEvEUlvE0_vIEED2Ev
+                0x0000000000000000       0x24 build-uno/build.gamefabricator.cpp.o
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN14GameFabricator20buildMockButtonPanelEvEUlvE0_vIEED0Ev
+                0x0000000000000000       0x14 build-uno/build.gamefabricator.cpp.o
+ .text._ZN14GameFabricator20buildMockButtonPanelEv
+                0x0000000000000000       0xda build-uno/build.gamefabricator.cpp.o
+ .text._ZN2vl17internal_invokers13ObjectInvokerINS_4FuncIFvjEEEvIN9Me4Button6BUTTONEEED2Ev
+                0x0000000000000000       0x24 build-uno/build.gamefabricator.cpp.o
+ .text._ZN2vl17internal_invokers13ObjectInvokerINS_4FuncIFvjEEEvIN9Me4Button6BUTTONEEED0Ev
+                0x0000000000000000       0x14 build-uno/build.gamefabricator.cpp.o
+ .text._ZN14GameFabricator23build4ButtonPanelViewerEv
+                0x0000000000000000       0x9c build-uno/build.gamefabricator.cpp.o
+ .rodata.CSWTCH.49
+                0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
+ .data._ZZZN14GameFabricator20buildMockButtonPanelEvENKUlvE_clEvE5value
+                0x0000000000000000        0x2 build-uno/build.gamefabricator.cpp.o
+ .rodata._ZTVN2vl17internal_invokers7InvokerIvIN9Me4Button6BUTTONEEEE
+                0x0000000000000000        0xa build-uno/build.gamefabricator.cpp.o
+ .rodata._ZTVN2vl17internal_invokers7InvokerIvI12BUTTON_STATEEEE
+                0x0000000000000000        0xa build-uno/build.gamefabricator.cpp.o
+ .rodata._ZTVN2vl17internal_invokers7InvokerIvIEEE
+                0x0000000000000000        0xa build-uno/build.gamefabricator.cpp.o
+ .rodata._ZTVN2vl17internal_invokers7InvokerIjIEEE
+                0x0000000000000000        0xa build-uno/build.gamefabricator.cpp.o
+ .rodata._ZTVN2vl17internal_invokers13ObjectInvokerIZN14GameFabricator20buildMockButtonPanelEvEUlvE0_vIEEE
+                0x0000000000000000        0xa build-uno/build.gamefabricator.cpp.o
+ .rodata._ZTVN2vl17internal_invokers13ObjectInvokerINS_4FuncIFvjEEEvIN9Me4Button6BUTTONEEEE
+                0x0000000000000000        0xa build-uno/build.gamefabricator.cpp.o
+ .group         0x0000000000000000        0x8 build-uno/game-bot.ino.o
+ .group         0x0000000000000000        0x8 build-uno/game-bot.ino.o
+ .group         0x0000000000000000        0x8 build-uno/game-bot.ino.o
+ .group         0x0000000000000000        0x8 build-uno/game-bot.ino.o
+ .group         0x0000000000000000        0x8 build-uno/game-bot.ino.o
+ .group         0x0000000000000000        0x8 build-uno/game-bot.ino.o
+ .group         0x0000000000000000        0x8 build-uno/game-bot.ino.o
+ .text          0x0000000000000000        0x0 build-uno/game-bot.ino.o
+ .bss           0x0000000000000000        0x0 build-uno/game-bot.ino.o
+ .text._ZN2vl6ObjectD2Ev
+                0x0000000000000000        0xc build-uno/game-bot.ino.o
+ .text._ZN2vl6ObjectD0Ev
+                0x0000000000000000        0xe build-uno/game-bot.ino.o
+ .text._ZN2vl3PtrINS_17internal_invokers7InvokerIvIEEEE3DecEv
+                0x0000000000000000       0x50 build-uno/game-bot.ino.o
+ .text._ZN2vl4FuncIFvvEED2Ev
+                0x0000000000000000       0x24 build-uno/game-bot.ino.o
+ .text._ZN2vl4FuncIFvvEED0Ev
+                0x0000000000000000       0x14 build-uno/game-bot.ino.o
+ .rodata._ZTVN2vl6ObjectE
+                0x0000000000000000        0x8 build-uno/game-bot.ino.o
+ .rodata._ZTVN2vl4FuncIFvvEEE
+                0x0000000000000000        0x8 build-uno/game-bot.ino.o
+ .text          0x0000000000000000        0x0 build-uno/libcore.a(wiring_analog.c.o)
+ .bss           0x0000000000000000        0x0 build-uno/libcore.a(wiring_analog.c.o)
+ .text.analogReference
+                0x0000000000000000        0x6 build-uno/libcore.a(wiring_analog.c.o)
+ .text.analogWrite
+                0x0000000000000000       0xbe build-uno/libcore.a(wiring_analog.c.o)
+ .text          0x0000000000000000        0x0 build-uno/libcore.a(wiring_digital.c.o)
+ .bss           0x0000000000000000        0x0 build-uno/libcore.a(wiring_digital.c.o)
+ .text          0x0000000000000000        0x0 build-uno/libcore.a(abi.cpp.o)
+ .bss           0x0000000000000000        0x0 build-uno/libcore.a(abi.cpp.o)
+ .text.__cxa_deleted_virtual
+                0x0000000000000000        0x4 build-uno/libcore.a(abi.cpp.o)
+ .text          0x0000000000000000        0x0 build-uno/libcore.a(HardwareSerial0.cpp.o)
+ .bss           0x0000000000000000        0x0 build-uno/libcore.a(HardwareSerial0.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(HardwareSerial.cpp.o)
+ .text          0x0000000000000000        0x0 build-uno/libcore.a(HardwareSerial.cpp.o)
+ .bss           0x0000000000000000        0x0 build-uno/libcore.a(HardwareSerial.cpp.o)
+ .text._ZN14HardwareSerial3endEv
+                0x0000000000000000       0x44 build-uno/libcore.a(HardwareSerial.cpp.o)
+ .text._ZN14HardwareSerial17availableForWriteEv
+                0x0000000000000000       0x1e build-uno/libcore.a(HardwareSerial.cpp.o)
+ .text          0x0000000000000000        0x0 build-uno/libcore.a(main.cpp.o)
+ .bss           0x0000000000000000        0x0 build-uno/libcore.a(main.cpp.o)
+ .text.atexit   0x0000000000000000        0x6 build-uno/libcore.a(main.cpp.o)
+ .text._Z8setupUSBv
+                0x0000000000000000        0x2 build-uno/libcore.a(main.cpp.o)
+ .text          0x0000000000000000        0x0 build-uno/libcore.a(new.cpp.o)
+ .bss           0x0000000000000000        0x0 build-uno/libcore.a(new.cpp.o)
+ .text._Znaj    0x0000000000000000        0x4 build-uno/libcore.a(new.cpp.o)
+ .text._ZdaPv   0x0000000000000000        0x4 build-uno/libcore.a(new.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(Print.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(Print.cpp.o)
+ .text          0x0000000000000000        0x0 build-uno/libcore.a(Print.cpp.o)
+ .bss           0x0000000000000000        0x0 build-uno/libcore.a(Print.cpp.o)
+ .text._ZN5Print5printEPK19__FlashStringHelper
+                0x0000000000000000       0x46 build-uno/libcore.a(Print.cpp.o)
+ .text._ZN5Print5printERK6String
+                0x0000000000000000       0x1c build-uno/libcore.a(Print.cpp.o)
+ .text._ZN5Print5printEc
+                0x0000000000000000        0xe build-uno/libcore.a(Print.cpp.o)
+ .text._ZN5Print5printERK9Printable
+                0x0000000000000000       0x14 build-uno/libcore.a(Print.cpp.o)
+ .text._ZN5Print7printlnEPK19__FlashStringHelper
+                0x0000000000000000       0x24 build-uno/libcore.a(Print.cpp.o)
+ .text._ZN5Print7printlnERK6String
+                0x0000000000000000       0x24 build-uno/libcore.a(Print.cpp.o)
+ .text._ZN5Print7printlnEc
+                0x0000000000000000       0x24 build-uno/libcore.a(Print.cpp.o)
+ .text._ZN5Print7printlnERK9Printable
+                0x0000000000000000       0x24 build-uno/libcore.a(Print.cpp.o)
+ .text._ZN5Print5printEli
+                0x0000000000000000       0x94 build-uno/libcore.a(Print.cpp.o)
+ .text._ZN5Print5printEii
+                0x0000000000000000       0x10 build-uno/libcore.a(Print.cpp.o)
+ .text._ZN5Print7printlnEii
+                0x0000000000000000       0x30 build-uno/libcore.a(Print.cpp.o)
+ .text._ZN5Print7printlnEli
+                0x0000000000000000       0x24 build-uno/libcore.a(Print.cpp.o)
+ .text._ZN5Print5printEhi
+                0x0000000000000000        0xe build-uno/libcore.a(Print.cpp.o)
+ .text._ZN5Print7printlnEhi
+                0x0000000000000000       0x2e build-uno/libcore.a(Print.cpp.o)
+ .text._ZN5Print5printEji
+                0x0000000000000000        0xc build-uno/libcore.a(Print.cpp.o)
+ .text._ZN5Print7printlnEmi
+                0x0000000000000000       0x24 build-uno/libcore.a(Print.cpp.o)
+ .text._ZN5Print10printFloatEdh
+                0x0000000000000000      0x1d6 build-uno/libcore.a(Print.cpp.o)
+ .text._ZN5Print5printEdi
+                0x0000000000000000        0x4 build-uno/libcore.a(Print.cpp.o)
+ .text._ZN5Print7printlnEdi
+                0x0000000000000000       0x24 build-uno/libcore.a(Print.cpp.o)
+ .rodata._ZTV5Print
+                0x0000000000000000        0x8 build-uno/libcore.a(Print.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text          0x0000000000000000        0x0 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .bss           0x0000000000000000        0x0 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl6ObjectD2Ev
+                0x0000000000000000        0xc build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN15BuildFabricatorD2Ev
+                0x0000000000000000        0xc build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl17internal_invokers7InvokerIvIbEED2Ev
+                0x0000000000000000        0xc build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl17internal_invokers7InvokerIvIEED2Ev
+                0x0000000000000000        0xc build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl17internal_invokers7InvokerIhIhEED2Ev
+                0x0000000000000000        0xc build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl17internal_invokers7InvokerIvIjEED2Ev
+                0x0000000000000000        0xc build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl17internal_invokers7InvokerISt6vectorIhSaIhEEIhEED2Ev
+                0x0000000000000000        0xc build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl17internal_invokers13StaticInvokerIhIhEED2Ev
+                0x0000000000000000        0xc build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl17internal_invokers13StaticInvokerIhIhEE6InvokeEOh
+                0x0000000000000000       0x10 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl6ObjectD0Ev
+                0x0000000000000000        0xe build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN15BuildFabricatorD0Ev
+                0x0000000000000000        0xe build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl24ReferenceCounterOperatorINS_17internal_invokers7InvokerIvIEEENS_7YesTypeEE15DeleteReferenceEPVlPv
+                0x0000000000000000       0x26 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl24ReferenceCounterOperatorINS_17internal_invokers7InvokerIhIhEEENS_7YesTypeEE15DeleteReferenceEPVlPv
+                0x0000000000000000       0x26 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl17internal_invokers7InvokerIvIbEED0Ev
+                0x0000000000000000        0xe build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl17internal_invokers7InvokerIvIEED0Ev
+                0x0000000000000000        0xe build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl17internal_invokers7InvokerIhIhEED0Ev
+                0x0000000000000000        0xe build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl17internal_invokers7InvokerIvIjEED0Ev
+                0x0000000000000000        0xe build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl17internal_invokers7InvokerISt6vectorIhSaIhEEIhEED0Ev
+                0x0000000000000000        0xe build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl17internal_invokers13StaticInvokerIhIhEED0Ev
+                0x0000000000000000        0xe build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN22SegmentDisplayProtocolclIN2vl4FuncIFSt6vectorIhSaIhEEvEEEEEvT_
+                0x0000000000000000       0xc0 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN15RobotFabricator31assembleSegmentedDisplayDecimalEhhEUljE_vIjEE6InvokeEOj
+                0x0000000000000000       0x5c build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN15RobotFabricator27assembleSegmentedDisplayHexEhhEUljE_vIjEE6InvokeEOj
+                0x0000000000000000       0x5c build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN15RobotFabricator24assembleMatrixDisplayHexEhhEUljE_vIjEE6InvokeEOj
+                0x0000000000000000       0x5c build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl3PtrINS_17internal_invokers7InvokerIvIEEEE3DecEv
+                0x0000000000000000       0x50 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl4FuncIFvvEED2Ev
+                0x0000000000000000       0x24 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl4FuncIFvvEED0Ev
+                0x0000000000000000       0x14 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl3PtrINS_17internal_invokers7InvokerIvIEEEE3IncEv
+                0x0000000000000000       0x22 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl3PtrINS_17internal_invokers7InvokerIvIEEEEaSEPS3_
+                0x0000000000000000       0x60 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl3PtrINS_17internal_invokers7InvokerIhIhEEEE3DecEv
+                0x0000000000000000       0x50 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl4FuncIFhhEED2Ev
+                0x0000000000000000       0x24 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN15RobotFabricator31assembleSegmentedDisplayDecimalEhhEUljE_vIjEED2Ev
+                0x0000000000000000       0x24 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN15RobotFabricator31assembleSegmentedDisplayDecimalEhhEUljE_vIjEED0Ev
+                0x0000000000000000       0x14 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN15RobotFabricator27assembleSegmentedDisplayHexEhhEUljE_vIjEED2Ev
+                0x0000000000000000       0x24 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN15RobotFabricator27assembleSegmentedDisplayHexEhhEUljE_vIjEED0Ev
+                0x0000000000000000       0x14 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl4FuncIFhhEED0Ev
+                0x0000000000000000       0x14 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl3PtrINS_17internal_invokers7InvokerIhIhEEEE3IncEv
+                0x0000000000000000       0x22 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl4FuncIFhhEEC2ERKS2_
+                0x0000000000000000       0x82 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl4FuncIFhhEEC2EPS1_
+                0x0000000000000000       0xaa build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl3PtrINS_17internal_invokers7InvokerIvIjEEEE3DecEv
+                0x0000000000000000       0x50 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl4FuncIFvjEED2Ev
+                0x0000000000000000       0x24 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl4FuncIFvjEED0Ev
+                0x0000000000000000       0x14 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN15RobotFabricator31assembleSegmentedDisplayDecimalEhh
+                0x0000000000000000       0xf6 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN15RobotFabricator27assembleSegmentedDisplayHexEhh
+                0x0000000000000000       0xf6 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN15RobotFabricator24assembleMatrixDisplayHexEhhEUljE_vIjEED2Ev
+                0x0000000000000000       0x2c build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN15RobotFabricator24assembleMatrixDisplayHexEhhEUljE_vIjEED0Ev
+                0x0000000000000000       0x14 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN15RobotFabricator24assembleMatrixDisplayHexEhh
+                0x0000000000000000       0xf2 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl3PtrINS_17internal_invokers7InvokerIvIN9Me4Button6BUTTONEEEEE3DecEv
+                0x0000000000000000       0x50 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl4FuncIFvN9Me4Button6BUTTONEEED2Ev
+                0x0000000000000000       0x24 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl4FuncIFvN9Me4Button6BUTTONEEED0Ev
+                0x0000000000000000       0x14 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl4FuncIFvN9Me4Button6BUTTONEEEC2ERKS4_
+                0x0000000000000000       0x8e build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl3PtrINS_17internal_invokers7InvokerIjIEEEE3DecEv
+                0x0000000000000000       0x50 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl4FuncIFjvEED2Ev
+                0x0000000000000000       0x24 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl4FuncIFjvEED0Ev
+                0x0000000000000000       0x14 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .rodata._ZTVN2vl6ObjectE
+                0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .rodata._ZTV15BuildFabricator
+                0x0000000000000000        0xa build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .rodata._ZTVN2vl4FuncIFvN9Me4Button6BUTTONEEEE
+                0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .rodata._ZTVN2vl4FuncIFvvEEE
+                0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .rodata._ZTVN2vl4FuncIFhhEEE
+                0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .rodata._ZTVN2vl4FuncIFvjEEE
+                0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .rodata._ZTVN2vl4FuncIFjvEEE
+                0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .rodata._ZTVN2vl17internal_invokers7InvokerIvIbEEE
+                0x0000000000000000        0xa build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .rodata._ZTVN2vl17internal_invokers7InvokerIvIEEE
+                0x0000000000000000        0xa build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .rodata._ZTVN2vl17internal_invokers7InvokerIhIhEEE
+                0x0000000000000000        0xa build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .rodata._ZTVN2vl17internal_invokers13StaticInvokerIhIhEEE
+                0x0000000000000000        0xa build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .rodata._ZTVN2vl17internal_invokers7InvokerIvIjEEE
+                0x0000000000000000        0xa build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .rodata._ZTVN2vl17internal_invokers13ObjectInvokerIZN15RobotFabricator31assembleSegmentedDisplayDecimalEhhEUljE_vIjEEE
+                0x0000000000000000        0xa build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .rodata._ZTVN2vl17internal_invokers13ObjectInvokerIZN15RobotFabricator27assembleSegmentedDisplayHexEhhEUljE_vIjEEE
+                0x0000000000000000        0xa build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .rodata._ZTVN2vl17internal_invokers7InvokerISt6vectorIhSaIhEEIhEEE
+                0x0000000000000000        0xa build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .rodata._ZTVN2vl17internal_invokers13ObjectInvokerIZN15RobotFabricator24assembleMatrixDisplayHexEhhEUljE_vIjEEE
+                0x0000000000000000        0xa build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text          0x0000000000000000        0x0 build-uno/libcore.a(hardware.me7segmentencoder.cpp.o)
+ .bss           0x0000000000000000        0x0 build-uno/libcore.a(hardware.me7segmentencoder.cpp.o)
+ .text._ZN17Me7SegmentEncoder9encodeHexEh
+                0x0000000000000000        0xe build-uno/libcore.a(hardware.me7segmentencoder.cpp.o)
+ .text._ZN17Me7SegmentEncoder9encodeDecEh
+                0x0000000000000000       0x12 build-uno/libcore.a(hardware.me7segmentencoder.cpp.o)
+ .rodata._ZN17Me7SegmentEncoder19_hexToSegmentBitmapE
+                0x0000000000000000       0x10 build-uno/libcore.a(hardware.me7segmentencoder.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(hardware.meledmatrixencoder.cpp.o)
+ .text          0x0000000000000000        0x0 build-uno/libcore.a(hardware.meledmatrixencoder.cpp.o)
+ .bss           0x0000000000000000        0x0 build-uno/libcore.a(hardware.meledmatrixencoder.cpp.o)
+ .text._ZN18MeLEDMatrixEncoder9encodeHexEh
+                0x0000000000000000       0x76 build-uno/libcore.a(hardware.meledmatrixencoder.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(protocol.i2c.cpp.o)
+ .text          0x0000000000000000        0x0 build-uno/libcore.a(protocol.i2c.cpp.o)
+ .bss           0x0000000000000000        0x0 build-uno/libcore.a(protocol.i2c.cpp.o)
+ .text._ZN11I2CProtocol8bitDelayEv
+                0x0000000000000000        0x8 build-uno/libcore.a(protocol.i2c.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(protocol.meledmatrix.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(protocol.meledmatrix.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(protocol.meledmatrix.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(protocol.meledmatrix.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(protocol.meledmatrix.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(protocol.meledmatrix.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(protocol.meledmatrix.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(protocol.meledmatrix.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(protocol.meledmatrix.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(protocol.meledmatrix.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(protocol.meledmatrix.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(protocol.meledmatrix.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(protocol.meledmatrix.cpp.o)
+ .text          0x0000000000000000        0x0 build-uno/libcore.a(protocol.meledmatrix.cpp.o)
+ .bss           0x0000000000000000        0x0 build-uno/libcore.a(protocol.meledmatrix.cpp.o)
+ .text._ZN2vl6ObjectD2Ev
+                0x0000000000000000        0xc build-uno/libcore.a(protocol.meledmatrix.cpp.o)
+ .text._ZN2vl6ObjectD0Ev
+                0x0000000000000000        0xe build-uno/libcore.a(protocol.meledmatrix.cpp.o)
+ .text._ZNK2vl4FuncIFvbEEclEb
+                0x0000000000000000       0x32 build-uno/libcore.a(protocol.meledmatrix.cpp.o)
+ .text._ZN19MeLEDMatrixProtocol8writeBitEb
+                0x0000000000000000       0x28 build-uno/libcore.a(protocol.meledmatrix.cpp.o)
+ .text._ZN19MeLEDMatrixProtocol9writeByteEh
+                0x0000000000000000       0x6c build-uno/libcore.a(protocol.meledmatrix.cpp.o)
+ .text._ZN2vl3PtrINS_17internal_invokers7InvokerIvIbEEEE3DecEv
+                0x0000000000000000       0x50 build-uno/libcore.a(protocol.meledmatrix.cpp.o)
+ .text._ZN2vl4FuncIFvbEED2Ev
+                0x0000000000000000       0x24 build-uno/libcore.a(protocol.meledmatrix.cpp.o)
+ .text._ZN2vl4FuncIFvbEED0Ev
+                0x0000000000000000       0x14 build-uno/libcore.a(protocol.meledmatrix.cpp.o)
+ .rodata._ZTVN2vl6ObjectE
+                0x0000000000000000        0x8 build-uno/libcore.a(protocol.meledmatrix.cpp.o)
+ .rodata._ZTVN2vl4FuncIFvbEEE
+                0x0000000000000000        0x8 build-uno/libcore.a(protocol.meledmatrix.cpp.o)
+ .text          0x0000000000000000        0x0 build-uno/libcore.a(protocol.segmentdisplay.cpp.o)
+ .bss           0x0000000000000000        0x0 build-uno/libcore.a(protocol.segmentdisplay.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(subject.me4button.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(subject.me4button.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(subject.me4button.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(subject.me4button.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(subject.me4button.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(subject.me4button.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(subject.me4button.cpp.o)
+ .text          0x0000000000000000        0x0 build-uno/libcore.a(subject.me4button.cpp.o)
+ .bss           0x0000000000000000        0x0 build-uno/libcore.a(subject.me4button.cpp.o)
+ .text._ZN2vl6ObjectD2Ev
+                0x0000000000000000        0xc build-uno/libcore.a(subject.me4button.cpp.o)
+ .text._ZN2vl6ObjectD0Ev
+                0x0000000000000000        0xe build-uno/libcore.a(subject.me4button.cpp.o)
+ .text._ZN2vl3PtrINS_17internal_invokers7InvokerIvIN9Me4Button6BUTTONEEEEE3DecEv
+                0x0000000000000000       0x50 build-uno/libcore.a(subject.me4button.cpp.o)
+ .text._ZN2vl4FuncIFvN9Me4Button6BUTTONEEED2Ev
+                0x0000000000000000       0x24 build-uno/libcore.a(subject.me4button.cpp.o)
+ .text._ZN2vl4FuncIFvN9Me4Button6BUTTONEEED0Ev
+                0x0000000000000000       0x14 build-uno/libcore.a(subject.me4button.cpp.o)
+ .rodata._ZTVN2vl6ObjectE
+                0x0000000000000000        0x8 build-uno/libcore.a(subject.me4button.cpp.o)
+ .rodata._ZTVN2vl4FuncIFvN9Me4Button6BUTTONEEEE
+                0x0000000000000000        0x8 build-uno/libcore.a(subject.me4button.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(task.displayanimator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(task.displayanimator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(task.displayanimator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(task.displayanimator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(task.displayanimator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(task.displayanimator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(task.displayanimator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(task.displayanimator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(task.displayanimator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(task.displayanimator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(task.displayanimator.cpp.o)
+ .text          0x0000000000000000        0x0 build-uno/libcore.a(task.displayanimator.cpp.o)
+ .bss           0x0000000000000000        0x0 build-uno/libcore.a(task.displayanimator.cpp.o)
+ .text._ZN2vl6ObjectD2Ev
+                0x0000000000000000        0xc build-uno/libcore.a(task.displayanimator.cpp.o)
+ .text._ZN2vl17internal_invokers7InvokerI12ProgMemArrayIEED2Ev
+                0x0000000000000000        0xc build-uno/libcore.a(task.displayanimator.cpp.o)
+ .text._ZN2vl6ObjectD0Ev
+                0x0000000000000000        0xe build-uno/libcore.a(task.displayanimator.cpp.o)
+ .text._ZN2vl17internal_invokers7InvokerI12ProgMemArrayIEED0Ev
+                0x0000000000000000        0xe build-uno/libcore.a(task.displayanimator.cpp.o)
+ .text._ZN2vl4FuncIF12ProgMemArrayvEED2Ev
+                0x0000000000000000       0x24 build-uno/libcore.a(task.displayanimator.cpp.o)
+ .text._ZN2vl4FuncIF12ProgMemArrayvEED0Ev
+                0x0000000000000000       0x14 build-uno/libcore.a(task.displayanimator.cpp.o)
+ .rodata._ZTVN2vl6ObjectE
+                0x0000000000000000        0x8 build-uno/libcore.a(task.displayanimator.cpp.o)
+ .rodata._ZTVN2vl4FuncIF12ProgMemArrayvEEE
+                0x0000000000000000        0x8 build-uno/libcore.a(task.displayanimator.cpp.o)
+ .rodata._ZTVN2vl17internal_invokers7InvokerI12ProgMemArrayIEEE
+                0x0000000000000000        0xa build-uno/libcore.a(task.displayanimator.cpp.o)
+ .rodata._ZN19DisplayAnimatorTask15animation_countE
+                0x0000000000000000        0x2 build-uno/libcore.a(task.displayanimator.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(task.runner.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(task.runner.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(task.runner.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(task.runner.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(task.runner.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(task.runner.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(task.runner.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(task.runner.cpp.o)
+ .text          0x0000000000000000        0x0 build-uno/libcore.a(task.runner.cpp.o)
+ .bss           0x0000000000000000        0x0 build-uno/libcore.a(task.runner.cpp.o)
+ .text._ZN2vl6ObjectD2Ev
+                0x0000000000000000        0xc build-uno/libcore.a(task.runner.cpp.o)
+ .text._ZN2vl6ObjectD0Ev
+                0x0000000000000000        0xe build-uno/libcore.a(task.runner.cpp.o)
+ .text._ZN2vl3PtrINS_17internal_invokers7InvokerIvIEEEE3DecEv
+                0x0000000000000000       0x50 build-uno/libcore.a(task.runner.cpp.o)
+ .text._ZN2vl4FuncIFvvEED2Ev
+                0x0000000000000000       0x24 build-uno/libcore.a(task.runner.cpp.o)
+ .text._ZN2vl4FuncIFvvEED0Ev
+                0x0000000000000000       0x14 build-uno/libcore.a(task.runner.cpp.o)
+ .text._ZN10TaskRunner11unsubscribeEN2vl4FuncIFvvEEE
+                0x0000000000000000      0x156 build-uno/libcore.a(task.runner.cpp.o)
+ .rodata._ZTVN2vl6ObjectE
+                0x0000000000000000        0x8 build-uno/libcore.a(task.runner.cpp.o)
+ .rodata._ZTVN2vl4FuncIFvvEEE
+                0x0000000000000000        0x8 build-uno/libcore.a(task.runner.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(task.timer.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(task.timer.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(task.timer.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(task.timer.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(task.timer.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(task.timer.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(task.timer.cpp.o)
+ .text          0x0000000000000000        0x0 build-uno/libcore.a(task.timer.cpp.o)
+ .bss           0x0000000000000000        0x0 build-uno/libcore.a(task.timer.cpp.o)
+ .text._ZN2vl6ObjectD2Ev
+                0x0000000000000000        0xc build-uno/libcore.a(task.timer.cpp.o)
+ .text._ZN2vl6ObjectD0Ev
+                0x0000000000000000        0xe build-uno/libcore.a(task.timer.cpp.o)
+ .text._ZN2vl3PtrINS_17internal_invokers7InvokerIvIEEEE3DecEv
+                0x0000000000000000       0x50 build-uno/libcore.a(task.timer.cpp.o)
+ .text._ZN2vl4FuncIFvvEED2Ev
+                0x0000000000000000       0x24 build-uno/libcore.a(task.timer.cpp.o)
+ .text._ZN2vl4FuncIFvvEED0Ev
+                0x0000000000000000       0x14 build-uno/libcore.a(task.timer.cpp.o)
+ .rodata._ZTVN2vl6ObjectE
+                0x0000000000000000        0x8 build-uno/libcore.a(task.timer.cpp.o)
+ .rodata._ZTVN2vl4FuncIFvvEEE
+                0x0000000000000000        0x8 build-uno/libcore.a(task.timer.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(util.encoders.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(util.encoders.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(util.encoders.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(util.encoders.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(util.encoders.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(util.encoders.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(util.encoders.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(util.encoders.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(util.encoders.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(util.encoders.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(util.encoders.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(util.encoders.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(util.encoders.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(util.encoders.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(util.encoders.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(util.encoders.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(util.encoders.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(util.encoders.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(util.encoders.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(util.encoders.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(util.encoders.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(util.encoders.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(util.encoders.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(util.encoders.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(util.encoders.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(util.encoders.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(util.encoders.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(util.encoders.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(util.encoders.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(util.encoders.cpp.o)
+ .group         0x0000000000000000        0x8 build-uno/libcore.a(util.encoders.cpp.o)
+ .text          0x0000000000000000        0x0 build-uno/libcore.a(util.encoders.cpp.o)
+ .bss           0x0000000000000000        0x0 build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN2vl6ObjectD2Ev
+                0x0000000000000000        0xc build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN2vl17internal_invokers7InvokerISt6vectorIhSaIhEEIEED2Ev
+                0x0000000000000000        0xc build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN16MatrixDecEncoderclEhhEUlvE_St6vectorIhSaIhEEIEED2Ev
+                0x0000000000000000        0xc build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN16MatrixHexEncoderclEhhEUlvE_St6vectorIhSaIhEEIEED2Ev
+                0x0000000000000000        0xc build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN16MatrixHexEncoderclEjEUlvE_St6vectorIhSaIhEEIEED2Ev
+                0x0000000000000000        0xc build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN10DecEncoderclEhhEUlvE_St6vectorIhSaIhEEIEED2Ev
+                0x0000000000000000        0xc build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN10DecEncoderclEjEUlvE_St6vectorIhSaIhEEIEED2Ev
+                0x0000000000000000        0xc build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN10HexEncoderclEhhEUlvE_St6vectorIhSaIhEEIEED2Ev
+                0x0000000000000000        0xc build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN10HexEncoderclEjEUlvE_St6vectorIhSaIhEEIEED2Ev
+                0x0000000000000000        0xc build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN2vl6ObjectD0Ev
+                0x0000000000000000        0xe build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN10HexEncoderclEjEUlvE_St6vectorIhSaIhEEIEED0Ev
+                0x0000000000000000        0xe build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN10HexEncoderclEhhEUlvE_St6vectorIhSaIhEEIEED0Ev
+                0x0000000000000000        0xe build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN10DecEncoderclEjEUlvE_St6vectorIhSaIhEEIEED0Ev
+                0x0000000000000000        0xe build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN10DecEncoderclEhhEUlvE_St6vectorIhSaIhEEIEED0Ev
+                0x0000000000000000        0xe build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN16MatrixHexEncoderclEjEUlvE_St6vectorIhSaIhEEIEED0Ev
+                0x0000000000000000        0xe build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN16MatrixHexEncoderclEhhEUlvE_St6vectorIhSaIhEEIEED0Ev
+                0x0000000000000000        0xe build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN16MatrixDecEncoderclEhhEUlvE_St6vectorIhSaIhEEIEED0Ev
+                0x0000000000000000        0xe build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN2vl17internal_invokers7InvokerISt6vectorIhSaIhEEIEED0Ev
+                0x0000000000000000        0xe build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZNK2vl4FuncIFhhEEclEh
+                0x0000000000000000       0x32 build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZNSt6vectorIhSaIhEEaSERKS1_
+                0x0000000000000000       0xd4 build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZNSt6vectorIhSaIhEEC2EjRKhRKS0_
+                0x0000000000000000       0x54 build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN10HexEncoderclEjEUlvE_St6vectorIhSaIhEEIEE6InvokeEv
+                0x0000000000000000       0xb0 build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN10HexEncoderclEhhEUlvE_St6vectorIhSaIhEEIEE6InvokeEv
+                0x0000000000000000       0xb8 build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN10DecEncoderclEjEUlvE_St6vectorIhSaIhEEIEE6InvokeEv
+                0x0000000000000000       0xbe build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN10DecEncoderclEhhEUlvE_St6vectorIhSaIhEEIEE6InvokeEv
+                0x0000000000000000       0xb8 build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN2vl3PtrINS_17internal_invokers7InvokerIhIhEEEE3DecEv
+                0x0000000000000000       0x50 build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN2vl4FuncIFhhEED2Ev
+                0x0000000000000000       0x24 build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN2vl4FuncIFhhEED0Ev
+                0x0000000000000000       0x14 build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN2vl4FuncIFhhEEC2ERKS2_
+                0x0000000000000000       0x8e build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN10HexEncoderC2EN2vl4FuncIFhhEEE
+                0x0000000000000000        0x4 build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN10DecEncoderC2EN2vl4FuncIFhhEEE
+                0x0000000000000000        0x4 build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN2vl4FuncIFSt6vectorIhSaIhEEvEED2Ev
+                0x0000000000000000       0x24 build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN2vl4FuncIFSt6vectorIhSaIhEEvEED0Ev
+                0x0000000000000000       0x14 build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN10HexEncoderclEj
+                0x0000000000000000       0x5e build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN10HexEncoderclEhh
+                0x0000000000000000       0x82 build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN10DecEncoderclEj
+                0x0000000000000000       0x5e build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN10DecEncoderclEhh
+                0x0000000000000000       0x82 build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN16MatrixHexEncoderclEj
+                0x0000000000000000       0x5e build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN16MatrixHexEncoderclEhh
+                0x0000000000000000       0x82 build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN16MatrixDecEncoderclEhh
+                0x0000000000000000       0x82 build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN2vl3PtrINS_17internal_invokers7InvokerISt6vectorIhSaIhEEIhEEEE3DecEv
+                0x0000000000000000       0x50 build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN2vl4FuncIFSt6vectorIhSaIhEEhEED2Ev
+                0x0000000000000000       0x24 build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN2vl4FuncIFSt6vectorIhSaIhEEhEED0Ev
+                0x0000000000000000       0x14 build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN2vl4FuncIFSt6vectorIhSaIhEEhEEC2ERKS5_
+                0x0000000000000000       0x8e build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN16MatrixHexEncoderC2EN2vl4FuncIFSt6vectorIhSaIhEEhEEE
+                0x0000000000000000        0x4 build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZZZN16MatrixHexEncoderclEjENKUlvE_clEvENKUlhE_clEh
+                0x0000000000000000       0x84 build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN16MatrixHexEncoderclEjEUlvE_St6vectorIhSaIhEEIEE6InvokeEv
+                0x0000000000000000       0x86 build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN16MatrixHexEncoderclEhhEUlvE_St6vectorIhSaIhEEIEE6InvokeEv
+                0x0000000000000000      0x1c4 build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN16MatrixDecEncoderclEhhEUlvE_St6vectorIhSaIhEEIEE6InvokeEv
+                0x0000000000000000      0x1c8 build-uno/libcore.a(util.encoders.cpp.o)
+ .rodata._ZTVN2vl6ObjectE
+                0x0000000000000000        0x8 build-uno/libcore.a(util.encoders.cpp.o)
+ .rodata._ZTVN2vl4FuncIFhhEEE
+                0x0000000000000000        0x8 build-uno/libcore.a(util.encoders.cpp.o)
+ .rodata._ZTVN2vl4FuncIFSt6vectorIhSaIhEEhEEE
+                0x0000000000000000        0x8 build-uno/libcore.a(util.encoders.cpp.o)
+ .rodata._ZTVN2vl4FuncIFSt6vectorIhSaIhEEvEEE
+                0x0000000000000000        0x8 build-uno/libcore.a(util.encoders.cpp.o)
+ .rodata._ZTVN2vl17internal_invokers7InvokerISt6vectorIhSaIhEEIEEE
+                0x0000000000000000        0xa build-uno/libcore.a(util.encoders.cpp.o)
+ .rodata._ZTVN2vl17internal_invokers13ObjectInvokerIZN10HexEncoderclEjEUlvE_St6vectorIhSaIhEEIEEE
+                0x0000000000000000        0xa build-uno/libcore.a(util.encoders.cpp.o)
+ .rodata._ZTVN2vl17internal_invokers13ObjectInvokerIZN10HexEncoderclEhhEUlvE_St6vectorIhSaIhEEIEEE
+                0x0000000000000000        0xa build-uno/libcore.a(util.encoders.cpp.o)
+ .rodata._ZTVN2vl17internal_invokers13ObjectInvokerIZN10DecEncoderclEjEUlvE_St6vectorIhSaIhEEIEEE
+                0x0000000000000000        0xa build-uno/libcore.a(util.encoders.cpp.o)
+ .rodata._ZTVN2vl17internal_invokers13ObjectInvokerIZN10DecEncoderclEhhEUlvE_St6vectorIhSaIhEEIEEE
+                0x0000000000000000        0xa build-uno/libcore.a(util.encoders.cpp.o)
+ .rodata._ZTVN2vl17internal_invokers13ObjectInvokerIZN16MatrixHexEncoderclEjEUlvE_St6vectorIhSaIhEEIEEE
+                0x0000000000000000        0xa build-uno/libcore.a(util.encoders.cpp.o)
+ .rodata._ZTVN2vl17internal_invokers13ObjectInvokerIZN16MatrixHexEncoderclEhhEUlvE_St6vectorIhSaIhEEIEEE
+                0x0000000000000000        0xa build-uno/libcore.a(util.encoders.cpp.o)
+ .rodata._ZTVN2vl17internal_invokers13ObjectInvokerIZN16MatrixDecEncoderclEhhEUlvE_St6vectorIhSaIhEEIEEE
+                0x0000000000000000        0xa build-uno/libcore.a(util.encoders.cpp.o)
+ .text          0x0000000000000000        0x0 build-uno/libcore.a(wiring.c.o)
+ .bss           0x0000000000000000        0x0 build-uno/libcore.a(wiring.c.o)
+ .text.micros   0x0000000000000000       0x46 build-uno/libcore.a(wiring.c.o)
+ .text.delay    0x0000000000000000       0x50 build-uno/libcore.a(wiring.c.o)
+ .text          0x0000000000000000        0x0 build-uno/libcore.a(hooks.c.o)
+ .bss           0x0000000000000000        0x0 build-uno/libcore.a(hooks.c.o)
+ .text.__empty  0x0000000000000000        0x2 build-uno/libcore.a(hooks.c.o)
+ .text          0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+ .bss           0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+ .text          0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(abort.o)
+ .bss           0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(abort.o)
+ .text          0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(exit.o)
+ .bss           0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(exit.o)
+ .text          0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(addsf3.o)
+ .bss           0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(addsf3.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0xa /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(addsf3.o)
+ .text          0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(addsf3x.o)
+ .bss           0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(addsf3x.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0xc0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(addsf3x.o)
+ .text          0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(cmpsf2.o)
+ .bss           0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(cmpsf2.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0x8 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(cmpsf2.o)
+ .text          0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(divsf3.o)
+ .bss           0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(divsf3.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0x4 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(divsf3.o)
+ .text          0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(divsf3x.o)
+ .bss           0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(divsf3x.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0xcc /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(divsf3x.o)
+ .text          0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fixsfsi.o)
+ .bss           0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fixsfsi.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0xa /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fixsfsi.o)
+ .text          0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fixunssfsi.o)
+ .bss           0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fixunssfsi.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0x58 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fixunssfsi.o)
+ .text          0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(floatsisf.o)
+ .bss           0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(floatsisf.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0x7a /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(floatsisf.o)
+ .text          0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fp_cmp.o)
+ .bss           0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fp_cmp.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0x48 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fp_cmp.o)
+ .text          0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fp_inf.o)
+ .bss           0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fp_inf.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0xc /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fp_inf.o)
+ .text          0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fp_nan.o)
+ .bss           0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fp_nan.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0x6 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fp_nan.o)
+ .text          0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fp_pscA.o)
+ .bss           0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fp_pscA.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0xe /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fp_pscA.o)
+ .text          0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fp_pscB.o)
+ .bss           0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fp_pscB.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0xe /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fp_pscB.o)
+ .text          0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fp_round.o)
+ .bss           0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fp_round.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0x22 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fp_round.o)
+ .text          0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fp_split3.o)
+ .bss           0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fp_split3.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0x44 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fp_split3.o)
+ .text          0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fp_zero.o)
+ .bss           0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fp_zero.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0xe /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fp_zero.o)
+ .text          0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(gesf2.o)
+ .bss           0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(gesf2.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0x8 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(gesf2.o)
+ .text          0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(mulsf3.o)
+ .bss           0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(mulsf3.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0x4 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(mulsf3.o)
+ .text          0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(mulsf3x.o)
+ .bss           0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(mulsf3x.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0xc2 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(mulsf3x.o)
+ .text          0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(unordsf2.o)
+ .bss           0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(unordsf2.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0x8 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(unordsf2.o)
+ .text          0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodqi4.o)
+ .bss           0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodqi4.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodqi4.o)
+ .text.libgcc   0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodqi4.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodqi4.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodqi4.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodqi4.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodqi4.o)
+ .text          0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodhi4.o)
+ .bss           0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc   0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodhi4.o)
+ .text          0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
+ .bss           0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc   0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
+ .text          0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .bss           0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text.libgcc   0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text          0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .bss           0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text          0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .bss           0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text          0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .bss           0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .text.libgcc   0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .text          0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_dtors.o)
+ .bss           0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_dtors.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_dtors.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_dtors.o)
+ .text.libgcc   0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_dtors.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_dtors.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_dtors.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_dtors.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_dtors.o)
+ .text          0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .bss           0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x0000000000000000 0x0000000000020000 xr
+data             0x0000000000800060 0x000000000000ffa0 rw !x
+eeprom           0x0000000000810000 0x0000000000010000 rw !x
+fuse             0x0000000000820000 0x0000000000000400 rw !x
+lock             0x0000000000830000 0x0000000000000400 rw !x
+signature        0x0000000000840000 0x0000000000000400 rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm328p.o
+LOAD build-uno/build.gamefabricator.cpp.o
+LOAD build-uno/game-bot.ino.o
+LOAD build-uno/libcore.a
+LOAD /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a
+LOAD /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a
+START GROUP
+LOAD /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a
+LOAD /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a
+LOAD /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a
+END GROUP
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000000000000000     0x4180
+ *(.vectors)
+ .vectors       0x0000000000000000       0x68 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm328p.o
+                0x0000000000000000                __vectors
+                0x0000000000000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x0000000000000068                . = ALIGN (0x2)
+                0x0000000000000068                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x0000000000000068        0x0 linker stubs
+ *(.trampolines*)
+                0x0000000000000068                __trampolines_end = .
+ *(.progmem*)
+ .progmem.data.digital_pin_to_timer_PGM
+                0x0000000000000068       0x14 build-uno/libcore.a(wiring_digital.c.o)
+                0x0000000000000068                digital_pin_to_timer_PGM
+ .progmem.data.digital_pin_to_bit_mask_PGM
+                0x000000000000007c       0x14 build-uno/libcore.a(wiring_digital.c.o)
+                0x000000000000007c                digital_pin_to_bit_mask_PGM
+ .progmem.data.digital_pin_to_port_PGM
+                0x0000000000000090       0x14 build-uno/libcore.a(wiring_digital.c.o)
+                0x0000000000000090                digital_pin_to_port_PGM
+ .progmem.data.port_to_input_PGM
+                0x00000000000000a4        0xa build-uno/libcore.a(wiring_digital.c.o)
+                0x00000000000000a4                port_to_input_PGM
+ .progmem.data.port_to_output_PGM
+                0x00000000000000ae        0xa build-uno/libcore.a(wiring_digital.c.o)
+                0x00000000000000ae                port_to_output_PGM
+ .progmem.data.port_to_mode_PGM
+                0x00000000000000b8        0xa build-uno/libcore.a(wiring_digital.c.o)
+                0x00000000000000b8                port_to_mode_PGM
+ .progmem.data._ZL6hexMap
+                0x00000000000000c2       0x30 build-uno/libcore.a(hardware.meledmatrixencoder.cpp.o)
+ .progmem.data._ZN19DisplayAnimatorTask9animationE
+                0x00000000000000f2       0x50 build-uno/libcore.a(task.displayanimator.cpp.o)
+                0x00000000000000f2                _ZN19DisplayAnimatorTask9animationE
+                0x0000000000000142                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x0000000000000142                __ctors_start = .
+ *(.ctors)
+ .ctors         0x0000000000000142        0x2 build-uno/build.gamefabricator.cpp.o
+ .ctors         0x0000000000000144        0x2 build-uno/game-bot.ino.o
+ .ctors         0x0000000000000146        0x2 build-uno/libcore.a(HardwareSerial0.cpp.o)
+                0x0000000000000148                __ctors_end = .
+                0x0000000000000148                __dtors_start = .
+ *(.dtors)
+ .dtors         0x0000000000000148        0x2 build-uno/build.gamefabricator.cpp.o
+ .dtors         0x000000000000014a        0x2 build-uno/game-bot.ino.o
+                0x000000000000014c                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000000000000014c        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm328p.o
+                0x000000000000014c                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000000000000014c        0xc /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm328p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000000000000158       0x16 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+                0x0000000000000158                __do_copy_data
+ .init4         0x000000000000016e       0x10 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+                0x000000000000016e                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ .init6         0x000000000000017e       0x16 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+                0x000000000000017e                __do_global_ctors
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000000000000194        0x8 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm328p.o
+ *(.init9)
+ *(.text)
+ .text          0x000000000000019c        0x4 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm328p.o
+                0x000000000000019c                __vector_22
+                0x000000000000019c                __vector_1
+                0x000000000000019c                __vector_24
+                0x000000000000019c                __vector_12
+                0x000000000000019c                __bad_interrupt
+                0x000000000000019c                __vector_6
+                0x000000000000019c                __vector_3
+                0x000000000000019c                __vector_23
+                0x000000000000019c                __vector_25
+                0x000000000000019c                __vector_11
+                0x000000000000019c                __vector_13
+                0x000000000000019c                __vector_17
+                0x000000000000019c                __vector_7
+                0x000000000000019c                __vector_5
+                0x000000000000019c                __vector_4
+                0x000000000000019c                __vector_9
+                0x000000000000019c                __vector_2
+                0x000000000000019c                __vector_21
+                0x000000000000019c                __vector_15
+                0x000000000000019c                __vector_8
+                0x000000000000019c                __vector_14
+                0x000000000000019c                __vector_10
+                0x000000000000019c                __vector_20
+                0x00000000000001a0                . = ALIGN (0x2)
+ *(.text.*)
+ .text._ZN2vl6ObjectD2Ev
+                0x00000000000001a0        0xc build-uno/build.gamefabricator.cpp.o
+                0x00000000000001a0                _ZN2vl6ObjectD1Ev
+                0x00000000000001a0                _ZN2vl6ObjectD2Ev
+ .text._ZN15BuildFabricatorD2Ev
+                0x00000000000001ac        0xc build-uno/build.gamefabricator.cpp.o
+                0x00000000000001ac                _ZN15BuildFabricatorD2Ev
+                0x00000000000001ac                _ZN15BuildFabricatorD1Ev
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN14GameFabricator24buildSerializeFreeMemoryEvEUlvE_vIEED2Ev
+                0x00000000000001b8        0xc build-uno/build.gamefabricator.cpp.o
+ .text._ZN2vl17internal_invokers13ObjectInvokerI15AnalogPinReaderjIEED2Ev
+                0x00000000000001c4        0xc build-uno/build.gamefabricator.cpp.o
+                0x00000000000001c4                _ZN2vl17internal_invokers13ObjectInvokerI15AnalogPinReaderjIEED1Ev
+                0x00000000000001c4                _ZN2vl17internal_invokers13ObjectInvokerI15AnalogPinReaderjIEED2Ev
+                0x00000000000001c4                _ZN2vl17internal_invokers13ObjectInvokerI15AnalogPinReaderjJEED1Ev
+                0x00000000000001c4                _ZN2vl17internal_invokers13ObjectInvokerI15AnalogPinReaderjJEED2Ev
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN7GameBot16ControlPanelSinkEvEUlN9Me4Button6BUTTONEE_vIS4_EED2Ev
+                0x00000000000001d0        0xc build-uno/build.gamefabricator.cpp.o
+                0x00000000000001d0                _ZN2vl17internal_invokers13ObjectInvokerIZN7GameBot16ControlPanelSinkEvEUlN9Me4Button6BUTTONEE_vJS4_EED2Ev
+                0x00000000000001d0                _ZN2vl17internal_invokers13ObjectInvokerIZN7GameBot16ControlPanelSinkEvEUlN9Me4Button6BUTTONEE_vJS4_EED1Ev
+                0x00000000000001d0                _ZN2vl17internal_invokers13ObjectInvokerIZN7GameBot16ControlPanelSinkEvEUlN9Me4Button6BUTTONEE_vIS4_EED2Ev
+                0x00000000000001d0                _ZN2vl17internal_invokers13ObjectInvokerIZN7GameBot16ControlPanelSinkEvEUlN9Me4Button6BUTTONEE_vIS4_EED1Ev
+ .text._ZN14GameFabricatorD2Ev
+                0x00000000000001dc        0xc build-uno/build.gamefabricator.cpp.o
+                0x00000000000001dc                _ZN14GameFabricatorD1Ev
+                0x00000000000001dc                _ZN14GameFabricatorD2Ev
+ .text._ZN2vl17internal_invokers13ObjectInvokerI14ButtonObservervI12BUTTON_STATEEE6InvokeEOS3_
+                0x00000000000001e8       0x22 build-uno/build.gamefabricator.cpp.o
+                0x00000000000001e8                _ZN2vl17internal_invokers13ObjectInvokerI14ButtonObservervJ12BUTTON_STATEEE6InvokeEOS3_
+                0x00000000000001e8                _ZN2vl17internal_invokers13ObjectInvokerI14ButtonObservervI12BUTTON_STATEEE6InvokeEOS3_
+ .text._ZN2vl6ObjectD0Ev
+                0x000000000000020a        0xe build-uno/build.gamefabricator.cpp.o
+                0x000000000000020a                _ZN2vl6ObjectD0Ev
+ .text._ZN15BuildFabricatorD0Ev
+                0x0000000000000218        0xe build-uno/build.gamefabricator.cpp.o
+                0x0000000000000218                _ZN15BuildFabricatorD0Ev
+ .text._ZN2vl24ReferenceCounterOperatorINS_17internal_invokers7InvokerIvIN9Me4Button6BUTTONEEEENS_7YesTypeEE15DeleteReferenceEPVlPv
+                0x0000000000000226       0x26 build-uno/build.gamefabricator.cpp.o
+                0x0000000000000226                _ZN2vl24ReferenceCounterOperatorINS_17internal_invokers7InvokerIvJN9Me4Button6BUTTONEEEENS_7YesTypeEE15DeleteReferenceEPVlPv
+                0x0000000000000226                _ZN2vl24ReferenceCounterOperatorINS_17internal_invokers7InvokerIvIN9Me4Button6BUTTONEEEENS_7YesTypeEE15DeleteReferenceEPVlPv
+ .text._ZN2vl24ReferenceCounterOperatorINS_17internal_invokers7InvokerIjIEEENS_7YesTypeEE15DeleteReferenceEPVlPv
+                0x000000000000024c       0x26 build-uno/build.gamefabricator.cpp.o
+                0x000000000000024c                _ZN2vl24ReferenceCounterOperatorINS_17internal_invokers7InvokerIjIEEENS_7YesTypeEE15DeleteReferenceEPVlPv
+                0x000000000000024c                _ZN2vl24ReferenceCounterOperatorINS_17internal_invokers7InvokerIjJEEENS_7YesTypeEE15DeleteReferenceEPVlPv
+ .text._ZN2vl24ReferenceCounterOperatorINS_17internal_invokers7InvokerIvIEEENS_7YesTypeEE15DeleteReferenceEPVlPv
+                0x0000000000000272       0x26 build-uno/build.gamefabricator.cpp.o
+                0x0000000000000272                _ZN2vl24ReferenceCounterOperatorINS_17internal_invokers7InvokerIvIEEENS_7YesTypeEE15DeleteReferenceEPVlPv
+                0x0000000000000272                _ZN2vl24ReferenceCounterOperatorINS_17internal_invokers7InvokerIvJEEENS_7YesTypeEE15DeleteReferenceEPVlPv
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN14GameFabricator24buildSerializeFreeMemoryEvEUlvE_vIEED0Ev
+                0x0000000000000298        0xe build-uno/build.gamefabricator.cpp.o
+ .text._ZN2vl24ReferenceCounterOperatorINS_17internal_invokers7InvokerIvI12BUTTON_STATEEEENS_7YesTypeEE15DeleteReferenceEPVlPv
+                0x00000000000002a6       0x26 build-uno/build.gamefabricator.cpp.o
+                0x00000000000002a6                _ZN2vl24ReferenceCounterOperatorINS_17internal_invokers7InvokerIvI12BUTTON_STATEEEENS_7YesTypeEE15DeleteReferenceEPVlPv
+                0x00000000000002a6                _ZN2vl24ReferenceCounterOperatorINS_17internal_invokers7InvokerIvJ12BUTTON_STATEEEENS_7YesTypeEE15DeleteReferenceEPVlPv
+ .text._ZN2vl17internal_invokers13ObjectInvokerI15AnalogPinReaderjIEED0Ev
+                0x00000000000002cc        0xe build-uno/build.gamefabricator.cpp.o
+                0x00000000000002cc                _ZN2vl17internal_invokers13ObjectInvokerI15AnalogPinReaderjIEED0Ev
+                0x00000000000002cc                _ZN2vl17internal_invokers13ObjectInvokerI15AnalogPinReaderjJEED0Ev
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN7GameBot16ControlPanelSinkEvEUlN9Me4Button6BUTTONEE_vIS4_EED0Ev
+                0x00000000000002da        0xe build-uno/build.gamefabricator.cpp.o
+                0x00000000000002da                _ZN2vl17internal_invokers13ObjectInvokerIZN7GameBot16ControlPanelSinkEvEUlN9Me4Button6BUTTONEE_vIS4_EED0Ev
+                0x00000000000002da                _ZN2vl17internal_invokers13ObjectInvokerIZN7GameBot16ControlPanelSinkEvEUlN9Me4Button6BUTTONEE_vJS4_EED0Ev
+ .text._ZN14GameFabricatorD0Ev
+                0x00000000000002e8        0xe build-uno/build.gamefabricator.cpp.o
+                0x00000000000002e8                _ZN14GameFabricatorD0Ev
+ .text._ZN2vl17internal_invokers13ObjectInvokerI10TaskRunnervIEE6InvokeEv
+                0x00000000000002f6        0x6 build-uno/build.gamefabricator.cpp.o
+                0x00000000000002f6                _ZN2vl17internal_invokers13ObjectInvokerI10TaskRunnervIEE6InvokeEv
+                0x00000000000002f6                _ZN2vl17internal_invokers13ObjectInvokerI10TaskRunnervJEE6InvokeEv
+ .text._ZN2vl17internal_invokers13ObjectInvokerI9TaskTimervIEE6InvokeEv
+                0x00000000000002fc        0x6 build-uno/build.gamefabricator.cpp.o
+                0x00000000000002fc                _ZN2vl17internal_invokers13ObjectInvokerI9TaskTimervIEE6InvokeEv
+                0x00000000000002fc                _ZN2vl17internal_invokers13ObjectInvokerI9TaskTimervJEE6InvokeEv
+ .text._ZN2vl17internal_invokers13ObjectInvokerI15AnalogPinReaderjIEE6InvokeEv
+                0x0000000000000302        0x8 build-uno/build.gamefabricator.cpp.o
+                0x0000000000000302                _ZN2vl17internal_invokers13ObjectInvokerI15AnalogPinReaderjJEE6InvokeEv
+                0x0000000000000302                _ZN2vl17internal_invokers13ObjectInvokerI15AnalogPinReaderjIEE6InvokeEv
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN14GameFabricator24buildSerializeFreeMemoryEvEUlvE_vIEE6InvokeEv
+                0x000000000000030a        0x8 build-uno/build.gamefabricator.cpp.o
+ .text._ZNSaIN2vl4FuncIFvN9Me4Button6BUTTONEEEEE7destroyEPS4_.isra.6
+                0x0000000000000312        0xe build-uno/build.gamefabricator.cpp.o
+ .text._ZN7GameBotC2Ev
+                0x0000000000000320       0x2c build-uno/build.gamefabricator.cpp.o
+                0x0000000000000320                _ZN7GameBotC1Ev
+                0x0000000000000320                _ZN7GameBotC2Ev
+ .text._ZN14GameFabricatorC2Ev
+                0x000000000000034c       0x18 build-uno/build.gamefabricator.cpp.o
+                0x000000000000034c                _ZN14GameFabricatorC2Ev
+                0x000000000000034c                _ZN14GameFabricatorC1Ev
+ .text._ZNK2vl4FuncIFvN9Me4Button6BUTTONEEEclES2_
+                0x0000000000000364       0x36 build-uno/build.gamefabricator.cpp.o
+                0x0000000000000364                _ZNK2vl4FuncIFvN9Me4Button6BUTTONEEEclES2_
+ .text._ZNK2vl4FuncIFv12BUTTON_STATEEEclES1_
+                0x000000000000039a       0x36 build-uno/build.gamefabricator.cpp.o
+                0x000000000000039a                _ZNK2vl4FuncIFv12BUTTON_STATEEEclES1_
+ .text._ZN2vl17internal_invokers13ObjectInvokerI16Me1ButtonSubjectvIN9Me4Button6BUTTONEEE6InvokeEOS4_
+                0x00000000000003d0       0x40 build-uno/build.gamefabricator.cpp.o
+                0x00000000000003d0                _ZN2vl17internal_invokers13ObjectInvokerI16Me1ButtonSubjectvIN9Me4Button6BUTTONEEE6InvokeEOS4_
+                0x00000000000003d0                _ZN2vl17internal_invokers13ObjectInvokerI16Me1ButtonSubjectvJN9Me4Button6BUTTONEEE6InvokeEOS4_
+ .text._ZNSt6vectorIN2vl4FuncIFvvEEESaIS3_EED2Ev
+                0x0000000000000410       0x50 build-uno/build.gamefabricator.cpp.o
+                0x0000000000000410                _ZNSt6vectorIN2vl4FuncIFvvEEESaIS3_EED2Ev
+                0x0000000000000410                _ZNSt6vectorIN2vl4FuncIFvvEEESaIS3_EED1Ev
+ .text._ZN2vl17internal_invokers13ObjectInvokerI10TaskRunnervIEED2Ev
+                0x0000000000000460       0x24 build-uno/build.gamefabricator.cpp.o
+                0x0000000000000460                _ZN2vl17internal_invokers13ObjectInvokerI10TaskRunnervJEED2Ev
+                0x0000000000000460                _ZN2vl17internal_invokers13ObjectInvokerI10TaskRunnervIEED2Ev
+                0x0000000000000460                _ZN2vl17internal_invokers13ObjectInvokerI10TaskRunnervJEED1Ev
+                0x0000000000000460                _ZN2vl17internal_invokers13ObjectInvokerI10TaskRunnervIEED1Ev
+ .text._ZN2vl17internal_invokers13ObjectInvokerI10TaskRunnervIEED0Ev
+                0x0000000000000484       0x14 build-uno/build.gamefabricator.cpp.o
+                0x0000000000000484                _ZN2vl17internal_invokers13ObjectInvokerI10TaskRunnervIEED0Ev
+                0x0000000000000484                _ZN2vl17internal_invokers13ObjectInvokerI10TaskRunnervJEED0Ev
+ .text._ZNK2vl4FuncIFvjEEclEj
+                0x0000000000000498       0x36 build-uno/build.gamefabricator.cpp.o
+                0x0000000000000498                _ZNK2vl4FuncIFvjEEclEj
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN14GameFabricator22buildDisplayFreeMemoryEvEUlvE_vIEE6InvokeEv
+                0x00000000000004ce       0x18 build-uno/build.gamefabricator.cpp.o
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN14GameFabricator22buildDisplayFreeMemoryEvEUlvE0_vIEE6InvokeEv
+                0x00000000000004e6        0xa build-uno/build.gamefabricator.cpp.o
+ .text._ZN2vl3PtrINS_17internal_invokers7InvokerIvI12BUTTON_STATEEEEE3DecEv
+                0x00000000000004f0       0x50 build-uno/build.gamefabricator.cpp.o
+                0x00000000000004f0                _ZN2vl3PtrINS_17internal_invokers7InvokerIvJ12BUTTON_STATEEEEE3DecEv
+                0x00000000000004f0                _ZN2vl3PtrINS_17internal_invokers7InvokerIvI12BUTTON_STATEEEEE3DecEv
+ .text._ZN2vl4FuncIFv12BUTTON_STATEEED2Ev
+                0x0000000000000540       0x24 build-uno/build.gamefabricator.cpp.o
+                0x0000000000000540                _ZN2vl4FuncIFv12BUTTON_STATEEED2Ev
+                0x0000000000000540                _ZN2vl4FuncIFv12BUTTON_STATEEED1Ev
+ .text._ZN2vl17internal_invokers13ObjectInvokerI16Me1ButtonSubjectvIN9Me4Button6BUTTONEEED2Ev
+                0x0000000000000564       0x24 build-uno/build.gamefabricator.cpp.o
+                0x0000000000000564                _ZN2vl17internal_invokers13ObjectInvokerI16Me1ButtonSubjectvIN9Me4Button6BUTTONEEED1Ev
+                0x0000000000000564                _ZN2vl17internal_invokers13ObjectInvokerI16Me1ButtonSubjectvJN9Me4Button6BUTTONEEED1Ev
+                0x0000000000000564                _ZN2vl17internal_invokers13ObjectInvokerI16Me1ButtonSubjectvJN9Me4Button6BUTTONEEED2Ev
+                0x0000000000000564                _ZN2vl17internal_invokers13ObjectInvokerI16Me1ButtonSubjectvIN9Me4Button6BUTTONEEED2Ev
+ .text._ZN2vl17internal_invokers13ObjectInvokerI16Me1ButtonSubjectvIN9Me4Button6BUTTONEEED0Ev
+                0x0000000000000588       0x14 build-uno/build.gamefabricator.cpp.o
+                0x0000000000000588                _ZN2vl17internal_invokers13ObjectInvokerI16Me1ButtonSubjectvIN9Me4Button6BUTTONEEED0Ev
+                0x0000000000000588                _ZN2vl17internal_invokers13ObjectInvokerI16Me1ButtonSubjectvJN9Me4Button6BUTTONEEED0Ev
+ .text._ZN2vl4FuncIFv12BUTTON_STATEEED0Ev
+                0x000000000000059c       0x14 build-uno/build.gamefabricator.cpp.o
+                0x000000000000059c                _ZN2vl4FuncIFv12BUTTON_STATEEED0Ev
+ .text._ZN2vl3PtrINS_17internal_invokers7InvokerIvI12BUTTON_STATEEEEE3IncEv
+                0x00000000000005b0       0x22 build-uno/build.gamefabricator.cpp.o
+                0x00000000000005b0                _ZN2vl3PtrINS_17internal_invokers7InvokerIvJ12BUTTON_STATEEEEE3IncEv
+                0x00000000000005b0                _ZN2vl3PtrINS_17internal_invokers7InvokerIvI12BUTTON_STATEEEEE3IncEv
+ .text._ZN2vl4FuncIFv12BUTTON_STATEEEC2ERKS3_
+                0x00000000000005d2       0x82 build-uno/build.gamefabricator.cpp.o
+                0x00000000000005d2                _ZN2vl4FuncIFv12BUTTON_STATEEEC2ERKS3_
+                0x00000000000005d2                _ZN2vl4FuncIFv12BUTTON_STATEEEC1ERKS3_
+ .text._ZN2vl3PtrINS_17internal_invokers7InvokerIvIEEEE3DecEv
+                0x0000000000000654       0x50 build-uno/build.gamefabricator.cpp.o
+                0x0000000000000654                _ZN2vl3PtrINS_17internal_invokers7InvokerIvIEEEE3DecEv
+                0x0000000000000654                _ZN2vl3PtrINS_17internal_invokers7InvokerIvJEEEE3DecEv
+ .text._ZN2vl4FuncIFvvEED2Ev
+                0x00000000000006a4       0x24 build-uno/build.gamefabricator.cpp.o
+                0x00000000000006a4                _ZN2vl4FuncIFvvEED2Ev
+                0x00000000000006a4                _ZN2vl4FuncIFvvEED1Ev
+ .text._ZN2vl17internal_invokers13ObjectInvokerI14ButtonObservervI12BUTTON_STATEEED2Ev
+                0x00000000000006c8       0x24 build-uno/build.gamefabricator.cpp.o
+                0x00000000000006c8                _ZN2vl17internal_invokers13ObjectInvokerI14ButtonObservervI12BUTTON_STATEEED1Ev
+                0x00000000000006c8                _ZN2vl17internal_invokers13ObjectInvokerI14ButtonObservervJ12BUTTON_STATEEED2Ev
+                0x00000000000006c8                _ZN2vl17internal_invokers13ObjectInvokerI14ButtonObservervI12BUTTON_STATEEED2Ev
+                0x00000000000006c8                _ZN2vl17internal_invokers13ObjectInvokerI14ButtonObservervJ12BUTTON_STATEEED1Ev
+ .text._ZN2vl17internal_invokers13ObjectInvokerI14ButtonObservervI12BUTTON_STATEEED0Ev
+                0x00000000000006ec       0x14 build-uno/build.gamefabricator.cpp.o
+                0x00000000000006ec                _ZN2vl17internal_invokers13ObjectInvokerI14ButtonObservervJ12BUTTON_STATEEED0Ev
+                0x00000000000006ec                _ZN2vl17internal_invokers13ObjectInvokerI14ButtonObservervI12BUTTON_STATEEED0Ev
+ .text._ZN2vl17internal_invokers13ObjectInvokerI9TaskTimervIEED2Ev
+                0x0000000000000700       0x24 build-uno/build.gamefabricator.cpp.o
+                0x0000000000000700                _ZN2vl17internal_invokers13ObjectInvokerI9TaskTimervIEED1Ev
+                0x0000000000000700                _ZN2vl17internal_invokers13ObjectInvokerI9TaskTimervJEED1Ev
+                0x0000000000000700                _ZN2vl17internal_invokers13ObjectInvokerI9TaskTimervIEED2Ev
+                0x0000000000000700                _ZN2vl17internal_invokers13ObjectInvokerI9TaskTimervJEED2Ev
+ .text._ZN2vl17internal_invokers13ObjectInvokerI9TaskTimervIEED0Ev
+                0x0000000000000724       0x14 build-uno/build.gamefabricator.cpp.o
+                0x0000000000000724                _ZN2vl17internal_invokers13ObjectInvokerI9TaskTimervJEED0Ev
+                0x0000000000000724                _ZN2vl17internal_invokers13ObjectInvokerI9TaskTimervIEED0Ev
+ .text._ZN2vl4FuncIFvvEED0Ev
+                0x0000000000000738       0x14 build-uno/build.gamefabricator.cpp.o
+                0x0000000000000738                _ZN2vl4FuncIFvvEED0Ev
+ .text._ZN2vl3PtrINS_17internal_invokers7InvokerIvIEEEE3IncEv
+                0x000000000000074c       0x22 build-uno/build.gamefabricator.cpp.o
+                0x000000000000074c                _ZN2vl3PtrINS_17internal_invokers7InvokerIvIEEEE3IncEv
+                0x000000000000074c                _ZN2vl3PtrINS_17internal_invokers7InvokerIvJEEEE3IncEv
+ .text._ZN2vl3PtrINS_17internal_invokers7InvokerIvIEEEEaSEPS3_
+                0x000000000000076e       0x60 build-uno/build.gamefabricator.cpp.o
+                0x000000000000076e                _ZN2vl3PtrINS_17internal_invokers7InvokerIvIEEEEaSEPS3_
+                0x000000000000076e                _ZN2vl3PtrINS_17internal_invokers7InvokerIvJEEEEaSEPS3_
+ .text._ZN14GameFabricator12getEventLoopEv
+                0x00000000000007ce       0x56 build-uno/build.gamefabricator.cpp.o
+                0x00000000000007ce                _ZN14GameFabricator12getEventLoopEv
+ .text._ZN2vl4FuncIFvvEEC2ERKS2_
+                0x0000000000000824       0x82 build-uno/build.gamefabricator.cpp.o
+                0x0000000000000824                _ZN2vl4FuncIFvvEEC1ERKS2_
+                0x0000000000000824                _ZN2vl4FuncIFvvEEC2ERKS2_
+ .text._ZN14GameFabricator9subscribeEjN2vl4FuncIFvvEEE
+                0x00000000000008a6       0xd8 build-uno/build.gamefabricator.cpp.o
+                0x00000000000008a6                _ZN14GameFabricator9subscribeEjN2vl4FuncIFvvEEE
+ .text._ZN2vl4FuncIFv12BUTTON_STATEEEC2I14ButtonObserverEERKT_
+                0x000000000000097e       0xd2 build-uno/build.gamefabricator.cpp.o
+                0x000000000000097e                _ZN2vl4FuncIFv12BUTTON_STATEEEC2I14ButtonObserverEERKT_
+                0x000000000000097e                _ZN2vl4FuncIFv12BUTTON_STATEEEC1I14ButtonObserverEERKT_
+ .text._ZN2vl3PtrINS_17internal_invokers7InvokerIvIN9Me4Button6BUTTONEEEEE3DecEv
+                0x0000000000000a50       0x50 build-uno/build.gamefabricator.cpp.o
+                0x0000000000000a50                _ZN2vl3PtrINS_17internal_invokers7InvokerIvIN9Me4Button6BUTTONEEEEE3DecEv
+                0x0000000000000a50                _ZN2vl3PtrINS_17internal_invokers7InvokerIvJN9Me4Button6BUTTONEEEEE3DecEv
+ .text._ZN2vl4FuncIFvN9Me4Button6BUTTONEEED2Ev
+                0x0000000000000aa0       0x24 build-uno/build.gamefabricator.cpp.o
+                0x0000000000000aa0                _ZN2vl4FuncIFvN9Me4Button6BUTTONEEED2Ev
+                0x0000000000000aa0                _ZN2vl4FuncIFvN9Me4Button6BUTTONEEED1Ev
+ .text._ZN2vl4FuncIFvN9Me4Button6BUTTONEEED0Ev
+                0x0000000000000ac4       0x14 build-uno/build.gamefabricator.cpp.o
+                0x0000000000000ac4                _ZN2vl4FuncIFvN9Me4Button6BUTTONEEED0Ev
+ .text._ZN2vl3PtrINS_17internal_invokers7InvokerIvIN9Me4Button6BUTTONEEEEE3IncEv
+                0x0000000000000ad8       0x22 build-uno/build.gamefabricator.cpp.o
+                0x0000000000000ad8                _ZN2vl3PtrINS_17internal_invokers7InvokerIvIN9Me4Button6BUTTONEEEEE3IncEv
+                0x0000000000000ad8                _ZN2vl3PtrINS_17internal_invokers7InvokerIvJN9Me4Button6BUTTONEEEEE3IncEv
+ .text._ZN2vl3PtrINS_17internal_invokers7InvokerIvIN9Me4Button6BUTTONEEEEEaSEPS5_
+                0x0000000000000afa       0x60 build-uno/build.gamefabricator.cpp.o
+                0x0000000000000afa                _ZN2vl3PtrINS_17internal_invokers7InvokerIvIN9Me4Button6BUTTONEEEEEaSEPS5_
+                0x0000000000000afa                _ZN2vl3PtrINS_17internal_invokers7InvokerIvJN9Me4Button6BUTTONEEEEEaSEPS5_
+ .text._ZN2vl4FuncIFvN9Me4Button6BUTTONEEEC2IZN7GameBot16ControlPanelSinkEvEUlS2_E_EERKT_
+                0x0000000000000b5a       0x54 build-uno/build.gamefabricator.cpp.o
+                0x0000000000000b5a                _ZN2vl4FuncIFvN9Me4Button6BUTTONEEEC1IZN7GameBot16ControlPanelSinkEvEUlS2_E_EERKT_
+                0x0000000000000b5a                _ZN2vl4FuncIFvN9Me4Button6BUTTONEEEC2IZN7GameBot16ControlPanelSinkEvEUlS2_E_EERKT_
+ .text._ZN2vl4FuncIFvN9Me4Button6BUTTONEEEC2I16Me1ButtonSubjectEERKT_
+                0x0000000000000bae       0x72 build-uno/build.gamefabricator.cpp.o
+                0x0000000000000bae                _ZN2vl4FuncIFvN9Me4Button6BUTTONEEEC2I16Me1ButtonSubjectEERKT_
+                0x0000000000000bae                _ZN2vl4FuncIFvN9Me4Button6BUTTONEEEC1I16Me1ButtonSubjectEERKT_
+ .text._ZN2vl4FuncIFvN9Me4Button6BUTTONEEEC2ERKS4_
+                0x0000000000000c20       0x82 build-uno/build.gamefabricator.cpp.o
+                0x0000000000000c20                _ZN2vl4FuncIFvN9Me4Button6BUTTONEEEC2ERKS4_
+                0x0000000000000c20                _ZN2vl4FuncIFvN9Me4Button6BUTTONEEEC1ERKS4_
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN7GameBot16ControlPanelSinkEvEUlN9Me4Button6BUTTONEE_vIS4_EE6InvokeEOS4_
+                0x0000000000000ca2       0x8e build-uno/build.gamefabricator.cpp.o
+                0x0000000000000ca2                _ZN2vl17internal_invokers13ObjectInvokerIZN7GameBot16ControlPanelSinkEvEUlN9Me4Button6BUTTONEE_vJS4_EE6InvokeEOS4_
+                0x0000000000000ca2                _ZN2vl17internal_invokers13ObjectInvokerIZN7GameBot16ControlPanelSinkEvEUlN9Me4Button6BUTTONEE_vIS4_EE6InvokeEOS4_
+ .text._ZNSt6vectorIN2vl4FuncIFvN9Me4Button6BUTTONEEEESaIS5_EE9push_backERKS5_
+                0x0000000000000d30      0x14a build-uno/build.gamefabricator.cpp.o
+                0x0000000000000d30                _ZNSt6vectorIN2vl4FuncIFvN9Me4Button6BUTTONEEEESaIS5_EE9push_backERKS5_
+ .text._ZN14GameFabricator24buildSerializeFreeMemoryEv
+                0x0000000000000e7a       0xd4 build-uno/build.gamefabricator.cpp.o
+                0x0000000000000e7a                _ZN14GameFabricator24buildSerializeFreeMemoryEv
+ .text._ZN2vl3PtrINS_17internal_invokers7InvokerIjIEEEE3DecEv
+                0x0000000000000f4e       0x50 build-uno/build.gamefabricator.cpp.o
+                0x0000000000000f4e                _ZN2vl3PtrINS_17internal_invokers7InvokerIjIEEEE3DecEv
+                0x0000000000000f4e                _ZN2vl3PtrINS_17internal_invokers7InvokerIjJEEEE3DecEv
+ .text._ZN2vl4FuncIFjvEED2Ev
+                0x0000000000000f9e       0x24 build-uno/build.gamefabricator.cpp.o
+                0x0000000000000f9e                _ZN2vl4FuncIFjvEED2Ev
+                0x0000000000000f9e                _ZN2vl4FuncIFjvEED1Ev
+ .text._ZN2vl4FuncIFjvEED0Ev
+                0x0000000000000fc2       0x14 build-uno/build.gamefabricator.cpp.o
+                0x0000000000000fc2                _ZN2vl4FuncIFjvEED0Ev
+ .text._ZN14GameFabricator17build4ButtonPanelEv
+                0x0000000000000fd6      0x158 build-uno/build.gamefabricator.cpp.o
+                0x0000000000000fd6                _ZN14GameFabricator17build4ButtonPanelEv
+ .text._ZN2vl3PtrINS_17internal_invokers7InvokerIvIjEEEE3DecEv
+                0x000000000000112e       0x50 build-uno/build.gamefabricator.cpp.o
+                0x000000000000112e                _ZN2vl3PtrINS_17internal_invokers7InvokerIvJjEEEE3DecEv
+                0x000000000000112e                _ZN2vl3PtrINS_17internal_invokers7InvokerIvIjEEEE3DecEv
+ .text._ZN2vl4FuncIFvjEED2Ev
+                0x000000000000117e       0x24 build-uno/build.gamefabricator.cpp.o
+                0x000000000000117e                _ZN2vl4FuncIFvjEED2Ev
+                0x000000000000117e                _ZN2vl4FuncIFvjEED1Ev
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN14GameFabricator22buildDisplayFreeMemoryEvEUlvE0_vIEED2Ev
+                0x00000000000011a2       0x24 build-uno/build.gamefabricator.cpp.o
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN14GameFabricator22buildDisplayFreeMemoryEvEUlvE0_vIEED0Ev
+                0x00000000000011c6       0x14 build-uno/build.gamefabricator.cpp.o
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN14GameFabricator22buildDisplayFreeMemoryEvEUlvE_vIEED2Ev
+                0x00000000000011da       0x24 build-uno/build.gamefabricator.cpp.o
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN14GameFabricator22buildDisplayFreeMemoryEvEUlvE_vIEED0Ev
+                0x00000000000011fe       0x14 build-uno/build.gamefabricator.cpp.o
+ .text._ZN2vl4FuncIFvjEED0Ev
+                0x0000000000001212       0x14 build-uno/build.gamefabricator.cpp.o
+                0x0000000000001212                _ZN2vl4FuncIFvjEED0Ev
+ .text._ZN2vl4FuncIFvjEEC2ERKS2_
+                0x0000000000001226       0x8e build-uno/build.gamefabricator.cpp.o
+                0x0000000000001226                _ZN2vl4FuncIFvjEEC2ERKS2_
+                0x0000000000001226                _ZN2vl4FuncIFvjEEC1ERKS2_
+ .text._ZN14GameFabricator22buildDisplayFreeMemoryEv
+                0x00000000000012b4      0x1f4 build-uno/build.gamefabricator.cpp.o
+                0x00000000000012b4                _ZN14GameFabricator22buildDisplayFreeMemoryEv
+ .text.startup._GLOBAL__sub_I__gamebot
+                0x00000000000014a8        0x8 build-uno/build.gamefabricator.cpp.o
+ .text.exit._GLOBAL__sub_D__gamebot
+                0x00000000000014b0       0x4a build-uno/build.gamefabricator.cpp.o
+ .text.loop     0x00000000000014fa       0x16 build-uno/game-bot.ino.o
+                0x00000000000014fa                loop
+ .text._Z12freeListSizev
+                0x0000000000001510       0x26 build-uno/game-bot.ino.o
+                0x0000000000001510                _Z12freeListSizev
+ .text._Z10freeMemoryv
+                0x0000000000001536       0x50 build-uno/game-bot.ino.o
+                0x0000000000001536                _Z10freeMemoryv
+ .text._Z19serializeFreeMemoryPKc
+                0x0000000000001586       0x1c build-uno/game-bot.ino.o
+                0x0000000000001586                _Z19serializeFreeMemoryPKc
+ .text.setup    0x00000000000015a2       0xdc build-uno/game-bot.ino.o
+                0x00000000000015a2                setup
+ .text.startup._GLOBAL__sub_I_setup
+                0x000000000000167e       0x2e build-uno/game-bot.ino.o
+ .text.exit._GLOBAL__sub_D_setup
+                0x00000000000016ac        0x8 build-uno/game-bot.ino.o
+ .text.analogRead
+                0x00000000000016b4       0x3a build-uno/libcore.a(wiring_analog.c.o)
+                0x00000000000016b4                analogRead
+ .text.turnOffPWM
+                0x00000000000016ee       0x52 build-uno/libcore.a(wiring_digital.c.o)
+ .text.pinMode  0x0000000000001740       0x72 build-uno/libcore.a(wiring_digital.c.o)
+                0x0000000000001740                pinMode
+ .text.digitalWrite
+                0x00000000000017b2       0x6c build-uno/libcore.a(wiring_digital.c.o)
+                0x00000000000017b2                digitalWrite
+ .text.digitalRead
+                0x000000000000181e       0x52 build-uno/libcore.a(wiring_digital.c.o)
+                0x000000000000181e                digitalRead
+ .text.__cxa_pure_virtual
+                0x0000000000001870        0x4 build-uno/libcore.a(abi.cpp.o)
+                0x0000000000001870                __cxa_pure_virtual
+ .text.__vector_18
+                0x0000000000001874       0x64 build-uno/libcore.a(HardwareSerial0.cpp.o)
+                0x0000000000001874                __vector_18
+ .text.__vector_19
+                0x00000000000018d8       0x4c build-uno/libcore.a(HardwareSerial0.cpp.o)
+                0x00000000000018d8                __vector_19
+ .text._Z17Serial0_availablev
+                0x0000000000001924       0x14 build-uno/libcore.a(HardwareSerial0.cpp.o)
+                0x0000000000001924                _Z17Serial0_availablev
+ .text.startup._GLOBAL__sub_I___vector_18
+                0x0000000000001938       0x86 build-uno/libcore.a(HardwareSerial0.cpp.o)
+ .text._ZN14HardwareSerial9availableEv
+                0x00000000000019be       0x16 build-uno/libcore.a(HardwareSerial.cpp.o)
+                0x00000000000019be                _ZN14HardwareSerial9availableEv
+ .text._ZN14HardwareSerial4peekEv
+                0x00000000000019d4       0x1c build-uno/libcore.a(HardwareSerial.cpp.o)
+                0x00000000000019d4                _ZN14HardwareSerial4peekEv
+ .text._ZN14HardwareSerial4readEv
+                0x00000000000019f0       0x28 build-uno/libcore.a(HardwareSerial.cpp.o)
+                0x00000000000019f0                _ZN14HardwareSerial4readEv
+ .text._Z14serialEventRunv
+                0x0000000000001a18       0x1c build-uno/libcore.a(HardwareSerial.cpp.o)
+                0x0000000000001a18                _Z14serialEventRunv
+ .text._ZN14HardwareSerial17_tx_udr_empty_irqEv
+                0x0000000000001a34       0x42 build-uno/libcore.a(HardwareSerial.cpp.o)
+                0x0000000000001a34                _ZN14HardwareSerial17_tx_udr_empty_irqEv
+ .text._ZN14HardwareSerial5flushEv
+                0x0000000000001a76       0x44 build-uno/libcore.a(HardwareSerial.cpp.o)
+                0x0000000000001a76                _ZN14HardwareSerial5flushEv
+ .text._ZN14HardwareSerial5writeEh
+                0x0000000000001aba       0xca build-uno/libcore.a(HardwareSerial.cpp.o)
+                0x0000000000001aba                _ZN14HardwareSerial5writeEh
+ .text._ZN14HardwareSerial5beginEmh
+                0x0000000000001b84       0xc4 build-uno/libcore.a(HardwareSerial.cpp.o)
+                0x0000000000001b84                _ZN14HardwareSerial5beginEmh
+ .text.initVariant
+                0x0000000000001c48        0x2 build-uno/libcore.a(main.cpp.o)
+                0x0000000000001c48                initVariant
+ .text.startup.main
+                0x0000000000001c4a       0x1e build-uno/libcore.a(main.cpp.o)
+                0x0000000000001c4a                main
+ .text._Znwj    0x0000000000001c68        0x4 build-uno/libcore.a(new.cpp.o)
+                0x0000000000001c68                _Znwj
+ .text._ZdlPv   0x0000000000001c6c        0x4 build-uno/libcore.a(new.cpp.o)
+                0x0000000000001c6c                _ZdlPv
+ .text._ZN5Print5writeEPKhj
+                0x0000000000001c70       0x50 build-uno/libcore.a(Print.cpp.o)
+                0x0000000000001c70                _ZN5Print5writeEPKhj
+ .text._ZN5Print5writeEPKc
+                0x0000000000001cc0       0x2c build-uno/libcore.a(Print.cpp.o)
+                0x0000000000001cc0                _ZN5Print5writeEPKc
+ .text._ZN5Print5printEPKc
+                0x0000000000001cec        0x4 build-uno/libcore.a(Print.cpp.o)
+                0x0000000000001cec                _ZN5Print5printEPKc
+ .text._ZN5Print7printlnEv
+                0x0000000000001cf0        0x8 build-uno/libcore.a(Print.cpp.o)
+                0x0000000000001cf0                _ZN5Print7printlnEv
+ .text._ZN5Print7printlnEPKc
+                0x0000000000001cf8       0x24 build-uno/libcore.a(Print.cpp.o)
+                0x0000000000001cf8                _ZN5Print7printlnEPKc
+ .text._ZN5Print11printNumberEmh
+                0x0000000000001d1c       0xb2 build-uno/libcore.a(Print.cpp.o)
+                0x0000000000001d1c                _ZN5Print11printNumberEmh
+ .text._ZN5Print5printEmi
+                0x0000000000001dce       0x1a build-uno/libcore.a(Print.cpp.o)
+                0x0000000000001dce                _ZN5Print5printEmi
+ .text._ZN5Print7printlnEji
+                0x0000000000001de8       0x2c build-uno/libcore.a(Print.cpp.o)
+                0x0000000000001de8                _ZN5Print7printlnEji
+ .text._ZN2vl17internal_invokers13StaticInvokerISt6vectorIhSaIhEEIhEED2Ev
+                0x0000000000001e14        0xc build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x0000000000001e14                _ZN2vl17internal_invokers13StaticInvokerISt6vectorIhSaIhEEJhEED1Ev
+                0x0000000000001e14                _ZN2vl17internal_invokers13StaticInvokerISt6vectorIhSaIhEEIhEED2Ev
+                0x0000000000001e14                _ZN2vl17internal_invokers13StaticInvokerISt6vectorIhSaIhEEJhEED2Ev
+                0x0000000000001e14                _ZN2vl17internal_invokers13StaticInvokerISt6vectorIhSaIhEEIhEED1Ev
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN15RobotFabricator23assembleDisplayAnimatorEhhEUlvE_vIEED2Ev
+                0x0000000000001e20        0xc build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl17internal_invokers13ObjectInvokerI10DigitalPinvIbEED2Ev
+                0x0000000000001e2c        0xc build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x0000000000001e2c                _ZN2vl17internal_invokers13ObjectInvokerI10DigitalPinvJbEED1Ev
+                0x0000000000001e2c                _ZN2vl17internal_invokers13ObjectInvokerI10DigitalPinvIbEED1Ev
+                0x0000000000001e2c                _ZN2vl17internal_invokers13ObjectInvokerI10DigitalPinvJbEED2Ev
+                0x0000000000001e2c                _ZN2vl17internal_invokers13ObjectInvokerI10DigitalPinvIbEED2Ev
+ .text._ZN15RobotFabricatorD2Ev
+                0x0000000000001e38        0xc build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x0000000000001e38                _ZN15RobotFabricatorD1Ev
+                0x0000000000001e38                _ZN15RobotFabricatorD2Ev
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN15RobotFabricator22assembleMe4ButtonPanelENS_4FuncIFjvEEENS3_IFvN9Me4Button6BUTTONEEEEEUlvE_vIEE6InvokeEv
+                0x0000000000001e44       0x80 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl17internal_invokers13StaticInvokerISt6vectorIhSaIhEEIhEE6InvokeEOh
+                0x0000000000001ec4       0x1e build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x0000000000001ec4                _ZN2vl17internal_invokers13StaticInvokerISt6vectorIhSaIhEEIhEE6InvokeEOh
+                0x0000000000001ec4                _ZN2vl17internal_invokers13StaticInvokerISt6vectorIhSaIhEEJhEE6InvokeEOh
+ .text._ZN2vl24ReferenceCounterOperatorINS_17internal_invokers7InvokerIvIbEEENS_7YesTypeEE15DeleteReferenceEPVlPv
+                0x0000000000001ee2       0x26 build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x0000000000001ee2                _ZN2vl24ReferenceCounterOperatorINS_17internal_invokers7InvokerIvIbEEENS_7YesTypeEE15DeleteReferenceEPVlPv
+                0x0000000000001ee2                _ZN2vl24ReferenceCounterOperatorINS_17internal_invokers7InvokerIvJbEEENS_7YesTypeEE15DeleteReferenceEPVlPv
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN15RobotFabricator23assembleDisplayAnimatorEhhEUlvE_vIEED0Ev
+                0x0000000000001f08        0xe build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl24ReferenceCounterOperatorINS_17internal_invokers7InvokerIvIjEEENS_7YesTypeEE15DeleteReferenceEPVlPv
+                0x0000000000001f16       0x26 build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x0000000000001f16                _ZN2vl24ReferenceCounterOperatorINS_17internal_invokers7InvokerIvIjEEENS_7YesTypeEE15DeleteReferenceEPVlPv
+                0x0000000000001f16                _ZN2vl24ReferenceCounterOperatorINS_17internal_invokers7InvokerIvJjEEENS_7YesTypeEE15DeleteReferenceEPVlPv
+ .text._ZN2vl24ReferenceCounterOperatorINS_17internal_invokers7InvokerISt6vectorIhSaIhEEIhEEENS_7YesTypeEE15DeleteReferenceEPVlPv
+                0x0000000000001f3c       0x26 build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x0000000000001f3c                _ZN2vl24ReferenceCounterOperatorINS_17internal_invokers7InvokerISt6vectorIhSaIhEEIhEEENS_7YesTypeEE15DeleteReferenceEPVlPv
+                0x0000000000001f3c                _ZN2vl24ReferenceCounterOperatorINS_17internal_invokers7InvokerISt6vectorIhSaIhEEJhEEENS_7YesTypeEE15DeleteReferenceEPVlPv
+ .text._ZN2vl17internal_invokers13StaticInvokerISt6vectorIhSaIhEEIhEED0Ev
+                0x0000000000001f62        0xe build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x0000000000001f62                _ZN2vl17internal_invokers13StaticInvokerISt6vectorIhSaIhEEIhEED0Ev
+                0x0000000000001f62                _ZN2vl17internal_invokers13StaticInvokerISt6vectorIhSaIhEEJhEED0Ev
+ .text._ZN2vl17internal_invokers13ObjectInvokerI10DigitalPinvIbEED0Ev
+                0x0000000000001f70        0xe build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x0000000000001f70                _ZN2vl17internal_invokers13ObjectInvokerI10DigitalPinvJbEED0Ev
+                0x0000000000001f70                _ZN2vl17internal_invokers13ObjectInvokerI10DigitalPinvIbEED0Ev
+ .text._ZN15RobotFabricatorD0Ev
+                0x0000000000001f7e        0xe build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x0000000000001f7e                _ZN15RobotFabricatorD0Ev
+ .text._ZN2vl4FuncIFSt6vectorIhSaIhEEvEED2Ev
+                0x0000000000001f8c       0x60 build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x0000000000001f8c                _ZN2vl4FuncIFSt6vectorIhSaIhEEvEED2Ev
+                0x0000000000001f8c                _ZN2vl4FuncIFSt6vectorIhSaIhEEvEED1Ev
+ .text._ZN2vl4FuncIFSt6vectorIhSaIhEEvEED0Ev
+                0x0000000000001fec       0x14 build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x0000000000001fec                _ZN2vl4FuncIFSt6vectorIhSaIhEEvEED0Ev
+ .text._ZN2vl4FuncIF12ProgMemArrayvEED2Ev
+                0x0000000000002000       0x60 build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x0000000000002000                _ZN2vl4FuncIF12ProgMemArrayvEED2Ev
+                0x0000000000002000                _ZN2vl4FuncIF12ProgMemArrayvEED1Ev
+ .text._ZN2vl4FuncIF12ProgMemArrayvEED0Ev
+                0x0000000000002060       0x14 build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x0000000000002060                _ZN2vl4FuncIF12ProgMemArrayvEED0Ev
+ .text._ZN2vl17internal_invokers13ObjectInvokerI10DigitalPinvIbEE6InvokeEOb
+                0x0000000000002074       0x2c build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x0000000000002074                _ZN2vl17internal_invokers13ObjectInvokerI10DigitalPinvJbEE6InvokeEOb
+                0x0000000000002074                _ZN2vl17internal_invokers13ObjectInvokerI10DigitalPinvIbEE6InvokeEOb
+ .text._ZN15RobotFabricator28createSegmentDisplayProtocolEhh
+                0x00000000000020a0       0x7a build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x00000000000020a0                _ZN15RobotFabricator28createSegmentDisplayProtocolEhh
+ .text._ZN15RobotFabricatorC2Ev
+                0x000000000000211a        0xc build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x000000000000211a                _ZN15RobotFabricatorC2Ev
+                0x000000000000211a                _ZN15RobotFabricatorC1Ev
+ .text._ZNK2vl4FuncIFvbEEclEb
+                0x0000000000002126       0x32 build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x0000000000002126                _ZNK2vl4FuncIFvbEEclEb
+ .text._ZN19MeLEDMatrixProtocol8writeBitEb
+                0x0000000000002158       0x28 build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x0000000000002158                _ZN19MeLEDMatrixProtocol8writeBitEb
+ .text._ZN19MeLEDMatrixProtocol9writeByteEh
+                0x0000000000002180       0x6c build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x0000000000002180                _ZN19MeLEDMatrixProtocol9writeByteEh
+ .text._ZN22SegmentDisplayProtocolclIN2vl4FuncIF12ProgMemArrayvEEEEEvT_
+                0x00000000000021ec       0xb0 build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x00000000000021ec                _ZN22SegmentDisplayProtocolclIN2vl4FuncIF12ProgMemArrayvEEEEEvT_
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN15RobotFabricator23assembleDisplayAnimatorEhhEUlvE_vIEE6InvokeEv
+                0x000000000000229c       0x56 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN19MeLEDMatrixProtocolclIN2vl4FuncIFSt6vectorIhSaIhEEvEEEEEvT_
+                0x00000000000022f2       0xcc build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x00000000000022f2                _ZN19MeLEDMatrixProtocolclIN2vl4FuncIFSt6vectorIhSaIhEEvEEEEEvT_
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN15RobotFabricator28assembleMatrixDisplayDecimalEhhEUljE_vIjEE6InvokeEOj
+                0x00000000000023be       0x5c build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl3PtrINS_17internal_invokers7InvokerIvIbEEEE3DecEv
+                0x000000000000241a       0x50 build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x000000000000241a                _ZN2vl3PtrINS_17internal_invokers7InvokerIvJbEEEE3DecEv
+                0x000000000000241a                _ZN2vl3PtrINS_17internal_invokers7InvokerIvIbEEEE3DecEv
+ .text._ZN2vl4FuncIFvbEED2Ev
+                0x000000000000246a       0x24 build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x000000000000246a                _ZN2vl4FuncIFvbEED2Ev
+                0x000000000000246a                _ZN2vl4FuncIFvbEED1Ev
+ .text._ZN19MeLEDMatrixProtocolD2Ev
+                0x000000000000248e       0x16 build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x000000000000248e                _ZN19MeLEDMatrixProtocolD2Ev
+                0x000000000000248e                _ZN19MeLEDMatrixProtocolD1Ev
+ .text._ZN2vl4FuncIFvbEED0Ev
+                0x00000000000024a4       0x14 build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x00000000000024a4                _ZN2vl4FuncIFvbEED0Ev
+ .text._ZN2vl4FuncIFvbEEC2I10DigitalPinEERKT_
+                0x00000000000024b8       0xbc build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x00000000000024b8                _ZN2vl4FuncIFvbEEC2I10DigitalPinEERKT_
+                0x00000000000024b8                _ZN2vl4FuncIFvbEEC1I10DigitalPinEERKT_
+ .text._ZN15RobotFabricator25createMeLEDMatrixProtocolEhh
+                0x0000000000002574       0x98 build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x0000000000002574                _ZN15RobotFabricator25createMeLEDMatrixProtocolEhh
+ .text._ZN15RobotFabricator23assembleDisplayAnimatorEhh
+                0x000000000000260c       0xae build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x000000000000260c                _ZN15RobotFabricator23assembleDisplayAnimatorEhh
+ .text._ZN15RobotFabricator20buildDisplayAnimatorEv
+                0x00000000000026ba       0xb8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x00000000000026ba                _ZN15RobotFabricator20buildDisplayAnimatorEv
+ .text._ZN2vl3PtrINS_17internal_invokers7InvokerIvIjEEEEaSEPS3_
+                0x0000000000002772       0x76 build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x0000000000002772                _ZN2vl3PtrINS_17internal_invokers7InvokerIvIjEEEEaSEPS3_
+                0x0000000000002772                _ZN2vl3PtrINS_17internal_invokers7InvokerIvJjEEEEaSEPS3_
+ .text._ZN2vl3PtrINS_17internal_invokers7InvokerISt6vectorIhSaIhEEIhEEEE3DecEv
+                0x00000000000027e8       0x50 build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x00000000000027e8                _ZN2vl3PtrINS_17internal_invokers7InvokerISt6vectorIhSaIhEEJhEEEE3DecEv
+                0x00000000000027e8                _ZN2vl3PtrINS_17internal_invokers7InvokerISt6vectorIhSaIhEEIhEEEE3DecEv
+ .text._ZN2vl4FuncIFSt6vectorIhSaIhEEhEED2Ev
+                0x0000000000002838       0x24 build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x0000000000002838                _ZN2vl4FuncIFSt6vectorIhSaIhEEhEED2Ev
+                0x0000000000002838                _ZN2vl4FuncIFSt6vectorIhSaIhEEhEED1Ev
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN15RobotFabricator28assembleMatrixDisplayDecimalEhhEUljE_vIjEED2Ev
+                0x000000000000285c       0x2c build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN15RobotFabricator28assembleMatrixDisplayDecimalEhhEUljE_vIjEED0Ev
+                0x0000000000002888       0x14 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl4FuncIFSt6vectorIhSaIhEEhEED0Ev
+                0x000000000000289c       0x14 build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x000000000000289c                _ZN2vl4FuncIFSt6vectorIhSaIhEEhEED0Ev
+ .text._ZN2vl3PtrINS_17internal_invokers7InvokerISt6vectorIhSaIhEEIhEEEE3IncEv
+                0x00000000000028b0       0x22 build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x00000000000028b0                _ZN2vl3PtrINS_17internal_invokers7InvokerISt6vectorIhSaIhEEJhEEEE3IncEv
+                0x00000000000028b0                _ZN2vl3PtrINS_17internal_invokers7InvokerISt6vectorIhSaIhEEIhEEEE3IncEv
+ .text._ZN2vl4FuncIFSt6vectorIhSaIhEEhEEC2ERKS5_
+                0x00000000000028d2       0x82 build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x00000000000028d2                _ZN2vl4FuncIFSt6vectorIhSaIhEEhEEC2ERKS5_
+                0x00000000000028d2                _ZN2vl4FuncIFSt6vectorIhSaIhEEhEEC1ERKS5_
+ .text._ZN2vl4FuncIFSt6vectorIhSaIhEEhEEC2EPS4_
+                0x0000000000002954       0xaa build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x0000000000002954                _ZN2vl4FuncIFSt6vectorIhSaIhEEhEEC2EPS4_
+                0x0000000000002954                _ZN2vl4FuncIFSt6vectorIhSaIhEEhEEC1EPS4_
+ .text._ZN15RobotFabricator28assembleMatrixDisplayDecimalEhh
+                0x00000000000029fe       0xf2 build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x00000000000029fe                _ZN15RobotFabricator28assembleMatrixDisplayDecimalEhh
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN15RobotFabricator22assembleMe4ButtonPanelENS_4FuncIFjvEEENS3_IFvN9Me4Button6BUTTONEEEEEUlvE_vIEED2Ev
+                0x0000000000002af0       0x36 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN15RobotFabricator22assembleMe4ButtonPanelENS_4FuncIFjvEEENS3_IFvN9Me4Button6BUTTONEEEEEUlvE_vIEED0Ev
+                0x0000000000002b26       0x14 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .text._ZN2vl4FuncIFjvEEC2ERKS2_
+                0x0000000000002b3a       0x8e build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x0000000000002b3a                _ZN2vl4FuncIFjvEEC2ERKS2_
+                0x0000000000002b3a                _ZN2vl4FuncIFjvEEC1ERKS2_
+ .text._ZN15RobotFabricator22assembleMe4ButtonPanelEN2vl4FuncIFjvEEENS1_IFvN9Me4Button6BUTTONEEEE
+                0x0000000000002bc8       0xf0 build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x0000000000002bc8                _ZN15RobotFabricator22assembleMe4ButtonPanelEN2vl4FuncIFjvEEENS1_IFvN9Me4Button6BUTTONEEEE
+ .text._ZNSt6vectorIhSaIhEEC2ESt16initializer_listIhERKS0_
+                0x0000000000002cb8       0x88 build-uno/libcore.a(hardware.meledmatrixencoder.cpp.o)
+                0x0000000000002cb8                _ZNSt6vectorIhSaIhEEC2ESt16initializer_listIhERKS0_
+                0x0000000000002cb8                _ZNSt6vectorIhSaIhEEC1ESt16initializer_listIhERKS0_
+ .text._ZN18MeLEDMatrixEncoder9encodeDecEh
+                0x0000000000002d40       0x7e build-uno/libcore.a(hardware.meledmatrixencoder.cpp.o)
+                0x0000000000002d40                _ZN18MeLEDMatrixEncoder9encodeDecEh
+ .text._ZN10DigitalPinclEb
+                0x0000000000002dbe       0x2a build-uno/libcore.a(protocol.i2c.cpp.o)
+                0x0000000000002dbe                _ZN10DigitalPinclEb
+ .text._ZN11I2CProtocolC2E10DigitalPinS0_
+                0x0000000000002de8       0x2e build-uno/libcore.a(protocol.i2c.cpp.o)
+                0x0000000000002de8                _ZN11I2CProtocolC2E10DigitalPinS0_
+                0x0000000000002de8                _ZN11I2CProtocolC1E10DigitalPinS0_
+ .text._ZN11I2CProtocol5startEv
+                0x0000000000002e16       0x48 build-uno/libcore.a(protocol.i2c.cpp.o)
+                0x0000000000002e16                _ZN11I2CProtocol5startEv
+ .text._ZN11I2CProtocol4stopEv
+                0x0000000000002e5e       0x3e build-uno/libcore.a(protocol.i2c.cpp.o)
+                0x0000000000002e5e                _ZN11I2CProtocol4stopEv
+ .text._ZN11I2CProtocol12stretchClockEv
+                0x0000000000002e9c       0x4c build-uno/libcore.a(protocol.i2c.cpp.o)
+                0x0000000000002e9c                _ZN11I2CProtocol12stretchClockEv
+ .text._ZN11I2CProtocol8writeBitEh
+                0x0000000000002ee8       0x3c build-uno/libcore.a(protocol.i2c.cpp.o)
+                0x0000000000002ee8                _ZN11I2CProtocol8writeBitEh
+ .text._ZN11I2CProtocol10lookForAckEv
+                0x0000000000002f24       0x4c build-uno/libcore.a(protocol.i2c.cpp.o)
+                0x0000000000002f24                _ZN11I2CProtocol10lookForAckEv
+ .text._ZN11I2CProtocol9writeByteEh
+                0x0000000000002f70       0x32 build-uno/libcore.a(protocol.i2c.cpp.o)
+                0x0000000000002f70                _ZN11I2CProtocol9writeByteEh
+ .text._ZN19MeLEDMatrixProtocol5startEv
+                0x0000000000002fa2       0x1a build-uno/libcore.a(protocol.meledmatrix.cpp.o)
+                0x0000000000002fa2                _ZN19MeLEDMatrixProtocol5startEv
+ .text._ZN19MeLEDMatrixProtocol4stopEv
+                0x0000000000002fbc       0x36 build-uno/libcore.a(protocol.meledmatrix.cpp.o)
+                0x0000000000002fbc                _ZN19MeLEDMatrixProtocol4stopEv
+ .text._ZN19MeLEDMatrixProtocol11clearMatrixEv
+                0x0000000000002ff2       0x36 build-uno/libcore.a(protocol.meledmatrix.cpp.o)
+                0x0000000000002ff2                _ZN19MeLEDMatrixProtocol11clearMatrixEv
+ .text._ZN2vl4FuncIFvbEEC2ERKS2_
+                0x0000000000003028       0x8e build-uno/libcore.a(protocol.meledmatrix.cpp.o)
+                0x0000000000003028                _ZN2vl4FuncIFvbEEC1ERKS2_
+                0x0000000000003028                _ZN2vl4FuncIFvbEEC2ERKS2_
+ .text._ZN19MeLEDMatrixProtocolC2EN2vl4FuncIFvbEEES3_
+                0x00000000000030b6       0x6c build-uno/libcore.a(protocol.meledmatrix.cpp.o)
+                0x00000000000030b6                _ZN19MeLEDMatrixProtocolC1EN2vl4FuncIFvbEEES3_
+                0x00000000000030b6                _ZN19MeLEDMatrixProtocolC2EN2vl4FuncIFvbEEES3_
+ .text._ZN19MeLEDMatrixProtocolC2ERKS_
+                0x0000000000003122       0x26 build-uno/libcore.a(protocol.meledmatrix.cpp.o)
+                0x0000000000003122                _ZN19MeLEDMatrixProtocolC2ERKS_
+                0x0000000000003122                _ZN19MeLEDMatrixProtocolC1ERKS_
+ .text._ZN22SegmentDisplayProtocolC2E10DigitalPinS0_
+                0x0000000000003148        0xe build-uno/libcore.a(protocol.segmentdisplay.cpp.o)
+                0x0000000000003148                _ZN22SegmentDisplayProtocolC2E10DigitalPinS0_
+                0x0000000000003148                _ZN22SegmentDisplayProtocolC1E10DigitalPinS0_
+ .text._ZN16Me4ButtonSubjectC2EN2vl4FuncIFvN9Me4Button6BUTTONEEEE
+                0x0000000000003156       0x94 build-uno/libcore.a(subject.me4button.cpp.o)
+                0x0000000000003156                _ZN16Me4ButtonSubjectC2EN2vl4FuncIFvN9Me4Button6BUTTONEEEE
+                0x0000000000003156                _ZN16Me4ButtonSubjectC1EN2vl4FuncIFvN9Me4Button6BUTTONEEEE
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN19DisplayAnimatorTaskclEvEUlvE_12ProgMemArrayIEED2Ev
+                0x00000000000031ea        0xc build-uno/libcore.a(task.displayanimator.cpp.o)
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN19DisplayAnimatorTaskclEvEUlvE_12ProgMemArrayIEE6InvokeEv
+                0x00000000000031f6       0x1a build-uno/libcore.a(task.displayanimator.cpp.o)
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN19DisplayAnimatorTaskclEvEUlvE_12ProgMemArrayIEED0Ev
+                0x0000000000003210        0xe build-uno/libcore.a(task.displayanimator.cpp.o)
+ .text._ZN2vl24ReferenceCounterOperatorINS_17internal_invokers7InvokerI12ProgMemArrayIEEENS_7YesTypeEE15DeleteReferenceEPVlPv
+                0x000000000000321e       0x26 build-uno/libcore.a(task.displayanimator.cpp.o)
+                0x000000000000321e                _ZN2vl24ReferenceCounterOperatorINS_17internal_invokers7InvokerI12ProgMemArrayIEEENS_7YesTypeEE15DeleteReferenceEPVlPv
+                0x000000000000321e                _ZN2vl24ReferenceCounterOperatorINS_17internal_invokers7InvokerI12ProgMemArrayJEEENS_7YesTypeEE15DeleteReferenceEPVlPv
+ .text._ZN19DisplayAnimatorTaskC2Ev
+                0x0000000000003244        0x8 build-uno/libcore.a(task.displayanimator.cpp.o)
+                0x0000000000003244                _ZN19DisplayAnimatorTaskC2Ev
+                0x0000000000003244                _ZN19DisplayAnimatorTaskC1Ev
+ .text._ZN2vl3PtrINS_17internal_invokers7InvokerI12ProgMemArrayIEEEE3DecEv
+                0x000000000000324c       0x50 build-uno/libcore.a(task.displayanimator.cpp.o)
+                0x000000000000324c                _ZN2vl3PtrINS_17internal_invokers7InvokerI12ProgMemArrayIEEEE3DecEv
+                0x000000000000324c                _ZN2vl3PtrINS_17internal_invokers7InvokerI12ProgMemArrayJEEEE3DecEv
+ .text._ZN19DisplayAnimatorTaskclEv
+                0x000000000000329c       0xdc build-uno/libcore.a(task.displayanimator.cpp.o)
+                0x000000000000329c                _ZN19DisplayAnimatorTaskclEv
+ .text._ZNSt6vectorIN2vl4FuncIFvvEEESaIS3_EE8downsizeEj.part.8
+                0x0000000000003378       0x7a build-uno/libcore.a(task.runner.cpp.o)
+ .text._ZN10TaskRunnerC2Ev
+                0x00000000000033f2       0x28 build-uno/libcore.a(task.runner.cpp.o)
+                0x00000000000033f2                _ZN10TaskRunnerC1Ev
+                0x00000000000033f2                _ZN10TaskRunnerC2Ev
+ .text._ZN2vl3PtrINS_17internal_invokers7InvokerIvIEEEEaSERKS4_
+                0x000000000000341a       0x6e build-uno/libcore.a(task.runner.cpp.o)
+                0x000000000000341a                _ZN2vl3PtrINS_17internal_invokers7InvokerIvJEEEEaSERKS4_
+                0x000000000000341a                _ZN2vl3PtrINS_17internal_invokers7InvokerIvIEEEEaSERKS4_
+ .text._ZN10TaskRunner9subscribeEN2vl4FuncIFvvEEE
+                0x0000000000003488      0x18a build-uno/libcore.a(task.runner.cpp.o)
+                0x0000000000003488                _ZN10TaskRunner9subscribeEN2vl4FuncIFvvEEE
+ .text._ZN10TaskRunnerC2ERKS_
+                0x0000000000003612       0xb0 build-uno/libcore.a(task.runner.cpp.o)
+                0x0000000000003612                _ZN10TaskRunnerC2ERKS_
+                0x0000000000003612                _ZN10TaskRunnerC1ERKS_
+ .text._ZNK10TaskRunnerclEv
+                0x00000000000036c2       0xae build-uno/libcore.a(task.runner.cpp.o)
+                0x00000000000036c2                _ZNK10TaskRunnerclEv
+ .text._ZN9TaskTimerclEv
+                0x0000000000003770       0x60 build-uno/libcore.a(task.timer.cpp.o)
+                0x0000000000003770                _ZN9TaskTimerclEv
+ .text._ZN9TaskTimerC2EmN2vl4FuncIFvvEEE
+                0x00000000000037d0      0x106 build-uno/libcore.a(task.timer.cpp.o)
+                0x00000000000037d0                _ZN9TaskTimerC1EmN2vl4FuncIFvvEEE
+                0x00000000000037d0                _ZN9TaskTimerC2EmN2vl4FuncIFvvEEE
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN16MatrixDecEncoderclEjEUlvE_St6vectorIhSaIhEEIEED2Ev
+                0x00000000000038d6        0xc build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN2vl24ReferenceCounterOperatorINS_17internal_invokers7InvokerISt6vectorIhSaIhEEIEEENS_7YesTypeEE15DeleteReferenceEPVlPv
+                0x00000000000038e2       0x26 build-uno/libcore.a(util.encoders.cpp.o)
+                0x00000000000038e2                _ZN2vl24ReferenceCounterOperatorINS_17internal_invokers7InvokerISt6vectorIhSaIhEEIEEENS_7YesTypeEE15DeleteReferenceEPVlPv
+                0x00000000000038e2                _ZN2vl24ReferenceCounterOperatorINS_17internal_invokers7InvokerISt6vectorIhSaIhEEJEEENS_7YesTypeEE15DeleteReferenceEPVlPv
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN16MatrixDecEncoderclEjEUlvE_St6vectorIhSaIhEEIEED0Ev
+                0x0000000000003908        0xe build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZNSt6vectorIhSaIhEE7reserveEj.part.8
+                0x0000000000003916       0x54 build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZNSt6vectorIhSaIhEED2Ev
+                0x000000000000396a        0xa build-uno/libcore.a(util.encoders.cpp.o)
+                0x000000000000396a                _ZNSt6vectorIhSaIhEED2Ev
+                0x000000000000396a                _ZNSt6vectorIhSaIhEED1Ev
+ .text._ZNSt6vectorIhSaIhEEC2ERKS0_
+                0x0000000000003974       0x24 build-uno/libcore.a(util.encoders.cpp.o)
+                0x0000000000003974                _ZNSt6vectorIhSaIhEEC2ERKS0_
+                0x0000000000003974                _ZNSt6vectorIhSaIhEEC1ERKS0_
+ .text._ZNK2vl4FuncIFSt6vectorIhSaIhEEhEEclEh
+                0x0000000000003998       0x3e build-uno/libcore.a(util.encoders.cpp.o)
+                0x0000000000003998                _ZNK2vl4FuncIFSt6vectorIhSaIhEEhEEclEh
+ .text._ZNSt6vectorIhSaIhEE6resizeEjRKh
+                0x00000000000039d6       0x6e build-uno/libcore.a(util.encoders.cpp.o)
+                0x00000000000039d6                _ZNSt6vectorIhSaIhEE6resizeEjRKh
+ .text._ZNSt6vectorIhSaIhEE9push_backERKh
+                0x0000000000003a44       0x10 build-uno/libcore.a(util.encoders.cpp.o)
+                0x0000000000003a44                _ZNSt6vectorIhSaIhEE9push_backERKh
+ .text._ZN2vl3PtrINS_17internal_invokers7InvokerISt6vectorIhSaIhEEIEEEE3DecEv
+                0x0000000000003a54       0x50 build-uno/libcore.a(util.encoders.cpp.o)
+                0x0000000000003a54                _ZN2vl3PtrINS_17internal_invokers7InvokerISt6vectorIhSaIhEEJEEEE3DecEv
+                0x0000000000003a54                _ZN2vl3PtrINS_17internal_invokers7InvokerISt6vectorIhSaIhEEIEEEE3DecEv
+ .text._ZN2vl3PtrINS_17internal_invokers7InvokerISt6vectorIhSaIhEEIEEEEaSEPS6_
+                0x0000000000003aa4       0x76 build-uno/libcore.a(util.encoders.cpp.o)
+                0x0000000000003aa4                _ZN2vl3PtrINS_17internal_invokers7InvokerISt6vectorIhSaIhEEJEEEEaSEPS6_
+                0x0000000000003aa4                _ZN2vl3PtrINS_17internal_invokers7InvokerISt6vectorIhSaIhEEIEEEEaSEPS6_
+ .text._ZN16MatrixDecEncoderclEj
+                0x0000000000003b1a       0x5e build-uno/libcore.a(util.encoders.cpp.o)
+                0x0000000000003b1a                _ZN16MatrixDecEncoderclEj
+ .text._ZN16MatrixDecEncoderC2EN2vl4FuncIFSt6vectorIhSaIhEEhEEE
+                0x0000000000003b78        0x4 build-uno/libcore.a(util.encoders.cpp.o)
+                0x0000000000003b78                _ZN16MatrixDecEncoderC2EN2vl4FuncIFSt6vectorIhSaIhEEhEEE
+                0x0000000000003b78                _ZN16MatrixDecEncoderC1EN2vl4FuncIFSt6vectorIhSaIhEEhEEE
+ .text._ZNSt6vectorIhSaIhEE21_insert_from_iteratorIPhEEvS3_T_S4_
+                0x0000000000003b7c       0xac build-uno/libcore.a(util.encoders.cpp.o)
+                0x0000000000003b7c                _ZNSt6vectorIhSaIhEE21_insert_from_iteratorIPhEEvS3_T_S4_
+ .text._ZZZN16MatrixDecEncoderclEjENKUlvE_clEvENKUlhE_clEh
+                0x0000000000003c28       0x84 build-uno/libcore.a(util.encoders.cpp.o)
+ .text._ZN2vl17internal_invokers13ObjectInvokerIZN16MatrixDecEncoderclEjEUlvE_St6vectorIhSaIhEEIEE6InvokeEv
+                0x0000000000003cac       0x94 build-uno/libcore.a(util.encoders.cpp.o)
+ .text.__vector_16
+                0x0000000000003d40       0x94 build-uno/libcore.a(wiring.c.o)
+                0x0000000000003d40                __vector_16
+ .text.millis   0x0000000000003dd4       0x18 build-uno/libcore.a(wiring.c.o)
+                0x0000000000003dd4                millis
+ .text.delayMicroseconds
+                0x0000000000003dec       0x16 build-uno/libcore.a(wiring.c.o)
+                0x0000000000003dec                delayMicroseconds
+ .text.init     0x0000000000003e02       0x76 build-uno/libcore.a(wiring.c.o)
+                0x0000000000003e02                init
+ .text.avr-libc
+                0x0000000000003e78      0x24e /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+                0x0000000000003e78                malloc
+                0x0000000000003fa8                free
+ .text.avr-libc
+                0x00000000000040c6        0xa /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(abort.o)
+                0x00000000000040c6                abort
+ .text.avr-libc
+                0x00000000000040d0        0x6 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(exit.o)
+                0x00000000000040d0                exit
+ .text.libgcc.div
+                0x00000000000040d6       0x18 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodqi4.o)
+                0x00000000000040d6                __udivmodqi4
+ .text.libgcc.div
+                0x00000000000040ee       0x28 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodhi4.o)
+                0x00000000000040ee                __udivmodhi4
+ .text.libgcc.div
+                0x0000000000004116       0x44 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
+                0x0000000000004116                __udivmodsi4
+ .text.libgcc   0x000000000000415a        0xc /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+                0x000000000000415a                __tablejump2__
+                0x000000000000415e                __tablejump__
+                0x0000000000004166                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x0000000000004166        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+                0x0000000000004166                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ .fini6         0x0000000000004166       0x16 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_dtors.o)
+                0x0000000000004166                __do_global_dtors
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x000000000000417c        0x4 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ *(.fini0)
+                0x0000000000004180                _etext = .
+
+.data           0x0000000000800100      0x16c load address 0x0000000000004180
+                0x0000000000800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x0000000000800100        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm328p.o
+ .data          0x0000000000800100        0x0 build-uno/build.gamefabricator.cpp.o
+ .data          0x0000000000800100        0x0 build-uno/game-bot.ino.o
+ .data          0x0000000000800100        0x0 build-uno/libcore.a(wiring_analog.c.o)
+ .data          0x0000000000800100        0x0 build-uno/libcore.a(wiring_digital.c.o)
+ .data          0x0000000000800100        0x0 build-uno/libcore.a(abi.cpp.o)
+ .data          0x0000000000800100        0x0 build-uno/libcore.a(HardwareSerial0.cpp.o)
+ .data          0x0000000000800100        0x0 build-uno/libcore.a(HardwareSerial.cpp.o)
+ .data          0x0000000000800100        0x0 build-uno/libcore.a(main.cpp.o)
+ .data          0x0000000000800100        0x0 build-uno/libcore.a(new.cpp.o)
+ .data          0x0000000000800100        0x0 build-uno/libcore.a(Print.cpp.o)
+ .data          0x0000000000800100        0x0 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .data          0x0000000000800100        0x0 build-uno/libcore.a(hardware.me7segmentencoder.cpp.o)
+ .data          0x0000000000800100        0x0 build-uno/libcore.a(hardware.meledmatrixencoder.cpp.o)
+ .data          0x0000000000800100        0x0 build-uno/libcore.a(protocol.i2c.cpp.o)
+ .data          0x0000000000800100        0x0 build-uno/libcore.a(protocol.meledmatrix.cpp.o)
+ .data          0x0000000000800100        0x0 build-uno/libcore.a(protocol.segmentdisplay.cpp.o)
+ .data          0x0000000000800100        0x0 build-uno/libcore.a(subject.me4button.cpp.o)
+ .data          0x0000000000800100        0x0 build-uno/libcore.a(task.displayanimator.cpp.o)
+ .data          0x0000000000800100        0x0 build-uno/libcore.a(task.runner.cpp.o)
+ .data          0x0000000000800100        0x0 build-uno/libcore.a(task.timer.cpp.o)
+ .data          0x0000000000800100        0x0 build-uno/libcore.a(util.encoders.cpp.o)
+ .data          0x0000000000800100        0x0 build-uno/libcore.a(wiring.c.o)
+ .data          0x0000000000800100        0x0 build-uno/libcore.a(hooks.c.o)
+ .data          0x0000000000800100        0x6 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+                0x0000000000800100                __malloc_heap_end
+                0x0000000000800102                __malloc_heap_start
+                0x0000000000800104                __malloc_margin
+ .data          0x0000000000800106        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(abort.o)
+ .data          0x0000000000800106        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(exit.o)
+ .data          0x0000000000800106        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(addsf3.o)
+ .data          0x0000000000800106        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(addsf3x.o)
+ .data          0x0000000000800106        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(cmpsf2.o)
+ .data          0x0000000000800106        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(divsf3.o)
+ .data          0x0000000000800106        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(divsf3x.o)
+ .data          0x0000000000800106        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fixsfsi.o)
+ .data          0x0000000000800106        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fixunssfsi.o)
+ .data          0x0000000000800106        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(floatsisf.o)
+ .data          0x0000000000800106        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fp_cmp.o)
+ .data          0x0000000000800106        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fp_inf.o)
+ .data          0x0000000000800106        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fp_nan.o)
+ .data          0x0000000000800106        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fp_pscA.o)
+ .data          0x0000000000800106        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fp_pscB.o)
+ .data          0x0000000000800106        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fp_round.o)
+ .data          0x0000000000800106        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fp_split3.o)
+ .data          0x0000000000800106        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(fp_zero.o)
+ .data          0x0000000000800106        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(gesf2.o)
+ .data          0x0000000000800106        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(mulsf3.o)
+ .data          0x0000000000800106        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(mulsf3x.o)
+ .data          0x0000000000800106        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(unordsf2.o)
+ .data          0x0000000000800106        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodqi4.o)
+ .data          0x0000000000800106        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodhi4.o)
+ .data          0x0000000000800106        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
+ .data          0x0000000000800106        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .data          0x0000000000800106        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .data          0x0000000000800106        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .data          0x0000000000800106        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .data          0x0000000000800106        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_dtors.o)
+ .data          0x0000000000800106        0x0 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ *(.data*)
+ .data.analog_reference
+                0x0000000000800106        0x1 build-uno/libcore.a(wiring_analog.c.o)
+                0x0000000000800106                analog_reference
+ *(.rodata)
+ *(.rodata*)
+ .rodata.str1.1
+                0x0000000000800107        0x0 build-uno/build.gamefabricator.cpp.o
+                                          0x1 (size before relaxing)
+ .rodata._ZTVN2vl6ObjectE
+                0x0000000000800107        0x8 build-uno/build.gamefabricator.cpp.o
+                0x0000000000800107                _ZTVN2vl6ObjectE
+ .rodata._ZTV15BuildFabricator
+                0x000000000080010f        0xa build-uno/build.gamefabricator.cpp.o
+                0x000000000080010f                _ZTV15BuildFabricator
+ .rodata._ZTVN2vl4FuncIFvN9Me4Button6BUTTONEEEE
+                0x0000000000800119        0x8 build-uno/build.gamefabricator.cpp.o
+                0x0000000000800119                _ZTVN2vl4FuncIFvN9Me4Button6BUTTONEEEE
+ .rodata._ZTVN2vl4FuncIFv12BUTTON_STATEEEE
+                0x0000000000800121        0x8 build-uno/build.gamefabricator.cpp.o
+                0x0000000000800121                _ZTVN2vl4FuncIFv12BUTTON_STATEEEE
+ .rodata._ZTVN2vl4FuncIFvvEEE
+                0x0000000000800129        0x8 build-uno/build.gamefabricator.cpp.o
+                0x0000000000800129                _ZTVN2vl4FuncIFvvEEE
+ .rodata._ZTVN2vl4FuncIFjvEEE
+                0x0000000000800131        0x8 build-uno/build.gamefabricator.cpp.o
+                0x0000000000800131                _ZTVN2vl4FuncIFjvEEE
+ .rodata._ZTVN2vl4FuncIFvjEEE
+                0x0000000000800139        0x8 build-uno/build.gamefabricator.cpp.o
+                0x0000000000800139                _ZTVN2vl4FuncIFvjEEE
+ .rodata._ZTV14GameFabricator
+                0x0000000000800141        0xc build-uno/build.gamefabricator.cpp.o
+                0x0000000000800141                _ZTV14GameFabricator
+ .rodata._ZTVN2vl17internal_invokers13ObjectInvokerIZN7GameBot16ControlPanelSinkEvEUlN9Me4Button6BUTTONEE_vIS4_EEE
+                0x000000000080014d        0xa build-uno/build.gamefabricator.cpp.o
+                0x000000000080014d                _ZTVN2vl17internal_invokers13ObjectInvokerIZN7GameBot16ControlPanelSinkEvEUlN9Me4Button6BUTTONEE_vIS4_EEE
+ .rodata._ZTVN2vl17internal_invokers13ObjectInvokerI15AnalogPinReaderjIEEE
+                0x0000000000800157        0xa build-uno/build.gamefabricator.cpp.o
+                0x0000000000800157                _ZTVN2vl17internal_invokers13ObjectInvokerI15AnalogPinReaderjIEEE
+ .rodata._ZTVN2vl17internal_invokers13ObjectInvokerIZN14GameFabricator24buildSerializeFreeMemoryEvEUlvE_vIEEE
+                0x0000000000800161        0xa build-uno/build.gamefabricator.cpp.o
+ .rodata._ZTVN2vl17internal_invokers13ObjectInvokerI14ButtonObservervI12BUTTON_STATEEEE
+                0x000000000080016b        0xa build-uno/build.gamefabricator.cpp.o
+                0x000000000080016b                _ZTVN2vl17internal_invokers13ObjectInvokerI14ButtonObservervI12BUTTON_STATEEEE
+ .rodata._ZTVN2vl17internal_invokers13ObjectInvokerI16Me1ButtonSubjectvIN9Me4Button6BUTTONEEEE
+                0x0000000000800175        0xa build-uno/build.gamefabricator.cpp.o
+                0x0000000000800175                _ZTVN2vl17internal_invokers13ObjectInvokerI16Me1ButtonSubjectvIN9Me4Button6BUTTONEEEE
+ .rodata._ZTVN2vl17internal_invokers13ObjectInvokerIZN14GameFabricator22buildDisplayFreeMemoryEvEUlvE_vIEEE
+                0x000000000080017f        0xa build-uno/build.gamefabricator.cpp.o
+ .rodata._ZTVN2vl17internal_invokers13ObjectInvokerIZN14GameFabricator22buildDisplayFreeMemoryEvEUlvE0_vIEEE
+                0x0000000000800189        0xa build-uno/build.gamefabricator.cpp.o
+ .rodata._ZTVN2vl17internal_invokers13ObjectInvokerI9TaskTimervIEEE
+                0x0000000000800193        0xa build-uno/build.gamefabricator.cpp.o
+                0x0000000000800193                _ZTVN2vl17internal_invokers13ObjectInvokerI9TaskTimervIEEE
+ .rodata._ZTVN2vl17internal_invokers13ObjectInvokerI10TaskRunnervIEEE
+                0x000000000080019d        0xa build-uno/build.gamefabricator.cpp.o
+                0x000000000080019d                _ZTVN2vl17internal_invokers13ObjectInvokerI10TaskRunnervIEEE
+ .rodata.str1.1
+                0x00000000008001a7       0x2a build-uno/game-bot.ino.o
+ .rodata._ZTV14HardwareSerial
+                0x00000000008001d1       0x10 build-uno/libcore.a(HardwareSerial.cpp.o)
+                0x00000000008001d1                _ZTV14HardwareSerial
+ .rodata.str1.1
+                0x00000000008001e1       0x11 build-uno/libcore.a(Print.cpp.o)
+ .rodata.CSWTCH.58
+                0x00000000008001f2        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .rodata._ZTVN2vl4FuncIFvbEEE
+                0x00000000008001fa        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x00000000008001fa                _ZTVN2vl4FuncIFvbEEE
+ .rodata._ZTVN2vl4FuncIFSt6vectorIhSaIhEEhEEE
+                0x0000000000800202        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x0000000000800202                _ZTVN2vl4FuncIFSt6vectorIhSaIhEEhEEE
+ .rodata._ZTV15RobotFabricator
+                0x000000000080020a        0xc build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x000000000080020a                _ZTV15RobotFabricator
+ .rodata._ZTVN2vl4FuncIF12ProgMemArrayvEEE
+                0x0000000000800216        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x0000000000800216                _ZTVN2vl4FuncIF12ProgMemArrayvEEE
+ .rodata._ZTVN2vl4FuncIFSt6vectorIhSaIhEEvEEE
+                0x000000000080021e        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x000000000080021e                _ZTVN2vl4FuncIFSt6vectorIhSaIhEEvEEE
+ .rodata._ZTVN2vl17internal_invokers13ObjectInvokerI10DigitalPinvIbEEE
+                0x0000000000800226        0xa build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x0000000000800226                _ZTVN2vl17internal_invokers13ObjectInvokerI10DigitalPinvIbEEE
+ .rodata._ZTVN2vl17internal_invokers13ObjectInvokerIZN15RobotFabricator23assembleDisplayAnimatorEhhEUlvE_vIEEE
+                0x0000000000800230        0xa build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .rodata._ZTVN2vl17internal_invokers13StaticInvokerISt6vectorIhSaIhEEIhEEE
+                0x000000000080023a        0xa build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x000000000080023a                _ZTVN2vl17internal_invokers13StaticInvokerISt6vectorIhSaIhEEIhEEE
+ .rodata._ZTVN2vl17internal_invokers13ObjectInvokerIZN15RobotFabricator28assembleMatrixDisplayDecimalEhhEUljE_vIjEEE
+                0x0000000000800244        0xa build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .rodata._ZTVN2vl17internal_invokers13ObjectInvokerIZN15RobotFabricator22assembleMe4ButtonPanelENS_4FuncIFjvEEENS3_IFvN9Me4Button6BUTTONEEEEEUlvE_vIEEE
+                0x000000000080024e        0xa build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .rodata._ZTVN2vl17internal_invokers13ObjectInvokerIZN19DisplayAnimatorTaskclEvEUlvE_12ProgMemArrayIEEE
+                0x0000000000800258        0xa build-uno/libcore.a(task.displayanimator.cpp.o)
+ .rodata._ZTVN2vl17internal_invokers13ObjectInvokerIZN16MatrixDecEncoderclEjEUlvE_St6vectorIhSaIhEEIEEE
+                0x0000000000800262        0xa build-uno/libcore.a(util.encoders.cpp.o)
+ *(.gnu.linkonce.d*)
+                0x000000000080026c                . = ALIGN (0x2)
+                0x000000000080026c                _edata = .
+                0x000000000080026c                PROVIDE (__data_end, .)
+
+.bss            0x000000000080026c       0xc2
+                0x000000000080026c                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss._gamebot  0x000000000080026c        0xe build-uno/build.gamefabricator.cpp.o
+                0x000000000080026c                _gamebot
+ .bss._ZL9eventloop
+                0x000000000080027a        0xa build-uno/game-bot.ino.o
+ .bss.Serial    0x0000000000800284       0x9d build-uno/libcore.a(HardwareSerial0.cpp.o)
+                0x0000000000800284                Serial
+ .bss.timer0_fract
+                0x0000000000800321        0x1 build-uno/libcore.a(wiring.c.o)
+ .bss.timer0_millis
+                0x0000000000800322        0x4 build-uno/libcore.a(wiring.c.o)
+                0x0000000000800322                timer0_millis
+ .bss.timer0_overflow_count
+                0x0000000000800326        0x4 build-uno/libcore.a(wiring.c.o)
+                0x0000000000800326                timer0_overflow_count
+ *(COMMON)
+ COMMON         0x000000000080032a        0x4 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+                0x000000000080032a                __brkval
+                0x000000000080032c                __flp
+                0x000000000080032e                PROVIDE (__bss_end, .)
+                0x0000000000004180                __data_load_start = LOADADDR (.data)
+                0x00000000000042ec                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x000000000080032e        0x0
+                0x000000000080032e                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x000000000080032e                PROVIDE (__noinit_end, .)
+                0x000000000080032e                _end = .
+                0x000000000080032e                PROVIDE (__heap_start, .)
+
+.eeprom         0x0000000000810000        0x0
+ *(.eeprom*)
+                0x0000000000810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 build-uno/build.gamefabricator.cpp.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000011       0x12 build-uno/game-bot.ino.o
+ .comment       0x0000000000000011       0x12 build-uno/libcore.a(wiring_analog.c.o)
+ .comment       0x0000000000000011       0x12 build-uno/libcore.a(wiring_digital.c.o)
+ .comment       0x0000000000000011       0x12 build-uno/libcore.a(abi.cpp.o)
+ .comment       0x0000000000000011       0x12 build-uno/libcore.a(HardwareSerial0.cpp.o)
+ .comment       0x0000000000000011       0x12 build-uno/libcore.a(HardwareSerial.cpp.o)
+ .comment       0x0000000000000011       0x12 build-uno/libcore.a(main.cpp.o)
+ .comment       0x0000000000000011       0x12 build-uno/libcore.a(new.cpp.o)
+ .comment       0x0000000000000011       0x12 build-uno/libcore.a(Print.cpp.o)
+ .comment       0x0000000000000011       0x12 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .comment       0x0000000000000011       0x12 build-uno/libcore.a(hardware.me7segmentencoder.cpp.o)
+ .comment       0x0000000000000011       0x12 build-uno/libcore.a(hardware.meledmatrixencoder.cpp.o)
+ .comment       0x0000000000000011       0x12 build-uno/libcore.a(protocol.i2c.cpp.o)
+ .comment       0x0000000000000011       0x12 build-uno/libcore.a(protocol.meledmatrix.cpp.o)
+ .comment       0x0000000000000011       0x12 build-uno/libcore.a(protocol.segmentdisplay.cpp.o)
+ .comment       0x0000000000000011       0x12 build-uno/libcore.a(subject.me4button.cpp.o)
+ .comment       0x0000000000000011       0x12 build-uno/libcore.a(task.displayanimator.cpp.o)
+ .comment       0x0000000000000011       0x12 build-uno/libcore.a(task.runner.cpp.o)
+ .comment       0x0000000000000011       0x12 build-uno/libcore.a(task.timer.cpp.o)
+ .comment       0x0000000000000011       0x12 build-uno/libcore.a(util.encoders.cpp.o)
+ .comment       0x0000000000000011       0x12 build-uno/libcore.a(wiring.c.o)
+ .comment       0x0000000000000011       0x12 build-uno/libcore.a(hooks.c.o)
+ .comment       0x0000000000000011       0x12 /mnt/data/bin/arduino-1.6.7/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line .debug_line.* .debug_line_end)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(build-uno/src.elf elf32-avr)
+LOAD linker stubs
