@@ -245,11 +245,11 @@ Discarded input sections
                 0x0000000000000000        0x8 build-uno/build.gamefabricator.cpp.o
  .data._ZZZN14GameFabricator20buildMockButtonPanelEvENKUlvE_clEvE5value
                 0x0000000000000000        0x2 build-uno/build.gamefabricator.cpp.o
+ .rodata._ZTVN2vl17internal_invokers7InvokerIvIEEE
+                0x0000000000000000        0xa build-uno/build.gamefabricator.cpp.o
  .rodata._ZTVN2vl17internal_invokers7InvokerIvIN9Me4Button6BUTTONEEEE
                 0x0000000000000000        0xa build-uno/build.gamefabricator.cpp.o
  .rodata._ZTVN2vl17internal_invokers7InvokerIvI12BUTTON_STATEEEE
-                0x0000000000000000        0xa build-uno/build.gamefabricator.cpp.o
- .rodata._ZTVN2vl17internal_invokers7InvokerIvIEEE
                 0x0000000000000000        0xa build-uno/build.gamefabricator.cpp.o
  .rodata._ZTVN2vl17internal_invokers7InvokerIjIEEE
                 0x0000000000000000        0xa build-uno/build.gamefabricator.cpp.o
@@ -558,11 +558,11 @@ Discarded input sections
                 0x0000000000000000       0x14 build-uno/libcore.a(build.robotfabricator.cpp.o)
  .rodata._ZTVN2vl6ObjectE
                 0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .rodata._ZTVN2vl4FuncIFvvEEE
+                0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
  .rodata._ZTV15BuildFabricator
                 0x0000000000000000        0xa build-uno/libcore.a(build.robotfabricator.cpp.o)
  .rodata._ZTVN2vl4FuncIFvN9Me4Button6BUTTONEEEE
-                0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
- .rodata._ZTVN2vl4FuncIFvvEEE
                 0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
  .rodata._ZTVN2vl4FuncIFhhEEE
                 0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
@@ -570,9 +570,9 @@ Discarded input sections
                 0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
  .rodata._ZTVN2vl4FuncIFjvEEE
                 0x0000000000000000        0x8 build-uno/libcore.a(build.robotfabricator.cpp.o)
- .rodata._ZTVN2vl17internal_invokers7InvokerIvIbEEE
-                0x0000000000000000        0xa build-uno/libcore.a(build.robotfabricator.cpp.o)
  .rodata._ZTVN2vl17internal_invokers7InvokerIvIEEE
+                0x0000000000000000        0xa build-uno/libcore.a(build.robotfabricator.cpp.o)
+ .rodata._ZTVN2vl17internal_invokers7InvokerIvIbEEE
                 0x0000000000000000        0xa build-uno/libcore.a(build.robotfabricator.cpp.o)
  .rodata._ZTVN2vl17internal_invokers7InvokerIhIhEEE
                 0x0000000000000000        0xa build-uno/libcore.a(build.robotfabricator.cpp.o)
@@ -1473,84 +1473,84 @@ END GROUP
                 0x00000000000004ce       0x18 build-uno/build.gamefabricator.cpp.o
  .text._ZN2vl17internal_invokers13ObjectInvokerIZN14GameFabricator22buildDisplayFreeMemoryEvEUlvE0_vIEE6InvokeEv
                 0x00000000000004e6        0xa build-uno/build.gamefabricator.cpp.o
- .text._ZN2vl3PtrINS_17internal_invokers7InvokerIvI12BUTTON_STATEEEEE3DecEv
-                0x00000000000004f0       0x50 build-uno/build.gamefabricator.cpp.o
-                0x00000000000004f0                _ZN2vl3PtrINS_17internal_invokers7InvokerIvJ12BUTTON_STATEEEEE3DecEv
-                0x00000000000004f0                _ZN2vl3PtrINS_17internal_invokers7InvokerIvI12BUTTON_STATEEEEE3DecEv
- .text._ZN2vl4FuncIFv12BUTTON_STATEEED2Ev
-                0x0000000000000540       0x24 build-uno/build.gamefabricator.cpp.o
-                0x0000000000000540                _ZN2vl4FuncIFv12BUTTON_STATEEED2Ev
-                0x0000000000000540                _ZN2vl4FuncIFv12BUTTON_STATEEED1Ev
- .text._ZN2vl17internal_invokers13ObjectInvokerI16Me1ButtonSubjectvIN9Me4Button6BUTTONEEED2Ev
-                0x0000000000000564       0x24 build-uno/build.gamefabricator.cpp.o
-                0x0000000000000564                _ZN2vl17internal_invokers13ObjectInvokerI16Me1ButtonSubjectvIN9Me4Button6BUTTONEEED1Ev
-                0x0000000000000564                _ZN2vl17internal_invokers13ObjectInvokerI16Me1ButtonSubjectvJN9Me4Button6BUTTONEEED1Ev
-                0x0000000000000564                _ZN2vl17internal_invokers13ObjectInvokerI16Me1ButtonSubjectvJN9Me4Button6BUTTONEEED2Ev
-                0x0000000000000564                _ZN2vl17internal_invokers13ObjectInvokerI16Me1ButtonSubjectvIN9Me4Button6BUTTONEEED2Ev
- .text._ZN2vl17internal_invokers13ObjectInvokerI16Me1ButtonSubjectvIN9Me4Button6BUTTONEEED0Ev
-                0x0000000000000588       0x14 build-uno/build.gamefabricator.cpp.o
-                0x0000000000000588                _ZN2vl17internal_invokers13ObjectInvokerI16Me1ButtonSubjectvIN9Me4Button6BUTTONEEED0Ev
-                0x0000000000000588                _ZN2vl17internal_invokers13ObjectInvokerI16Me1ButtonSubjectvJN9Me4Button6BUTTONEEED0Ev
- .text._ZN2vl4FuncIFv12BUTTON_STATEEED0Ev
-                0x000000000000059c       0x14 build-uno/build.gamefabricator.cpp.o
-                0x000000000000059c                _ZN2vl4FuncIFv12BUTTON_STATEEED0Ev
- .text._ZN2vl3PtrINS_17internal_invokers7InvokerIvI12BUTTON_STATEEEEE3IncEv
-                0x00000000000005b0       0x22 build-uno/build.gamefabricator.cpp.o
-                0x00000000000005b0                _ZN2vl3PtrINS_17internal_invokers7InvokerIvJ12BUTTON_STATEEEEE3IncEv
-                0x00000000000005b0                _ZN2vl3PtrINS_17internal_invokers7InvokerIvI12BUTTON_STATEEEEE3IncEv
- .text._ZN2vl4FuncIFv12BUTTON_STATEEEC2ERKS3_
-                0x00000000000005d2       0x82 build-uno/build.gamefabricator.cpp.o
-                0x00000000000005d2                _ZN2vl4FuncIFv12BUTTON_STATEEEC2ERKS3_
-                0x00000000000005d2                _ZN2vl4FuncIFv12BUTTON_STATEEEC1ERKS3_
  .text._ZN2vl3PtrINS_17internal_invokers7InvokerIvIEEEE3DecEv
-                0x0000000000000654       0x50 build-uno/build.gamefabricator.cpp.o
-                0x0000000000000654                _ZN2vl3PtrINS_17internal_invokers7InvokerIvIEEEE3DecEv
-                0x0000000000000654                _ZN2vl3PtrINS_17internal_invokers7InvokerIvJEEEE3DecEv
+                0x00000000000004f0       0x50 build-uno/build.gamefabricator.cpp.o
+                0x00000000000004f0                _ZN2vl3PtrINS_17internal_invokers7InvokerIvIEEEE3DecEv
+                0x00000000000004f0                _ZN2vl3PtrINS_17internal_invokers7InvokerIvJEEEE3DecEv
  .text._ZN2vl4FuncIFvvEED2Ev
-                0x00000000000006a4       0x24 build-uno/build.gamefabricator.cpp.o
-                0x00000000000006a4                _ZN2vl4FuncIFvvEED2Ev
-                0x00000000000006a4                _ZN2vl4FuncIFvvEED1Ev
+                0x0000000000000540       0x24 build-uno/build.gamefabricator.cpp.o
+                0x0000000000000540                _ZN2vl4FuncIFvvEED2Ev
+                0x0000000000000540                _ZN2vl4FuncIFvvEED1Ev
  .text._ZN2vl17internal_invokers13ObjectInvokerI14ButtonObservervI12BUTTON_STATEEED2Ev
-                0x00000000000006c8       0x24 build-uno/build.gamefabricator.cpp.o
-                0x00000000000006c8                _ZN2vl17internal_invokers13ObjectInvokerI14ButtonObservervI12BUTTON_STATEEED1Ev
-                0x00000000000006c8                _ZN2vl17internal_invokers13ObjectInvokerI14ButtonObservervJ12BUTTON_STATEEED2Ev
-                0x00000000000006c8                _ZN2vl17internal_invokers13ObjectInvokerI14ButtonObservervI12BUTTON_STATEEED2Ev
-                0x00000000000006c8                _ZN2vl17internal_invokers13ObjectInvokerI14ButtonObservervJ12BUTTON_STATEEED1Ev
+                0x0000000000000564       0x24 build-uno/build.gamefabricator.cpp.o
+                0x0000000000000564                _ZN2vl17internal_invokers13ObjectInvokerI14ButtonObservervI12BUTTON_STATEEED1Ev
+                0x0000000000000564                _ZN2vl17internal_invokers13ObjectInvokerI14ButtonObservervJ12BUTTON_STATEEED2Ev
+                0x0000000000000564                _ZN2vl17internal_invokers13ObjectInvokerI14ButtonObservervI12BUTTON_STATEEED2Ev
+                0x0000000000000564                _ZN2vl17internal_invokers13ObjectInvokerI14ButtonObservervJ12BUTTON_STATEEED1Ev
  .text._ZN2vl17internal_invokers13ObjectInvokerI14ButtonObservervI12BUTTON_STATEEED0Ev
-                0x00000000000006ec       0x14 build-uno/build.gamefabricator.cpp.o
-                0x00000000000006ec                _ZN2vl17internal_invokers13ObjectInvokerI14ButtonObservervJ12BUTTON_STATEEED0Ev
-                0x00000000000006ec                _ZN2vl17internal_invokers13ObjectInvokerI14ButtonObservervI12BUTTON_STATEEED0Ev
+                0x0000000000000588       0x14 build-uno/build.gamefabricator.cpp.o
+                0x0000000000000588                _ZN2vl17internal_invokers13ObjectInvokerI14ButtonObservervJ12BUTTON_STATEEED0Ev
+                0x0000000000000588                _ZN2vl17internal_invokers13ObjectInvokerI14ButtonObservervI12BUTTON_STATEEED0Ev
  .text._ZN2vl17internal_invokers13ObjectInvokerI9TaskTimervIEED2Ev
-                0x0000000000000700       0x24 build-uno/build.gamefabricator.cpp.o
-                0x0000000000000700                _ZN2vl17internal_invokers13ObjectInvokerI9TaskTimervIEED1Ev
-                0x0000000000000700                _ZN2vl17internal_invokers13ObjectInvokerI9TaskTimervJEED1Ev
-                0x0000000000000700                _ZN2vl17internal_invokers13ObjectInvokerI9TaskTimervIEED2Ev
-                0x0000000000000700                _ZN2vl17internal_invokers13ObjectInvokerI9TaskTimervJEED2Ev
+                0x000000000000059c       0x24 build-uno/build.gamefabricator.cpp.o
+                0x000000000000059c                _ZN2vl17internal_invokers13ObjectInvokerI9TaskTimervIEED1Ev
+                0x000000000000059c                _ZN2vl17internal_invokers13ObjectInvokerI9TaskTimervJEED1Ev
+                0x000000000000059c                _ZN2vl17internal_invokers13ObjectInvokerI9TaskTimervIEED2Ev
+                0x000000000000059c                _ZN2vl17internal_invokers13ObjectInvokerI9TaskTimervJEED2Ev
  .text._ZN2vl17internal_invokers13ObjectInvokerI9TaskTimervIEED0Ev
-                0x0000000000000724       0x14 build-uno/build.gamefabricator.cpp.o
-                0x0000000000000724                _ZN2vl17internal_invokers13ObjectInvokerI9TaskTimervJEED0Ev
-                0x0000000000000724                _ZN2vl17internal_invokers13ObjectInvokerI9TaskTimervIEED0Ev
+                0x00000000000005c0       0x14 build-uno/build.gamefabricator.cpp.o
+                0x00000000000005c0                _ZN2vl17internal_invokers13ObjectInvokerI9TaskTimervJEED0Ev
+                0x00000000000005c0                _ZN2vl17internal_invokers13ObjectInvokerI9TaskTimervIEED0Ev
  .text._ZN2vl4FuncIFvvEED0Ev
-                0x0000000000000738       0x14 build-uno/build.gamefabricator.cpp.o
-                0x0000000000000738                _ZN2vl4FuncIFvvEED0Ev
+                0x00000000000005d4       0x14 build-uno/build.gamefabricator.cpp.o
+                0x00000000000005d4                _ZN2vl4FuncIFvvEED0Ev
  .text._ZN2vl3PtrINS_17internal_invokers7InvokerIvIEEEE3IncEv
-                0x000000000000074c       0x22 build-uno/build.gamefabricator.cpp.o
-                0x000000000000074c                _ZN2vl3PtrINS_17internal_invokers7InvokerIvIEEEE3IncEv
-                0x000000000000074c                _ZN2vl3PtrINS_17internal_invokers7InvokerIvJEEEE3IncEv
+                0x00000000000005e8       0x22 build-uno/build.gamefabricator.cpp.o
+                0x00000000000005e8                _ZN2vl3PtrINS_17internal_invokers7InvokerIvIEEEE3IncEv
+                0x00000000000005e8                _ZN2vl3PtrINS_17internal_invokers7InvokerIvJEEEE3IncEv
  .text._ZN2vl3PtrINS_17internal_invokers7InvokerIvIEEEEaSEPS3_
-                0x000000000000076e       0x60 build-uno/build.gamefabricator.cpp.o
-                0x000000000000076e                _ZN2vl3PtrINS_17internal_invokers7InvokerIvIEEEEaSEPS3_
-                0x000000000000076e                _ZN2vl3PtrINS_17internal_invokers7InvokerIvJEEEEaSEPS3_
+                0x000000000000060a       0x60 build-uno/build.gamefabricator.cpp.o
+                0x000000000000060a                _ZN2vl3PtrINS_17internal_invokers7InvokerIvIEEEEaSEPS3_
+                0x000000000000060a                _ZN2vl3PtrINS_17internal_invokers7InvokerIvJEEEEaSEPS3_
  .text._ZN14GameFabricator12getEventLoopEv
-                0x00000000000007ce       0x56 build-uno/build.gamefabricator.cpp.o
-                0x00000000000007ce                _ZN14GameFabricator12getEventLoopEv
+                0x000000000000066a       0x56 build-uno/build.gamefabricator.cpp.o
+                0x000000000000066a                _ZN14GameFabricator12getEventLoopEv
  .text._ZN2vl4FuncIFvvEEC2ERKS2_
-                0x0000000000000824       0x82 build-uno/build.gamefabricator.cpp.o
-                0x0000000000000824                _ZN2vl4FuncIFvvEEC1ERKS2_
-                0x0000000000000824                _ZN2vl4FuncIFvvEEC2ERKS2_
+                0x00000000000006c0       0x82 build-uno/build.gamefabricator.cpp.o
+                0x00000000000006c0                _ZN2vl4FuncIFvvEEC1ERKS2_
+                0x00000000000006c0                _ZN2vl4FuncIFvvEEC2ERKS2_
  .text._ZN14GameFabricator9subscribeEjN2vl4FuncIFvvEEE
-                0x00000000000008a6       0xd8 build-uno/build.gamefabricator.cpp.o
-                0x00000000000008a6                _ZN14GameFabricator9subscribeEjN2vl4FuncIFvvEEE
+                0x0000000000000742       0xd8 build-uno/build.gamefabricator.cpp.o
+                0x0000000000000742                _ZN14GameFabricator9subscribeEjN2vl4FuncIFvvEEE
+ .text._ZN2vl3PtrINS_17internal_invokers7InvokerIvI12BUTTON_STATEEEEE3DecEv
+                0x000000000000081a       0x50 build-uno/build.gamefabricator.cpp.o
+                0x000000000000081a                _ZN2vl3PtrINS_17internal_invokers7InvokerIvJ12BUTTON_STATEEEEE3DecEv
+                0x000000000000081a                _ZN2vl3PtrINS_17internal_invokers7InvokerIvI12BUTTON_STATEEEEE3DecEv
+ .text._ZN2vl4FuncIFv12BUTTON_STATEEED2Ev
+                0x000000000000086a       0x24 build-uno/build.gamefabricator.cpp.o
+                0x000000000000086a                _ZN2vl4FuncIFv12BUTTON_STATEEED2Ev
+                0x000000000000086a                _ZN2vl4FuncIFv12BUTTON_STATEEED1Ev
+ .text._ZN2vl17internal_invokers13ObjectInvokerI16Me1ButtonSubjectvIN9Me4Button6BUTTONEEED2Ev
+                0x000000000000088e       0x24 build-uno/build.gamefabricator.cpp.o
+                0x000000000000088e                _ZN2vl17internal_invokers13ObjectInvokerI16Me1ButtonSubjectvIN9Me4Button6BUTTONEEED1Ev
+                0x000000000000088e                _ZN2vl17internal_invokers13ObjectInvokerI16Me1ButtonSubjectvJN9Me4Button6BUTTONEEED1Ev
+                0x000000000000088e                _ZN2vl17internal_invokers13ObjectInvokerI16Me1ButtonSubjectvJN9Me4Button6BUTTONEEED2Ev
+                0x000000000000088e                _ZN2vl17internal_invokers13ObjectInvokerI16Me1ButtonSubjectvIN9Me4Button6BUTTONEEED2Ev
+ .text._ZN2vl17internal_invokers13ObjectInvokerI16Me1ButtonSubjectvIN9Me4Button6BUTTONEEED0Ev
+                0x00000000000008b2       0x14 build-uno/build.gamefabricator.cpp.o
+                0x00000000000008b2                _ZN2vl17internal_invokers13ObjectInvokerI16Me1ButtonSubjectvIN9Me4Button6BUTTONEEED0Ev
+                0x00000000000008b2                _ZN2vl17internal_invokers13ObjectInvokerI16Me1ButtonSubjectvJN9Me4Button6BUTTONEEED0Ev
+ .text._ZN2vl4FuncIFv12BUTTON_STATEEED0Ev
+                0x00000000000008c6       0x14 build-uno/build.gamefabricator.cpp.o
+                0x00000000000008c6                _ZN2vl4FuncIFv12BUTTON_STATEEED0Ev
+ .text._ZN2vl3PtrINS_17internal_invokers7InvokerIvI12BUTTON_STATEEEEE3IncEv
+                0x00000000000008da       0x22 build-uno/build.gamefabricator.cpp.o
+                0x00000000000008da                _ZN2vl3PtrINS_17internal_invokers7InvokerIvJ12BUTTON_STATEEEEE3IncEv
+                0x00000000000008da                _ZN2vl3PtrINS_17internal_invokers7InvokerIvI12BUTTON_STATEEEEE3IncEv
+ .text._ZN2vl4FuncIFv12BUTTON_STATEEEC2ERKS3_
+                0x00000000000008fc       0x82 build-uno/build.gamefabricator.cpp.o
+                0x00000000000008fc                _ZN2vl4FuncIFv12BUTTON_STATEEEC2ERKS3_
+                0x00000000000008fc                _ZN2vl4FuncIFv12BUTTON_STATEEEC1ERKS3_
  .text._ZN2vl4FuncIFv12BUTTON_STATEEEC2I14ButtonObserverEERKT_
                 0x000000000000097e       0xd2 build-uno/build.gamefabricator.cpp.o
                 0x000000000000097e                _ZN2vl4FuncIFv12BUTTON_STATEEEC2I14ButtonObserverEERKT_
@@ -1835,34 +1835,34 @@ END GROUP
                 0x00000000000022f2                _ZN19MeLEDMatrixProtocolclIN2vl4FuncIFSt6vectorIhSaIhEEvEEEEEvT_
  .text._ZN2vl17internal_invokers13ObjectInvokerIZN15RobotFabricator28assembleMatrixDisplayDecimalEhhEUljE_vIjEE6InvokeEOj
                 0x00000000000023be       0x5c build-uno/libcore.a(build.robotfabricator.cpp.o)
- .text._ZN2vl3PtrINS_17internal_invokers7InvokerIvIbEEEE3DecEv
-                0x000000000000241a       0x50 build-uno/libcore.a(build.robotfabricator.cpp.o)
-                0x000000000000241a                _ZN2vl3PtrINS_17internal_invokers7InvokerIvJbEEEE3DecEv
-                0x000000000000241a                _ZN2vl3PtrINS_17internal_invokers7InvokerIvIbEEEE3DecEv
- .text._ZN2vl4FuncIFvbEED2Ev
-                0x000000000000246a       0x24 build-uno/libcore.a(build.robotfabricator.cpp.o)
-                0x000000000000246a                _ZN2vl4FuncIFvbEED2Ev
-                0x000000000000246a                _ZN2vl4FuncIFvbEED1Ev
- .text._ZN19MeLEDMatrixProtocolD2Ev
-                0x000000000000248e       0x16 build-uno/libcore.a(build.robotfabricator.cpp.o)
-                0x000000000000248e                _ZN19MeLEDMatrixProtocolD2Ev
-                0x000000000000248e                _ZN19MeLEDMatrixProtocolD1Ev
- .text._ZN2vl4FuncIFvbEED0Ev
-                0x00000000000024a4       0x14 build-uno/libcore.a(build.robotfabricator.cpp.o)
-                0x00000000000024a4                _ZN2vl4FuncIFvbEED0Ev
- .text._ZN2vl4FuncIFvbEEC2I10DigitalPinEERKT_
-                0x00000000000024b8       0xbc build-uno/libcore.a(build.robotfabricator.cpp.o)
-                0x00000000000024b8                _ZN2vl4FuncIFvbEEC2I10DigitalPinEERKT_
-                0x00000000000024b8                _ZN2vl4FuncIFvbEEC1I10DigitalPinEERKT_
- .text._ZN15RobotFabricator25createMeLEDMatrixProtocolEhh
-                0x0000000000002574       0x98 build-uno/libcore.a(build.robotfabricator.cpp.o)
-                0x0000000000002574                _ZN15RobotFabricator25createMeLEDMatrixProtocolEhh
  .text._ZN15RobotFabricator23assembleDisplayAnimatorEhh
-                0x000000000000260c       0xae build-uno/libcore.a(build.robotfabricator.cpp.o)
-                0x000000000000260c                _ZN15RobotFabricator23assembleDisplayAnimatorEhh
+                0x000000000000241a       0xae build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x000000000000241a                _ZN15RobotFabricator23assembleDisplayAnimatorEhh
  .text._ZN15RobotFabricator20buildDisplayAnimatorEv
-                0x00000000000026ba       0xb8 build-uno/libcore.a(build.robotfabricator.cpp.o)
-                0x00000000000026ba                _ZN15RobotFabricator20buildDisplayAnimatorEv
+                0x00000000000024c8       0xb8 build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x00000000000024c8                _ZN15RobotFabricator20buildDisplayAnimatorEv
+ .text._ZN2vl3PtrINS_17internal_invokers7InvokerIvIbEEEE3DecEv
+                0x0000000000002580       0x50 build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x0000000000002580                _ZN2vl3PtrINS_17internal_invokers7InvokerIvJbEEEE3DecEv
+                0x0000000000002580                _ZN2vl3PtrINS_17internal_invokers7InvokerIvIbEEEE3DecEv
+ .text._ZN2vl4FuncIFvbEED2Ev
+                0x00000000000025d0       0x24 build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x00000000000025d0                _ZN2vl4FuncIFvbEED2Ev
+                0x00000000000025d0                _ZN2vl4FuncIFvbEED1Ev
+ .text._ZN19MeLEDMatrixProtocolD2Ev
+                0x00000000000025f4       0x16 build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x00000000000025f4                _ZN19MeLEDMatrixProtocolD2Ev
+                0x00000000000025f4                _ZN19MeLEDMatrixProtocolD1Ev
+ .text._ZN2vl4FuncIFvbEED0Ev
+                0x000000000000260a       0x14 build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x000000000000260a                _ZN2vl4FuncIFvbEED0Ev
+ .text._ZN2vl4FuncIFvbEEC2I10DigitalPinEERKT_
+                0x000000000000261e       0xbc build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x000000000000261e                _ZN2vl4FuncIFvbEEC2I10DigitalPinEERKT_
+                0x000000000000261e                _ZN2vl4FuncIFvbEEC1I10DigitalPinEERKT_
+ .text._ZN15RobotFabricator25createMeLEDMatrixProtocolEhh
+                0x00000000000026da       0x98 build-uno/libcore.a(build.robotfabricator.cpp.o)
+                0x00000000000026da                _ZN15RobotFabricator25createMeLEDMatrixProtocolEhh
  .text._ZN2vl3PtrINS_17internal_invokers7InvokerIvIjEEEEaSEPS3_
                 0x0000000000002772       0x76 build-uno/libcore.a(build.robotfabricator.cpp.o)
                 0x0000000000002772                _ZN2vl3PtrINS_17internal_invokers7InvokerIvIjEEEEaSEPS3_
@@ -2200,18 +2200,18 @@ END GROUP
  .rodata._ZTVN2vl6ObjectE
                 0x0000000000800107        0x8 build-uno/build.gamefabricator.cpp.o
                 0x0000000000800107                _ZTVN2vl6ObjectE
- .rodata._ZTV15BuildFabricator
-                0x000000000080010f        0xa build-uno/build.gamefabricator.cpp.o
-                0x000000000080010f                _ZTV15BuildFabricator
- .rodata._ZTVN2vl4FuncIFvN9Me4Button6BUTTONEEEE
-                0x0000000000800119        0x8 build-uno/build.gamefabricator.cpp.o
-                0x0000000000800119                _ZTVN2vl4FuncIFvN9Me4Button6BUTTONEEEE
- .rodata._ZTVN2vl4FuncIFv12BUTTON_STATEEEE
-                0x0000000000800121        0x8 build-uno/build.gamefabricator.cpp.o
-                0x0000000000800121                _ZTVN2vl4FuncIFv12BUTTON_STATEEEE
  .rodata._ZTVN2vl4FuncIFvvEEE
+                0x000000000080010f        0x8 build-uno/build.gamefabricator.cpp.o
+                0x000000000080010f                _ZTVN2vl4FuncIFvvEEE
+ .rodata._ZTV15BuildFabricator
+                0x0000000000800117        0xa build-uno/build.gamefabricator.cpp.o
+                0x0000000000800117                _ZTV15BuildFabricator
+ .rodata._ZTVN2vl4FuncIFvN9Me4Button6BUTTONEEEE
+                0x0000000000800121        0x8 build-uno/build.gamefabricator.cpp.o
+                0x0000000000800121                _ZTVN2vl4FuncIFvN9Me4Button6BUTTONEEEE
+ .rodata._ZTVN2vl4FuncIFv12BUTTON_STATEEEE
                 0x0000000000800129        0x8 build-uno/build.gamefabricator.cpp.o
-                0x0000000000800129                _ZTVN2vl4FuncIFvvEEE
+                0x0000000000800129                _ZTVN2vl4FuncIFv12BUTTON_STATEEEE
  .rodata._ZTVN2vl4FuncIFjvEEE
                 0x0000000000800131        0x8 build-uno/build.gamefabricator.cpp.o
                 0x0000000000800131                _ZTVN2vl4FuncIFjvEEE
